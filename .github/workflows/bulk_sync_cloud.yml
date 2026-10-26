@@ -44,10 +44,9 @@ jobs:
         with:
           deno-version: v2.x
 
-      - name: Setup FFmpeg
-        uses: FedericoCarboni/setup-ffmpeg@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Verify or Install FFmpeg
+        run: |
+          which ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
 
       - name: Install Dependencies
         run: |
