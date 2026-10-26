@@ -59,10 +59,9 @@ def start_bulk_sync(max_workers=3, limit=None):
     print("🚀 STARTING HIGH-SPEED BULK SYNC (PARALLEL WORKERS)")
     print("=" * 70)
     
-    # Fetch all video IDs
+    # Fetch all video IDs across the entire channel
     print("Fetching channel catalog from YouTube (excluding shorts)...")
-    fetch_limit = limit or 2500
-    all_videos = youtube_sync.get_channel_long_videos(limit=fetch_limit)
+    all_videos = youtube_sync.get_channel_long_videos(limit=2500)
     
     # Filter out khutbahs and shorts in advance
     filtered_videos = []
@@ -71,19 +70,27 @@ def start_bulk_sync(max_workers=3, limit=None):
         if "#shorts" not in title.lower() and not youtube_sync.is_khutbah(title):
             filtered_videos.append(v)
             
-    print(f"Total pure Quran recitations to process: {len(filtered_videos)}")
+    print(f"Total pure Quran recitations found on channel: {len(filtered_videos)}")
     
     # Check already synced
     state = uploader.load_state()
     pending = [v for v in filtered_videos if f"yt_{v.get('id')}" not in state]
     already_done = len(filtered_videos) - len(pending)
     print(f"Already synced previously: {already_done} items.")
-    print(f"Remaining items to upload: {len(pending)} items.\n")
+    print(f"Total remaining items to upload: {len(pending)} items.\n")
     
     if not pending:
         print("🎉 Everything is already synced! All channel recitations are on Archive.org.")
         return
         
+    # Take requested batch size from pending
+    if limit:
+        batch_items = pending[:limit]
+    else:
+        batch_items = pending
+        
+    print(f"Processing this batch of {len(batch_items)} recitations...")
+    
     progress_info = {
         "completed": already_done,
         "skipped": already_done,
@@ -94,7 +101,7 @@ def start_bulk_sync(max_workers=3, limit=None):
     start_time = time.time()
     
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        futures = {executor.submit(process_single_video, v, progress_info): v for v in pending}
+        futures = {executor.submit(process_single_video, v, progress_info): v for v in batch_items}
         for future in as_completed(futures):
             try:
                 future.result()

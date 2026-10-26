@@ -29,6 +29,7 @@ def get_channel_long_videos(limit=50):
         "yt-dlp",
         "--flat-playlist",
         "--dump-single-json",
+        "--extractor-args", "youtube:player_client=android,ios,mweb",
         "--playlist-items", f"1:{limit}"
     ]
     cookie_file = get_cookie_file()
@@ -52,7 +53,8 @@ def get_playlist_videos(playlist_id, limit=None):
     cmd = [
         "yt-dlp",
         "--flat-playlist",
-        "--dump-single-json"
+        "--dump-single-json",
+        "--extractor-args", "youtube:player_client=android,ios,mweb"
     ]
     cookie_file = get_cookie_file()
     if cookie_file:
@@ -78,10 +80,11 @@ def download_youtube_audio_and_thumb(video_id, output_base):
     mp3_path = f"{output_base}.mp3"
     thumb_path = f"{output_base}.jpg"
     
-    # 1. Download best audio with remote JS challenge solver (ejs)
+    # 1. Download best audio with remote JS challenge solver (ejs) + mobile client
     cmd_audio = [
         "yt-dlp",
         "--remote-components", "ejs:github",
+        "--extractor-args", "youtube:player_client=android,ios,mweb",
         "-x",
         "--audio-format", "mp3",
         "--audio-quality", "0",
@@ -90,8 +93,6 @@ def download_youtube_audio_and_thumb(video_id, output_base):
     cookie_file = get_cookie_file()
     if cookie_file:
         cmd_audio.extend(["--cookies", cookie_file])
-    else:
-        cmd_audio.extend(["--extractor-args", "youtube:player_client=visionos,ios,mweb"])
         
     cmd_audio.append(video_url)
     res_audio = subprocess.run(cmd_audio, capture_output=True, text=True)
