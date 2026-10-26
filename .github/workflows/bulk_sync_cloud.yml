@@ -71,10 +71,29 @@ jobs:
         run: |
           git config --global user.name "Qurani Cloud Bot"
           git config --global user.email "bot@qurani.app"
+          git pull --rebase origin master
           git add catalog.json sync_state.json
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
             git commit -m "chore: cloud sync batch completed [skip ci]"
-            git push
+            git push origin master
           fi
+
+      - name: Auto-Chain Next Batch
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          python -c "
+          import json, sys
+          with open('sync_state.json', 'r', encoding='utf-8') as f:
+              state = json.load(f)
+          print(f'Total synced recitations so far: {len(state)}')
+          if len(state) < 2360:
+              print('More recitations remain. Triggering next cloud batch...')
+              sys.exit(0)
+          else:
+              print('All recitations have been fully synced!')
+              sys.exit(1)
+          " && gh workflow run "Cloud Bulk Sync (Zero Local Bandwidth)" -f limit=100 -f workers=3 || echo "Chain complete."
