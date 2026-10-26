@@ -1,4 +1,4 @@
-name: Auto-Sync Yaldosry to Archive.org
+name: Auto-Sync YouTube Channel to Archive.org
 
 on:
   schedule:
@@ -28,7 +28,7 @@ jobs:
       - name: Install Dependencies
         run: |
           pip install --upgrade pip
-          pip install requests beautifulsoup4 internetarchive
+          pip install -r requirements.txt
 
       - name: Configure Archive.org S3 Keys
         run: |
@@ -37,7 +37,7 @@ jobs:
           echo "access = ${{ secrets.IA_ACCESS_KEY }}" >> ~/.ia
           echo "secret = ${{ secrets.IA_SECRET_KEY }}" >> ~/.ia
 
-      - name: Run Auto Sync
+      - name: Run Auto Sync from YouTube
         run: |
           python auto_sync.py
 
@@ -49,6 +49,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes in catalog to commit."
           else
-            git commit -m "chore(sync): update catalog and state with latest recitations [skip ci]"
+            git commit -m "chore(sync): update catalog from YouTube channel [skip ci]"
             git push
           fi
