@@ -1,0 +1,35 @@
+name: Upload Collections to Archive.org
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          pip install internetarchive
+
+      - name: Configure Archive.org S3 Keys
+        run: |
+          mkdir -p ~/.config
+          echo "[s3]" > ~/.ia
+          echo "access = ${{ secrets.IA_ACCESS_KEY }}" >> ~/.ia
+          echo "secret = ${{ secrets.IA_SECRET_KEY }}" >> ~/.ia
+
+      - name: Generate and Upload Collections JSON
+        run: |
+          python generate_collections.py
+          ia upload qurani-yasser-aldosari-prayers aldosari_prayers.json --force

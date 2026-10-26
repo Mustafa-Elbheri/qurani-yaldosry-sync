@@ -77,9 +77,10 @@ jobs:
         run: |
           rm -f cookies.txt
 
-      - name: Generate App Collections
+      - name: Generate App Collections and Upload to Archive.org
         run: |
           python generate_collections.py
+          ia upload qurani-yasser-aldosari-prayers aldosari_prayers.json --force || true
 
       - name: Commit and Push Updated Catalog & State
         run: |
