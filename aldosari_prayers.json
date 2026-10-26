@@ -976,18 +976,18 @@
     },
     {
       "number": 195,
-      "name": "العِقدُ الآسِرْ لتلاوات | تلاوات شهر صفر لعام 1447هـ من الحرم المكي",
-      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1447_Prayer_Sad_yt_VxAeXC0Tkq8.mp3"
-    },
-    {
-      "number": 196,
       "name": "تلاوة رائعة لسورتي الانفطار والنبأ للشيخ | مغرب وعشاء الإثنين 3 صفر 1447هـ",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1447_Maghrib_Sad_yt_LOvB_Fo0LkM.mp3"
     },
     {
-      "number": 197,
+      "number": 196,
       "name": "تلاوتي المغرب والعشاء بترتيل آسر وفريد للشيخ أ.د. ⁧ ⁩ | الخميس 12 ربيع الأول 1447هـ",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1447_Maghrib_Ya-Sin_yt_2Y5TntcEldw.mp3"
+    },
+    {
+      "number": 197,
+      "name": "العِقدُ الآسِرْ لتلاوات | تلاوات شهر صفر لعام 1447هـ من الحرم المكي",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1447_Prayer_Sad_yt_VxAeXC0Tkq8.mp3"
     },
     {
       "number": 198,
@@ -1481,246 +1481,391 @@
     },
     {
       "number": 296,
+      "name": "تلاوة ماتعة بأداء عذب من سورة هود للشيخ | فجر الأربعاء 25-10-1446هـ",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446-10-25_Fajr_Hud_yt_G2RFICYSEZQ.mp3"
+    },
+    {
+      "number": 297,
+      "name": "استفتاح مهيب وتلاوة عظيمة لأول سورة الجاثية من غرّيد الحرم د. ⁧⁩ فجر الثلاثاء 24-10-1446",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446-10-24_Fajr_Al-Jathiyah_yt_r73oLsBiR9Y.mp3"
+    },
+    {
+      "number": 298,
+      "name": "تحبير بديع من النساء للشيخ | فجر الإثنين 23-10-1446هـ",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446-10-23_Fajr_An-Nisa_yt_7MKi0C-HfNM.mp3"
+    },
+    {
+      "number": 299,
+      "name": "تلاوة رائعة من سورة الإسراء للشيخ | فجر الأحد 22-10-1446هـ",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446-10-22_Fajr_Al-Isra_yt_LHo8BackiLE.mp3"
+    },
+    {
+      "number": 300,
+      "name": "تلاوة بديعة من سورة آل عمران للشيخ | مغرب الجمعة 13-10-1446هـ",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446-10-13_Maghrib_Ali-Imran_yt_lQDAc2weGgo.mp3"
+    },
+    {
+      "number": 301,
+      "name": "آيات المسارعة والمسابقة إلى الخيرات بترتيل تدبري خاشع | | مغرب الخميس 12-10-1446هـ",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446-10-12_Maghrib_Ya-Sin_yt_0xqLGb3XX9Q.mp3"
+    },
+    {
+      "number": 302,
+      "name": "تلاوة خاشعة من سورتي البقرة والإخلاص للشيخ | مغرب الأربعاء 11-10-1446هـ",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446-10-11_Maghrib_Al-Baqarah_yt_Hl1Ed_zqj2E.mp3"
+    },
+    {
+      "number": 303,
+      "name": "أداء رائع وجميل لسورتي الليل والتين للشيخ | مغرب الثلاثاء 10-10-1446هـ",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446-10-10_Maghrib_Al-Layl_yt_5za7wuWTCoc.mp3"
+    },
+    {
+      "number": 304,
+      "name": "تلاوة خاشعة لسورتي التكاثر والعصر للشيخ | مغرب الاثنين 9-10-1446هـ",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446-10-09_Maghrib_Sad_yt_ZLWGgWfnCXc.mp3"
+    },
+    {
+      "number": 305,
+      "name": "تلاوات مميزة للشيخ | فجر ومغرب الأحد 8-10-1446هـ",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446-10-08_Fajr_yt_WqiySCL6G7Q.mp3"
+    },
+    {
+      "number": 306,
+      "name": "تلاوة جميلة من سورتي البقرة وإبراهيم للشيخ | صلاة الجمعة 28-9-1446هـ",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446-09-28_Prayer_Al-Baqarah_yt_jywexysCgPg.mp3"
+    },
+    {
+      "number": 307,
+      "name": "ترتيل عذب من سورتي المؤمنون والشورى للشيخ | عشاء الجمعة 28-9-1446هـ",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446-09-28_Isha_Al-Muminun_yt_8YqUWbq_b1o.mp3"
+    },
+    {
+      "number": 308,
+      "name": "تلاوة مميزة لآخر سورة الفرقان للشيخ | عشاء الجمعة 21-9-1446هـ",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446-09-21_Isha_Al-Furqan_yt_N0MW6JsM_xM.mp3"
+    },
+    {
+      "number": 309,
+      "name": "سورة الإنسان بتحبير خاشع للشيخ | فجر الخميس 20-9-1446هـ",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446-09-20_Fajr_Ya-Sin_yt_YtVovFS57FI.mp3"
+    },
+    {
+      "number": 310,
+      "name": "يشنّف الأسماع بترتيل مميز | تهجد ليلة 21 رمضان 1446هـ",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446_Prayer_yt_eo3kJtvVl1c.mp3"
+    },
+    {
+      "number": 311,
+      "name": "تلاوة مؤثرة تحرك القلوب للشيخ | صلاة التراويح ليلة 23 رمضان 1446هـ",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446_Prayer_Sad_yt_DuxAHiSTRvk.mp3"
+    },
+    {
+      "number": 312,
+      "name": "ليلة 25 رمضان 1446هـ | تلاوة تفيض بالجمال والإتقان للشيخ",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446_Prayer_Qaf_yt_l3ZrLcrA5kQ.mp3"
+    },
+    {
+      "number": 313,
+      "name": "إصدار كامل تلاوات رمضان 1446هـ | خشوع وإتقان وجمال بصوت الشيخ الغرّيد",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446_Prayer_Sad_yt_Cv0I54sHMB8.mp3"
+    },
+    {
+      "number": 314,
+      "name": "روعة الأداء وصفاء التلاوة من سورتي الزخرف والدخان بصوت | ليلة 26 رمضان 1446هـ",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446_Prayer_Sad_yt_lcQTq-zmlMQ.mp3"
+    },
+    {
+      "number": 315,
+      "name": "صوت قرآني فريد يحبس الأنفاس | تلاوة ليلة 28 رمضان 1446هـ",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446_Prayer_Sad_yt_Dy6SH9nKi_o.mp3"
+    },
+    {
+      "number": 316,
+      "name": "مسك الختام لشهر الصيام بتلاوة خاشعة | ليلة 29 رمضان 1446هـ",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446_Prayer_Sad_yt_xYAq5RaAxKg.mp3"
+    },
+    {
+      "number": 317,
+      "name": "تلاوة مهيبة وإتقان بديع | يشنّف الأسماع بأواخر آل عمران ليلة 5 رمضان 1446هـ",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446_Prayer_Ali-Imran_yt_eV_oBXc1hAs.mp3"
+    },
+    {
+      "number": 318,
+      "name": "آيات تتلألأ بجمالها | يتألق بفواتح المائدة ليلة 8 رمضان 1446هـ",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446_Prayer_Al-Maidah_yt_4byW8UY4_DM.mp3"
+    },
+    {
+      "number": 319,
+      "name": "أعذب التلاوات وأروع التحابير | ليلة 14 رمضان 1446هـ كاملة",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446_Prayer_yt_-kwDcDLYpks.mp3"
+    },
+    {
+      "number": 320,
+      "name": "العِقدُ الآسِرْ لتلاوات | تلاوات شهر شعبان لعام 1446هـ من الحرم المكي",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446_Prayer_Qaf_yt_JA672rki81w.mp3"
+    },
+    {
+      "number": 321,
       "name": "فروض شهر رمضان 1446هـ كاملة للشيخ د.⁧⁩",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446_Prayer_yt_pp3WH_kPUd8.mp3"
     },
     {
-      "number": 297,
-      "name": "العِقدُ الآسِرْ لتلاوات | تلاوات شهر شوال لعام 1446هـ من الحرم المكي",
-      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446_Prayer_Qaf_yt_jniuZNHfv4I.mp3"
-    },
-    {
-      "number": 298,
+      "number": 322,
       "name": "تلاوة رائقة خاشعة لآيات الحج من سورة البقرة للشيخ | فجر يوم التروية 1446هـ",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446_Fajr_Al-Baqarah_yt_hjzewL_swKo.mp3"
     },
     {
-      "number": 299,
-      "name": "الغرّيد يمتع الحجاج بهذه التلاوات البديعة لآيات الحج | مغرب وعشاء يوم التروية 1446هـ",
-      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446_Maghrib_Al-Hajj_yt_BPIv_Wp4SvI.mp3"
-    },
-    {
-      "number": 300,
-      "name": "العِقدُ الآسِرْ لتلاوات | تلاوات شهر ذو القعدة لعام 1446هـ من الحرم المكي",
-      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446_Prayer_Qaf_yt_RoygwDfI6TQ.mp3"
-    },
-    {
-      "number": 301,
+      "number": 323,
       "name": "العِقدُ الآسِرْ لتلاوات | تلاوات شهر ذو الحجة لعام 1446هـ من الحرم المكي",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446_Prayer_Al-Hajj_yt_9XpXtqeMze4.mp3"
     },
     {
-      "number": 302,
+      "number": 324,
+      "name": "العِقدُ الآسِرْ لتلاوات | تلاوات شهر شوال لعام 1446هـ من الحرم المكي",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446_Prayer_Qaf_yt_jniuZNHfv4I.mp3"
+    },
+    {
+      "number": 325,
+      "name": "الغرّيد يمتع الحجاج بهذه التلاوات البديعة لآيات الحج | مغرب وعشاء يوم التروية 1446هـ",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446_Maghrib_Al-Hajj_yt_BPIv_Wp4SvI.mp3"
+    },
+    {
+      "number": 326,
+      "name": "العِقدُ الآسِرْ لتلاوات | تلاوات شهر ذو القعدة لعام 1446هـ من الحرم المكي",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446_Prayer_Qaf_yt_RoygwDfI6TQ.mp3"
+    },
+    {
+      "number": 327,
       "name": "بأعلى جودة شاهد كامل تراتيل أ. لرمضان 1446هـ | أجمل التلاوات تجدها هنا بتصوير مرئي",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1446_Prayer_Sad_yt_TOBWBZHT_Ww.mp3"
     },
     {
-      "number": 303,
-      "name": "سورة يوسف - تلاوة مرتلة بصوت",
-      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Yusuf_yt_vtsN12Anp8s.mp3"
+      "number": 328,
+      "name": "تذلل وخشوع في دعاء أبكى القلوب وأسال الدموع من أرض الحرم للشيخ ⁧د. ياسر_الدوسري⁩ | ليلة 29 رمضان",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Qaf_yt_uHDI3G7BymY.mp3"
     },
     {
-      "number": 304,
+      "number": 329,
       "name": "إهداء لـ مليون أخ وأخت | الغرّيد أ. في تلاوات لا تنسى من جميع الأعوام السابقة",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Qaf_yt_NUkykA4cz4Q.mp3"
     },
     {
-      "number": 305,
-      "name": "سورة الرعد - تلاوة مرتلة بصوت",
-      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Ar-Rad_yt_v1OuepitC7Y.mp3"
+      "number": 330,
+      "name": "سورة يونس - تلاوة مرتلة بصوت",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Yunus_yt_T90FAdbRL3s.mp3"
     },
     {
-      "number": 306,
-      "name": "سورة ابراهيم - تلاوة مرتلة بصوت",
-      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt_QZ4Ls6BXn8M.mp3"
+      "number": 331,
+      "name": "سورة هود - تلاوة مرتلة بصوت",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Hud_yt_nFEDpY4sJmI.mp3"
     },
     {
-      "number": 307,
-      "name": "سورة الحجر - تلاوة مرتلة بصوت",
-      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Hijr_yt_ddfyXmOCBGQ.mp3"
-    },
-    {
-      "number": 308,
-      "name": "سورة النحل - تلاوة مرتلة بصوت",
-      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_An-Nahl_yt_dBdVCsaU_tA.mp3"
-    },
-    {
-      "number": 309,
-      "name": "سورة الاسراء - تلاوة مرتلة بصوت",
-      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt_e00MkphRsJI.mp3"
-    },
-    {
-      "number": 310,
+      "number": 332,
       "name": "سورة الكهف - تلاوة مرتلة بصوت",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Kahf_yt_3rvK5z1CSYM.mp3"
     },
     {
-      "number": 311,
+      "number": 333,
       "name": "بأدائه الآسر العذب يرتل خواتيم سورتي الكهف والحشر بترتيل تخشع له القلوب مغرب 14-12",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Maghrib_Al-Kahf_yt_6cUaGu0f0W4.mp3"
     },
     {
-      "number": 312,
-      "name": "سورة طه - تلاوة مرتلة بصوت",
-      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Taha_yt_iUZhtEkv880.mp3"
-    },
-    {
-      "number": 313,
+      "number": 334,
       "name": "بالأداء الشهير د. ⁧⁩ يُبكي المصلين في هذه التلاوة المؤثرة من سورة الأعراف | عشاء 21-12",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Isha_Al-Araf_yt_8i8XmUIB5AY.mp3"
     },
     {
-      "number": 314,
-      "name": "سورة الشعراء بصوت عذب يريح القلب والروح",
-      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Ash-Shuara_yt_ISmxUwGAcwA.mp3"
-    },
-    {
-      "number": 315,
+      "number": 335,
       "name": "سورة القصص بصوت عذب يريح القلب والروح",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Qasas_yt_u0Rxbmv1k5Q.mp3"
     },
     {
-      "number": 316,
+      "number": 336,
+      "name": "سورة الشعراء بصوت عذب يريح القلب والروح",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Ash-Shuara_yt_ISmxUwGAcwA.mp3"
+    },
+    {
+      "number": 337,
       "name": "سورة يس بصوت عذب يريح القلب والروح",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Ya-Sin_yt_DXaiNbS3YcU.mp3"
     },
     {
-      "number": 317,
+      "number": 338,
+      "name": "سورة يوسف - تلاوة مرتلة بصوت",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Yusuf_yt_vtsN12Anp8s.mp3"
+    },
+    {
+      "number": 339,
+      "name": "سورة الرعد - تلاوة مرتلة بصوت",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Ar-Rad_yt_v1OuepitC7Y.mp3"
+    },
+    {
+      "number": 340,
+      "name": "سورة ابراهيم - تلاوة مرتلة بصوت",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt_QZ4Ls6BXn8M.mp3"
+    },
+    {
+      "number": 341,
+      "name": "سورة الحجر - تلاوة مرتلة بصوت",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Hijr_yt_ddfyXmOCBGQ.mp3"
+    },
+    {
+      "number": 342,
+      "name": "سورة النحل - تلاوة مرتلة بصوت",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_An-Nahl_yt_dBdVCsaU_tA.mp3"
+    },
+    {
+      "number": 343,
+      "name": "سورة الاسراء - تلاوة مرتلة بصوت",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt_e00MkphRsJI.mp3"
+    },
+    {
+      "number": 344,
+      "name": "سورة طه - تلاوة مرتلة بصوت",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Taha_yt_iUZhtEkv880.mp3"
+    },
+    {
+      "number": 345,
       "name": "سورة مريم - تلاوة مرتلة بصوت",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Maryam_yt_sk6EcymzOR4.mp3"
     },
     {
-      "number": 318,
+      "number": 346,
       "name": "سورة الانبياء - تلاوة مرتلة بصوت",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt_xjCffjPsW5E.mp3"
     },
     {
-      "number": 319,
+      "number": 347,
       "name": "سورة الحج بصوت عذب يريح القلب والروح",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Hajj_yt_T3jb07K3CCw.mp3"
     },
     {
-      "number": 320,
+      "number": 348,
       "name": "تذكير وتنبيه لصيام يوم عاشوراء من الشيخ أ. د. ياسر بن راشد الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt_DflPtgkRViE.mp3"
     },
     {
-      "number": 321,
+      "number": 349,
       "name": "سورة المؤمنون بصوت عذب يريح القلب والروح",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Muminun_yt_cLU6bjXZQ1g.mp3"
     },
     {
-      "number": 322,
+      "number": 350,
       "name": "سورة النور بصوت عذب يريح القلب والروح",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_An-Nur_yt_k9m3KRWl_qc.mp3"
     },
     {
-      "number": 323,
+      "number": 351,
       "name": "سورة الفرقان بصوت عذب يريح القلب والروح",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Furqan_yt_cLnLAhVhU3o.mp3"
     },
     {
-      "number": 324,
+      "number": 352,
       "name": "سورة النمل بصوت عذب يريح القلب والروح",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_An-Naml_yt_Crq4WtMpXXo.mp3"
     },
     {
-      "number": 325,
+      "number": 353,
       "name": "سورة العنكبوت بصوت عذب يريح القلب والروح",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Ankabut_yt_wkUNel_W_d4.mp3"
     },
     {
-      "number": 326,
+      "number": 354,
       "name": "سورة لقمان بصوت عذب يريح القلب والروح",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Luqman_yt_wD0m6G6qhg8.mp3"
     },
     {
-      "number": 327,
+      "number": 355,
       "name": "سورة ص بصوت عذب يريح القلب والروح",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt_QGynVyMWUUM.mp3"
     },
     {
-      "number": 328,
+      "number": 356,
       "name": "سورة الروم بصوت عذب يريح القلب والروح",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Ar-Rum_yt_VOQ8zqFxFP4.mp3"
     },
     {
-      "number": 329,
+      "number": 357,
       "name": "سورة السجدة بصوت عذب يريح القلب والروح",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_As-Sajdah_yt_BhZkKq3oNHo.mp3"
     },
     {
-      "number": 330,
+      "number": 358,
       "name": "سورة الصافات بصوت عذب يريح القلب والروح",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_As-Saffat_yt_0eDNIZ1icdo.mp3"
     },
     {
-      "number": 331,
+      "number": 359,
       "name": "سورة الاحزاب بصوت عذب يريح القلب والروح",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt_yZVfD9pIYmk.mp3"
     },
     {
-      "number": 332,
+      "number": 360,
       "name": "سورة سبأ بصوت عذب يريح القلب والروح",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Saba_yt_P__oNWjraXQ.mp3"
     },
     {
-      "number": 333,
+      "number": 361,
       "name": "سورة فاطر بصوت عذب يريح القلب والروح",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Fatir_yt_yaGm_BMCkVA.mp3"
     },
     {
-      "number": 334,
+      "number": 362,
       "name": "حصرياً على قناتنا | وقفات من قوله تعالى \"شهر رمضان\" لفضيلة أ.",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt__Q_VY7mobpo.mp3"
     },
     {
-      "number": 335,
+      "number": 363,
       "name": "سورة الزمر بصوت عذب يريح القلب والروح",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt_bvuV9feF4A8.mp3"
     },
     {
-      "number": 336,
+      "number": 364,
       "name": "سورة غافر بصوت عذب يريح القلب والروح",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt_E-ATMin1m8k.mp3"
     },
     {
-      "number": 337,
+      "number": 365,
       "name": "‏في أرجى الليالي يترنم الشيخ ⁧⁩ بتحابير خاشعة من سورة الواقعة حتى المجادلة ليلة 27-9",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Qaf_yt_NekhfeBuUvU.mp3"
     },
     {
-      "number": 338,
+      "number": 366,
       "name": "أرشيف النوادر | تلاوة مرئية للشيخ تكاد تكون المرئية الوحيدة من تلك الأعوام الذهبية.",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_yt_5dFKIUk23gQ.mp3"
     },
     {
-      "number": 339,
+      "number": 367,
       "name": "لا تملّ هذه التلاوات في ترتيل مؤثر لا ينسى من سورة الكهف | الزمن الجميل",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Kahf_yt_u-iKYgHyIBI.mp3"
     },
     {
-      "number": 340,
+      "number": 368,
       "name": "تلاوة خاشعة لفواتح سورة الإسراء للشيخ | من صلاة الكسوف 29-4-1441هـ",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1441-04-29_Prayer_Al-Isra_yt_q0Vc3Gc9oEg.mp3"
     },
     {
-      "number": 341,
+      "number": 369,
       "name": "يالجمال تلاواته الغرّيد في تلاوة مصوّرة من الزمن الجميل لسورة الواقعة | 1434هـ",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1434_Prayer_Sad_yt_FG2gobIzwgI.mp3"
     },
     {
-      "number": 342,
+      "number": 370,
+      "name": "لا يمكن أن تُنسى مثل هذه التلاوات | في عشائية لا توصف قبل 17 سنة | عشائيات 1429هـ♥️",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1429_Prayer_Sad_yt_IS4UwXiaLhg.mp3"
+    },
+    {
+      "number": 371,
       "name": "تلاوة لخواتيم سورة الحشر 18-24 | مغرب السبت 12-1-1448هـ",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/5161_yaldosry-prayers-5161.mp3"
     },
     {
-      "number": 343,
+      "number": 372,
       "name": "تلاوة لسورتي الانفطار والكوثر | مغرب الجمعة 11-1-1448هـ",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/5160_yaaseer11.mp3"
     },
     {
-      "number": 344,
+      "number": 373,
       "name": "تلاوة جميلة من سورة آل عمران | فجر الأحد 7-1-1448هـ",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/5159_yaaser7.mp3"
     }
