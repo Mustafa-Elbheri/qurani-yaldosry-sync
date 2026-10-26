@@ -1,93 +1,68 @@
-# نظام المزامنة السحابية لتلاوات الشيخ د. ياسر الدوسري (لتطبيق قرآني)
+# محرك الفهرسة والمزامنة السحابية لتلاوات الشيخ د. ياسر الدوسري
+### المزوّد الصوتي الرسمي لتطبيق [قرآني — Qurani App](https://github.com/Mustafa-Elbheri/Qurani-Releases)
 
-نظام أتمتة متكامل ومجاني 100% يقوم بسحب التلاوات وأرشفتها من موقع [yaldosry.com](http://yaldosry.com/) ونقلها مباشرة إلى حسابك على أرشيف الإنترنت (**Archive.org**)، مع تحديث ملف الفهرس `catalog.json` لتطبيق **قرآني** تلقائياً عبر **GitHub Actions**.
+[![GitHub Actions Status](https://github.com/Mustafa-Elbheri/qurani-yaldosry-sync/workflows/Auto-Sync%20YouTube%20Channel%20to%20Archive.org/badge.svg)](https://github.com/Mustafa-Elbheri/qurani-yaldosry-sync/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Archive.org Backend](https://img.shields.io/badge/Audio%20Backend-Archive.org-orange)](https://archive.org/details/@albheri2020)
 
----
-
-## 📁 هيكلية الأقسام في Archive.org
-
-تم تقسيم التلاوات إلى مجموعات مستقلة لسهولة التنقل داخل التطبيق:
-
-| القسم | معرف المجموعة على Archive.org | الوصف |
-| :--- | :--- | :--- |
-| **الفروض** | `qurani-yasser-aldosari-prayers` | تلاوات صلوات الفروض بالحرم المكي مقسمة بالأعوام |
-| **التراويح والتهجد** | `qurani-yasser-aldosari-taraweeh` | تسجيلات التراويح والقيام لعدة سنوات |
-| **المصاحف الكاملة** | `qurani-yasser-aldosari-mushaf` | مصحف الحرم، المصحف المرتل، مصحف الدخيل |
-| **الإصدارات والختمات** | `qurani-yasser-aldosari-editions` | الإصدارات الرسمية والأدعية |
-| **المنوعات والخطب** | `qurani-yasser-aldosari-miscellanies` | الخطب والكلمات والتسجيلات النادرة |
+نظام أتمتة سحابي مفتوح المصدر يعمل على خوادم **GitHub Actions**، مخصص لسحب وأرشفة وتوليد فهرس تلاوات القرآن الكريم الخاصة بفضيلة الشيخ **د. ياسر بن راشد الدوسري** وتوفيرها لتطبيق الهاتف المحمول **[قرآني (Qurani)](https://github.com/Mustafa-Elbheri/Qurani-Releases)**.
 
 ---
 
-## 🚀 كيفية نقل الأقسام (قسم بقسم)
-
-يمكنك تشغيل المزامنة للأقسام عبر سطر الأوامر باستخدام سكربت `sync_all.py`:
-
-### 1. مزامنة قسم الفروض (صلوات الحرم المكي):
-```bash
-# مزامنة عام 1448هـ فقط (أحدث الصلوات):
-python sync_all.py --section prayers --category 1448
-
-# مزامنة عام 1447هـ:
-python sync_all.py --section prayers --category 1447
-
-# مزامنة كل سنوات الفروض:
-python sync_all.py --section prayers
-```
-
-### 2. مزامنة قسم التراويح والتهجد:
-```bash
-python sync_all.py --section taraweeh
-```
-
-### 3. مزامنة المصاحف الكاملة:
-```bash
-python sync_all.py --section quran
-```
-
-### 4. مزامنة الإصدارات والمنوعات:
-```bash
-python sync_all.py --section editions
-python sync_all.py --section miscellanies
-```
-
-> **ملاحظة:** السكربت ذكي ومزود بنظام (Resume)، فإذا توقف أو أعدت تشغيله، يتجاوز المقاطع المرفوعة مسبقاً ويكمل من حيث توقف دون تكرار أي ملف.
+## ⚖️ التوافق التام مع سياسات وباندويث GitHub
+1. **عدم استضافة وسائط أو ملفات صوتية على GitHub:**
+   - يلتزم هذا المستودع حرفياً بسياسات استخدام GitHub (ToS).
+   - لا يتم رفع أي ملف صوتي أو صورة ثنائية إلى مستودع GitHub نهائياً لتجنب استهلاك مساحة أو باندويث GitHub.
+2. **الاستضافة والتدفق بالكامل عبر أرشيف الإنترنت (Archive.org):**
+   - يتم تخزين وبث وتحميل جميع التلاوات الصوتية (`.mp3`) وأغلفتها عالية الجودة (`.jpg`) عبر خوادم **[Internet Archive](https://archive.org/details/qurani-yasser-aldosari-prayers)** بحساب موثوق ومرخص ومجاني مدى الحياة وباندويث غير محدود.
+3. **دور هذا المستودع:**
+   - استضافة كود الأتمتة السحابية.
+   - نشر وتحديث ملف الفهرس النصي الخفيف `catalog.json` الذي يعتمد عليه تطبيق **قرآني** لقراءة قائمة التلاوات وروابط تشغيلها المباشرة.
 
 ---
 
-## 🤖 الأتمتة السحابية 24/7 (GitHub Actions)
-
-داخل مجلد `.github/workflows/sync.yml` يوجد نظام المزامنة الدائم:
-1. يعمل تلقائياً كل 6 ساعات في خوادم GitHub المجانية.
-2. يفحص قسم "الصوتيات الحديثة" بموقع الشيخ.
-3. يقوم بتنزيل التلاوات الجديدة ورفعها مباشرة إلى حسابك في Archive.org.
-4. يحدّث ملف `catalog.json` ويدفعه إلى المستودع.
-
-### 🔑 إعداد المفاتيح السرية في GitHub Secrets:
-في مستودعك على GitHub، اذهب إلى:
-`Settings` -> `Secrets and variables` -> `Actions` -> `New repository secret`
-وأضف المفتاحين التاليين:
-* `IA_ACCESS_KEY`: مفتاح Access الخاص بحسابك في Archive.org
-* `IA_SECRET_KEY`: مفتاح Secret الخاص بحسابك في Archive.org
+## 🕋 مصدر التلاوات وقواعد التصفية الصارمة
+* **المصدر الرسمي:** القناة الرسمية لفضيلة الشيخ د. ياسر الدوسري على يوتيوب (`@yasser_aldosari`).
+* **استبعاد الخطب والكلمات نهائياً:** يتم استبعاد خطب الجمعة، الكلمات التوجيهية، المحاضرات، والندوات عبر فلتر الكلمات الدلالية (`is_khutbah()`) بنسبة 100% ليقتصر الأرشيف على **التلاوات القرآنية الخالصة فقط**.
+* **استبعاد مقاطع Shorts:** يتم سحب مقاطع التلاوات الطويلة والكاملة فقط واستبعاد مقاطع Shorts تماماً.
+* **بيانات وصفية متوافقة مع الأرشيف:** كل تلاوة يتم ترقيمها وتوثيق تاريخها الهجري واسم السورة، مع إرفاق غلاف مخصص عالي الجودة لضمان المعايير الفنية لأرشيف الإنترنت وتطبيق قرآني.
 
 ---
 
-## 📱 كيف يستخدم تطبيقك هذه البيانات؟
+## 📡 كيفية استخدام التطبيق للفهرس (API Integration)
 
-تطبيقك يحتاج فقط لقراءة ملف الفهرس:
-* رابط ملف الفهرس المباشر:
-  `https://raw.githubusercontent.com/Mustafa-Elbheri/yaldosry-archive-sync/master/catalog.json`
-* أو مباشرة من الأرشيف:
-  `https://archive.org/download/qurani-yasser-aldosari-prayers/catalog.json`
+يقرأ تطبيق **قرآني (Qurani)** الفهرس المحدث لحظياً عبر الرابط المباشر:
 
-كل تلاوة داخل الفهرس تحتوي على رابط الـ MP3 المباشر من الأرشيف:
+```url
+https://raw.githubusercontent.com/Mustafa-Elbheri/qurani-yaldosry-sync/master/catalog.json
+```
+
+### هيكل كل عنصر في الفهرس (`catalog.json`):
 ```json
 {
-  "id": "5159",
-  "title": "تلاوة جميلة من سورة آل عمران | فجر الأحد 7-1-1448هـ",
+  "id": "yt_8Vx-d6WHY3s",
+  "youtube_id": "8Vx-d6WHY3s",
+  "title": "أحسن القصص! خواتيم سورة يوسف بتحبير يفوق الوصف للشيخ د. ياسر الدوسري | ليلة 30 رمضان 1447هـ",
+  "standard_name": "1447_Prayer_Yusuf_yt_8Vx-d6WHY3s",
   "section": "prayers",
-  "category": "عام 1448هـ",
-  "archive_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/5159_yaaser7.mp3",
-  "thumbnail": "https://img.youtube.com/vi/CFeWoXlSsgA/mqdefault.jpg"
+  "category": "صلوات الحرم المكي",
+  "date": "1447",
+  "year": "1447",
+  "source_type": "youtube",
+  "archive_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1447_Prayer_Yusuf_yt_8Vx-d6WHY3s.mp3",
+  "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1447_Prayer_Yusuf_yt_8Vx-d6WHY3s.jpg",
+  "size_mb": 18.74,
+  "uploaded_at": "2026-10-26 01:32:54"
 }
 ```
-باندويث مجاني 100%، وسرعة تدفق غير محدودة مدى الحياة!
+
+* يقوم التطبيق بتشغيل وتحميل الصوت مباشرة من `archive_url`.
+* يقرأ الغلاف من `archive_cover_url`.
+* **الباندويث:** مجاني 100% وسرعة فائقة من سيرفرات الأرشيف العالمية.
+
+---
+
+## 🔗 روابط هامة
+* **مستودع إصدارات تطبيق قرآني:** [Mustafa-Elbheri/Qurani-Releases](https://github.com/Mustafa-Elbheri/Qurani-Releases)
+* **مجموعة التلاوات على Archive.org:** [qurani-yasser-aldosari-prayers](https://archive.org/details/qurani-yasser-aldosari-prayers)
+* **مصحف الحرم على Archive.org:** [qurani-yasser-aldosari-mushaf](https://archive.org/details/qurani-yasser-aldosari-mushaf)
