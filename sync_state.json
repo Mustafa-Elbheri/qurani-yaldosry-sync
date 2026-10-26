@@ -156,5 +156,39 @@
     "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1448-04-20_Fajr_Ya-Sin_yt_ZkXXm6k0rPk.jpg",
     "size_mb": 7.0,
     "uploaded_at": "2026-10-26 04:04:11"
+  },
+  "yt_8Vx-d6WHY3s": {
+    "id": "yt_8Vx-d6WHY3s",
+    "youtube_id": "8Vx-d6WHY3s",
+    "title": "‏أحسن القصص! خواتيم سورة يوسف بتحبير يفوق الوصف للشيخ د. ياسر الدوسري | ليلة 30 رمضان 1447هـ",
+    "standard_name": "1447_Prayer_Yusuf_yt_8Vx-d6WHY3s",
+    "section": "prayers",
+    "category": "صلوات الحرم المكي",
+    "track": "yt_8Vx-d6WHY3s",
+    "date": "1447",
+    "year": "1447",
+    "source_type": "youtube",
+    "youtube_url": "https://www.youtube.com/watch?v=8Vx-d6WHY3s",
+    "archive_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1447_Prayer_Yusuf_yt_8Vx-d6WHY3s.mp3",
+    "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1447_Prayer_Yusuf_yt_8Vx-d6WHY3s.jpg",
+    "size_mb": 18.74,
+    "uploaded_at": "2026-10-26 01:32:54"
+  },
+  "yt_T9Y68erjkeo": {
+    "id": "yt_T9Y68erjkeo",
+    "youtube_id": "T9Y68erjkeo",
+    "title": "العِقدُ الآسِرْ لتلاوات الشيخ ياسر الدوسري | تلاوات شهر ربيع الآخر لعام 1448هـ من الحرم المكي🕋🤍",
+    "standard_name": "1448_Prayer_Qaf_yt_T9Y68erjkeo",
+    "section": "prayers",
+    "category": "صلوات الحرم المكي",
+    "track": "yt_T9Y68erjkeo",
+    "date": "1448",
+    "year": "1448",
+    "source_type": "youtube",
+    "youtube_url": "https://www.youtube.com/watch?v=T9Y68erjkeo",
+    "archive_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1448_Prayer_Qaf_yt_T9Y68erjkeo.mp3",
+    "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1448_Prayer_Qaf_yt_T9Y68erjkeo.jpg",
+    "size_mb": 161.7,
+    "uploaded_at": "2026-10-26 01:34:30"
   }
 }
