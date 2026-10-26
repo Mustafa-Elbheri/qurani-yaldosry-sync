@@ -32,4 +32,4 @@ jobs:
       - name: Generate and Upload Collections JSON
         run: |
           python generate_collections.py
-          ia upload qurani-yasser-aldosari-prayers aldosari_prayers.json --force
+          ia upload qurani-yasser-aldosari-prayers aldosari_prayers.json
