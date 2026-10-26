@@ -39,10 +39,14 @@ jobs:
         with:
           deno-version: v2.x
 
-      - name: Install FFmpeg & Dependencies
+      - name: Setup FFmpeg
+        uses: FedericoCarboni/setup-ffmpeg@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install Dependencies
         run: |
-          sudo apt-get update && sudo apt-get install -y ffmpeg
-          pip install --upgrade pip yt-dlp
+          python -m pip install --upgrade pip yt-dlp
           pip install -r requirements.txt
 
       - name: Configure Archive.org S3 Keys
