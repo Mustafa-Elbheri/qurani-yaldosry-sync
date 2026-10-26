@@ -80,6 +80,8 @@ def download_youtube_audio_and_thumb(video_id, output_base):
     res_audio = subprocess.run(cmd_audio, capture_output=True, text=True)
     if not os.path.exists(mp3_path):
         print(f"  ERROR: Failed to download audio for {video_id}")
+        if res_audio.stderr:
+            print(f"  yt-dlp stderr: {res_audio.stderr[:300]}")
         return None, None
         
     # 2. Download highest quality thumbnail
