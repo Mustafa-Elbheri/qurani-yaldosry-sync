@@ -106,7 +106,7 @@ def check_and_sync_recent():
                 "thumbnail": item["thumbnail"]
             }
             
-            uploader.upload_recitation(item_payload)
+            uploader.upload_recitation_with_cover(item_payload)
             time.sleep(2)
         except Exception as e:
             print(f"Error processing item {item['id']}: {e}")

@@ -65,7 +65,7 @@ def sync_section(section_name, target_category_name=None, max_items=None):
                 "thumbnail": item["thumbnail"]
             }
             
-            res = uploader.upload_recitation(full_item)
+            res = uploader.upload_recitation_with_cover(full_item)
             if res:
                 total_uploaded += 1
                 state = uploader.load_state() # refresh state
