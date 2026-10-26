@@ -94,14 +94,33 @@ def download_youtube_audio_and_thumb(video_id, output_base):
             
     return mp3_path, thumb_path
 
+KHUTBAH_KEYWORDS = [
+    "خطبة", "خطب", "الخطبة", "الخطب", "خطبتي", "خطبتي الجمعة",
+    "محاضرة", "محاضرات", "كلمة توجيهية", "كلمة الشيخ",
+    "موعظة", "ندوة", "لقاء", "مؤتمر", "برنامج", "حوار"
+]
+
+def is_khutbah(title, category_name=""):
+    """Returns True if the video is a sermon/speech, so it gets excluded permanently."""
+    text = f"{title} {category_name}".strip()
+    for kw in KHUTBAH_KEYWORDS:
+        if kw in text:
+            return True
+    return False
+
 def sync_youtube_video(video_entry, category_name="صلوات الحرم المكي"):
     """Sync a single YouTube video to Archive.org with full metadata."""
     video_id = video_entry.get("id")
     title = video_entry.get("title", "")
     
-    # Ignore shorts (by title tags or duration)
+    # 1. Ignore Shorts permanently
     if "#shorts" in title.lower():
-        print(f"Skipping short: {title}")
+        print(f"Skipping Short (excluded): {title}")
+        return None
+        
+    # 2. Ignore Sermons/Khutbahs permanently
+    if is_khutbah(title, category_name):
+        print(f"Skipping Sermon/Khutbah (excluded permanently): {title}")
         return None
         
     state = uploader.load_state()
@@ -208,6 +227,10 @@ if __name__ == "__main__":
     
     if args.playlist:
         videos, p_title = get_playlist_videos(args.playlist, args.limit)
+        if is_khutbah(p_title):
+            print(f"Skipping entire playlist '{p_title}' because it contains sermons/khutbahs.")
+            sys.exit(0)
+            
         print(f"Syncing {len(videos)} videos from playlist: {p_title}")
         for v in videos:
             sync_youtube_video(v, category_name=p_title)
