@@ -78,9 +78,10 @@ def download_youtube_audio_and_thumb(video_id, output_base):
     mp3_path = f"{output_base}.mp3"
     thumb_path = f"{output_base}.jpg"
     
-    # 1. Download best audio
+    # 1. Download best audio with remote JS challenge solver (ejs)
     cmd_audio = [
         "yt-dlp",
+        "--remote-components", "ejs:github",
         "-x",
         "--audio-format", "mp3",
         "--audio-quality", "0",

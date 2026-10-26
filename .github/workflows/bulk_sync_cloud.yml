@@ -31,10 +31,15 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
 
+      - name: Setup Deno (JavaScript Runtime for yt-dlp)
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
       - name: Install FFmpeg & Dependencies
         run: |
           sudo apt-get update && sudo apt-get install -y ffmpeg
-          pip install --upgrade pip
+          pip install --upgrade pip yt-dlp
           pip install -r requirements.txt
 
       - name: Configure Archive.org S3 Keys
