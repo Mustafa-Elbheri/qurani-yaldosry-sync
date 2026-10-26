@@ -74,12 +74,12 @@ jobs:
         run: |
           git config --global user.name "Qurani Cloud Bot"
           git config --global user.email "bot@qurani.app"
-          git pull --rebase origin master
           git add catalog.json sync_state.json
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
             git commit -m "chore: cloud sync batch completed [skip ci]"
+            git pull --rebase origin master
             git push origin master
           fi
 
