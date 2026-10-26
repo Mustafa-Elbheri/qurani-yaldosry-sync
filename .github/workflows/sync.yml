@@ -1,0 +1,54 @@
+name: Auto-Sync Yaldosry to Archive.org
+
+on:
+  schedule:
+    # Run every 6 hours automatically (at 00:00, 06:00, 12:00, 18:00 UTC)
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI anytime
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          pip install --upgrade pip
+          pip install requests beautifulsoup4 internetarchive
+
+      - name: Configure Archive.org S3 Keys
+        run: |
+          mkdir -p ~/.config
+          echo "[s3]" > ~/.ia
+          echo "access = ${{ secrets.IA_ACCESS_KEY }}" >> ~/.ia
+          echo "secret = ${{ secrets.IA_SECRET_KEY }}" >> ~/.ia
+
+      - name: Run Auto Sync
+        run: |
+          python auto_sync.py
+
+      - name: Commit and Push Catalog Updates
+        run: |
+          git config --global user.name "Qurani Bot"
+          git config --global user.email "bot@qurani.app"
+          git add catalog.json sync_state.json
+          if git diff --staged --quiet; then
+            echo "No changes in catalog to commit."
+          else
+            git commit -m "chore(sync): update catalog and state with latest recitations [skip ci]"
+            git push
+          fi
