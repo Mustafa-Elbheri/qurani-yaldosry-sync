@@ -1,4 +1,7 @@
 __pycache__/
 *.pyc
 *.mp3
+*.jpg
+cookies.txt
+*cookie*.txt
 .env

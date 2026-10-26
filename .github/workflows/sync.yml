@@ -37,9 +37,23 @@ jobs:
           echo "access = ${{ secrets.IA_ACCESS_KEY }}" >> ~/.ia
           echo "secret = ${{ secrets.IA_SECRET_KEY }}" >> ~/.ia
 
+      - name: Inject YouTube Cookies
+        run: |
+          if [ -n "${{ secrets.YT_COOKIES }}" ]; then
+            echo "${{ secrets.YT_COOKIES }}" | base64 --decode > cookies.txt
+            echo "YouTube authentication cookies injected successfully."
+          else
+            echo "No YT_COOKIES secret found."
+          fi
+
       - name: Run Auto Sync from YouTube
         run: |
           python auto_sync.py
+
+      - name: Clean up Cookies
+        if: always()
+        run: |
+          rm -f cookies.txt
 
       - name: Commit and Push Catalog Updates
         run: |

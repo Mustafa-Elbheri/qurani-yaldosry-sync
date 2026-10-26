@@ -14,6 +14,11 @@ if hasattr(sys.stderr, 'reconfigure'):
 
 CHANNEL_VIDEOS_URL = "https://www.youtube.com/channel/UClncV9OLPto_MinRzGfjr2g/videos"
 
+def get_cookie_file():
+    if os.path.exists("cookies.txt") and os.path.getsize("cookies.txt") > 0:
+        return "cookies.txt"
+    return None
+
 def get_channel_long_videos(limit=50):
     """
     Fetches only long videos from the /videos tab.
@@ -24,9 +29,12 @@ def get_channel_long_videos(limit=50):
         "yt-dlp",
         "--flat-playlist",
         "--dump-single-json",
-        "--playlist-items", f"1:{limit}",
-        CHANNEL_VIDEOS_URL
+        "--playlist-items", f"1:{limit}"
     ]
+    cookie_file = get_cookie_file()
+    if cookie_file:
+        cmd.extend(["--cookies", cookie_file])
+    cmd.append(CHANNEL_VIDEOS_URL)
     
     proc = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", errors="ignore")
     try:
@@ -44,9 +52,12 @@ def get_playlist_videos(playlist_id, limit=None):
     cmd = [
         "yt-dlp",
         "--flat-playlist",
-        "--dump-single-json",
-        url
+        "--dump-single-json"
     ]
+    cookie_file = get_cookie_file()
+    if cookie_file:
+        cmd.extend(["--cookies", cookie_file])
+    cmd.append(url)
     if limit:
         cmd.extend(["--playlist-items", f"1:{limit}"])
         
@@ -67,16 +78,21 @@ def download_youtube_audio_and_thumb(video_id, output_base):
     mp3_path = f"{output_base}.mp3"
     thumb_path = f"{output_base}.jpg"
     
-    # 1. Download best audio using visionos and ios player clients to bypass datacenter bot detection
+    # 1. Download best audio
     cmd_audio = [
         "yt-dlp",
-        "--extractor-args", "youtube:player_client=visionos,ios,mweb",
         "-x",
         "--audio-format", "mp3",
         "--audio-quality", "0",
-        "-o", f"{output_base}.%(ext)s",
-        video_url
+        "-o", f"{output_base}.%(ext)s"
     ]
+    cookie_file = get_cookie_file()
+    if cookie_file:
+        cmd_audio.extend(["--cookies", cookie_file])
+    else:
+        cmd_audio.extend(["--extractor-args", "youtube:player_client=visionos,ios,mweb"])
+        
+    cmd_audio.append(video_url)
     res_audio = subprocess.run(cmd_audio, capture_output=True, text=True)
     if not os.path.exists(mp3_path):
         print(f"  ERROR: Failed to download audio for {video_id}")
