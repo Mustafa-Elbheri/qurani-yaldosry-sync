@@ -1,6 +1,9 @@
 name: Cloud Bulk Sync (Zero Local Bandwidth)
 
 on:
+  schedule:
+    # Runs automatically every hour in the cloud while you sleep!
+    - cron: '0 * * * *'
   workflow_dispatch:
     inputs:
       limit:
@@ -10,7 +13,7 @@ on:
       workers:
         description: 'Number of parallel cloud workers'
         required: true
-        default: '4'
+        default: '2'
 
 permissions:
   contents: write
@@ -60,7 +63,7 @@ jobs:
 
       - name: Run High-Speed Bulk Sync in the Cloud
         run: |
-          python bulk_sync.py --workers ${{ github.event.inputs.workers }} --limit ${{ github.event.inputs.limit }}
+          python bulk_sync.py --workers ${{ github.event.inputs.workers || '2' }} --limit ${{ github.event.inputs.limit || '50' }}
 
       - name: Clean up Cookies
         if: always()
