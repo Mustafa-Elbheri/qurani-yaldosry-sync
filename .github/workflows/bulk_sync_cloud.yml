@@ -19,6 +19,10 @@ permissions:
   contents: write
   actions: write
 
+concurrency:
+  group: cloud-bulk-sync
+  cancel-in-progress: false
+
 jobs:
   cloud_sync:
     runs-on: ubuntu-latest
