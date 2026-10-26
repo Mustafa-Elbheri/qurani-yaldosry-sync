@@ -17,6 +17,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   cloud_sync:
@@ -77,28 +78,26 @@ jobs:
         run: |
           rm -f cookies.txt
 
-      - name: Generate App Collections and Upload to Archive.org
-        run: |
-          python generate_collections.py
-          ia upload qurani-yasser-aldosari-prayers aldosari_prayers.json || true
-
       - name: Commit and Push Updated Catalog & State
         run: |
           git config --global user.name "Qurani Cloud Bot"
           git config --global user.email "bot@qurani.app"
-          git add catalog.json sync_state.json aldosari_prayers.json
+          git fetch origin master
+          git pull --rebase -X ours origin master || true
+          python generate_collections.py
+          ia upload qurani-yasser-aldosari-prayers aldosari_prayers.json || true
+          git add catalog.json sync_state.json aldosari_prayers.json last_run_stats.json || true
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore: cloud sync batch completed [skip ci]"
-            git pull --rebase origin master
-            git push origin master
+            git commit -m "chore: cloud sync batch completed [skip ci]" || true
+            git push origin master || (git pull --rebase -X ours origin master && git push origin master)
           fi
 
       - name: Auto-Chain Next Batch
         if: success()
         env:
-          GH_TOKEN: ${{ secrets.GH_PAT }}
+          GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
         run: |
           python -c "
           import json, sys
