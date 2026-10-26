@@ -74,11 +74,15 @@ jobs:
         run: |
           rm -f cookies.txt
 
+      - name: Generate App Collections
+        run: |
+          python generate_collections.py
+
       - name: Commit and Push Updated Catalog & State
         run: |
           git config --global user.name "Qurani Cloud Bot"
           git config --global user.email "bot@qurani.app"
-          git add catalog.json sync_state.json
+          git add catalog.json sync_state.json aldosari_prayers.json
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
