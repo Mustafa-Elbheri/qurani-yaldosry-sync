@@ -1,9 +1,15 @@
 import os
+import sys
 import json
 import subprocess
 import time
 import requests
 import internetarchive as ia
+
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(encoding='utf-8', errors='replace')
 
 STATE_FILE = os.path.join(os.path.dirname(__file__), "sync_state.json")
 CATALOG_FILE = os.path.join(os.path.dirname(__file__), "catalog.json")

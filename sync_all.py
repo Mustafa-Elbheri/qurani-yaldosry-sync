@@ -5,6 +5,11 @@ import time
 import crawler
 import uploader
 
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(encoding='utf-8', errors='replace')
+
 VALID_SECTIONS = ["prayers", "taraweeh", "quran", "editions", "miscellanies"]
 
 def sync_section(section_name, target_category_name=None, max_items=None):
@@ -34,18 +39,36 @@ def sync_section(section_name, target_category_name=None, max_items=None):
             continue
             
         print(f"\n>>> Processing Category: {cat_name} ...")
-        cat_items = crawler.crawl_category(c)
-        print(f"  Extracted {len(cat_items)} valid recitations from {cat_name}.")
+        raw_items = crawler.get_category_items(c["url"], section_name)
+        print(f"  Found {len(raw_items)} items in {cat_name}.")
         
-        for item in cat_items:
+        for idx, item in enumerate(raw_items, 1):
             item_id = str(item["id"])
             if item_id in state and state[item_id].get("archive_url"):
-                print(f"  - Item {item_id} already synced: {state[item_id]['archive_url']}")
+                print(f"  [{idx}/{len(raw_items)}] Item {item_id} already synced: {state[item_id]['archive_url']}")
                 continue
                 
-            res = uploader.upload_recitation(item)
+            print(f"  [{idx}/{len(raw_items)}] Fetching media for Item {item_id}: {item['title']} ...")
+            media = crawler.get_item_media(item["url"])
+            if not media["audio_url"]:
+                print(f"    Warning: No audio found for {item_id}")
+                continue
+                
+            full_item = {
+                "id": item_id,
+                "title": media["full_title"] or item["title"],
+                "section": section_name,
+                "category": cat_name,
+                "page_url": item["url"],
+                "source_audio_url": media["audio_url"],
+                "youtube_url": media["youtube_url"],
+                "thumbnail": item["thumbnail"]
+            }
+            
+            res = uploader.upload_recitation(full_item)
             if res:
                 total_uploaded += 1
+                state = uploader.load_state() # refresh state
                 
             if max_items and total_uploaded >= max_items:
                 print(f"\nReached max items limit ({max_items}). Stopping.")

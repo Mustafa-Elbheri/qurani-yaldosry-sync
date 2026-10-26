@@ -1,9 +1,15 @@
 import os
+import sys
 import json
 import time
 import requests
 from bs4 import BeautifulSoup
 import uploader
+
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(encoding='utf-8', errors='replace')
 
 BASE_URL = "http://yaldosry.com"
 
