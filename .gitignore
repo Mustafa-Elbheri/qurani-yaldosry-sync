@@ -2,6 +2,7 @@ __pycache__/
 *.pyc
 *.mp3
 *.jpg
+last_run_stats.json
 cookies.txt
 *cookie*.txt
 .env

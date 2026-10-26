@@ -112,8 +112,13 @@ def start_bulk_sync(max_workers=3, limit=None):
                 print(f"Worker exception: {e}")
                 
     total_time_mins = round((time.time() - start_time) / 60, 2)
+    new_in_this_run = progress_info["completed"] - progress_info["skipped"]
+    with open("last_run_stats.json", "w", encoding="utf-8") as f:
+        json.dump({"new_synced": new_in_this_run, "total": progress_info["completed"]}, f)
+        
     print("\n" + "=" * 70)
     print(f"🏁 BULK SYNC COMPLETED in {total_time_mins} minutes!")
+    print(f"Newly uploaded in this run: {new_in_this_run} items.")
     print(f"Total recitations in Archive.org: {progress_info['completed']}")
     print("=" * 70)
 
