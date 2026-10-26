@@ -66,8 +66,11 @@ jobs:
           fi
 
       - name: Run High-Speed Bulk Sync in the Cloud
+        env:
+          WORKERS: ${{ github.event.inputs.workers || '2' }}
+          LIMIT: ${{ github.event.inputs.limit || '50' }}
         run: |
-          python bulk_sync.py --workers ${{ github.event.inputs.workers || '2' }} --limit ${{ github.event.inputs.limit || '50' }}
+          python bulk_sync.py --workers "$WORKERS" --limit "$LIMIT"
 
       - name: Clean up Cookies
         if: always()
