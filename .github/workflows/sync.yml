@@ -61,11 +61,16 @@ jobs:
         run: |
           rm -f cookies.txt
 
+      - name: Generate App Collections and Upload to Archive.org
+        run: |
+          python generate_collections.py
+          ia upload qurani-yasser-aldosari-prayers aldosari_prayers.json || true
+
       - name: Commit and Push Catalog Updates
         run: |
           git config --global user.name "Qurani Bot"
           git config --global user.email "bot@qurani.app"
-          git add catalog.json sync_state.json
+          git add catalog.json sync_state.json aldosari_prayers.json
           if git diff --staged --quiet; then
             echo "No changes in catalog to commit."
           else
