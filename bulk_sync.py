@@ -42,6 +42,9 @@ def process_single_video(video_entry, progress_info):
         record = youtube_sync.sync_youtube_video(video_entry)
         t_elapsed = round(time.time() - t0, 1)
         
+        # Polite delay to avoid YouTube session rate-limits
+        time.sleep(3)
+        
         with STATE_LOCK:
             if record:
                 progress_info["completed"] += 1
