@@ -67,9 +67,10 @@ def download_youtube_audio_and_thumb(video_id, output_base):
     mp3_path = f"{output_base}.mp3"
     thumb_path = f"{output_base}.jpg"
     
-    # 1. Download best audio and convert to mp3
+    # 1. Download best audio and convert to mp3 with android client emulation to bypass cloud IP blocks
     cmd_audio = [
         "yt-dlp",
+        "--extractor-args", "youtube:player_client=android,web",
         "-x",
         "--audio-format", "mp3",
         "--audio-quality", "0",
