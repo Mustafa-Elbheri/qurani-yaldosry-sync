@@ -12313,23 +12313,6 @@
     "uploaded_at": "2026-10-27 08:40:28"
   },
   {
-    "id": "yt_a5xzcovUq0o",
-    "youtube_id": "a5xzcovUq0o",
-    "title": "هذه التلاوة أعجز عن وصفها | الآسر د. ياسر الدوسري في ترنّم لن يتكرر لسورة إبراهيم كاملة",
-    "standard_name": "1445_Prayer_Ibrahim_yt_a5xzcovUq0o",
-    "section": "prayers",
-    "category": "صلوات الحرم المكي",
-    "track": "yt_a5xzcovUq0o",
-    "date": "1445",
-    "year": "1445",
-    "source_type": "youtube",
-    "youtube_url": "https://www.youtube.com/watch?v=a5xzcovUq0o",
-    "archive_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Ibrahim_yt_a5xzcovUq0o.mp3",
-    "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Ibrahim_yt_a5xzcovUq0o.jpg",
-    "size_mb": 29.24,
-    "uploaded_at": "2026-10-27 08:42:28"
-  },
-  {
     "id": "yt_CkcPGXp0UA4",
     "youtube_id": "CkcPGXp0UA4",
     "title": "حصريا😍😍 | ليالي رمضان 1431 بتسجيل خاص للشيخ د. ياسر الدوسري..من سورة آل عمران ليلة لا تنسى للآسر",
@@ -12345,23 +12328,6 @@
     "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1431_Prayer_Ali-Imran_yt_CkcPGXp0UA4.jpg",
     "size_mb": 39.96,
     "uploaded_at": "2026-10-27 08:42:30"
-  },
-  {
-    "id": "yt_NJYfqW3jZio",
-    "youtube_id": "NJYfqW3jZio",
-    "title": "فجرية عراقية مُختلفة تأسر القلوب .. لا تفتكم! | من سورة الزمر لـ د.ياسر الدوسري 25-1-1445هـ",
-    "standard_name": "1445-01-25_Fajr_Az-Zumar_yt_NJYfqW3jZio",
-    "section": "prayers",
-    "category": "صلوات الحرم المكي",
-    "track": "yt_NJYfqW3jZio",
-    "date": "1445-01-25",
-    "year": "1445",
-    "source_type": "youtube",
-    "youtube_url": "https://www.youtube.com/watch?v=NJYfqW3jZio",
-    "archive_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445-01-25_Fajr_Az-Zumar_yt_NJYfqW3jZio.mp3",
-    "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445-01-25_Fajr_Az-Zumar_yt_NJYfqW3jZio.jpg",
-    "size_mb": 14.78,
-    "uploaded_at": "2026-10-27 08:42:47"
   },
   {
     "id": "yt_E9QnjwnjGRU",
@@ -12396,23 +12362,6 @@
     "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-11-11_Fajr_An-Naba_yt_tMHGKNRgmt4.jpg",
     "size_mb": 12.86,
     "uploaded_at": "2026-10-27 08:43:20"
-  },
-  {
-    "id": "yt_W1PxYa_9WvY",
-    "youtube_id": "W1PxYa_9WvY",
-    "title": "العِقدُ الآسِرْ لتلاوات الشيخ ياسر الدوسري | تلاوات شهر شوال لعام 1444هـ من الحرم المكي✨",
-    "standard_name": "1444_Prayer_Qaf_yt_W1PxYa_9WvY",
-    "section": "prayers",
-    "category": "صلوات الحرم المكي",
-    "track": "yt_W1PxYa_9WvY",
-    "date": "1444",
-    "year": "1444",
-    "source_type": "youtube",
-    "youtube_url": "https://www.youtube.com/watch?v=W1PxYa_9WvY",
-    "archive_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_Qaf_yt_W1PxYa_9WvY.mp3",
-    "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_Qaf_yt_W1PxYa_9WvY.jpg",
-    "size_mb": 70.32,
-    "uploaded_at": "2026-10-27 08:43:34"
   },
   {
     "id": "yt_w7lEPK9Gw9k",
@@ -13161,5 +13110,56 @@
     "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445-07-19_Maghrib_Al-Baqarah_yt_nlSLir-Kgdo.jpg",
     "size_mb": 6.55,
     "uploaded_at": "2026-10-27 08:58:31"
+  },
+  {
+    "id": "yt_NJYfqW3jZio",
+    "youtube_id": "NJYfqW3jZio",
+    "title": "فجرية عراقية مُختلفة تأسر القلوب .. لا تفتكم! | من سورة الزمر لـ د.ياسر الدوسري 25-1-1445هـ",
+    "standard_name": "1445-01-25_Fajr_Az-Zumar_yt_NJYfqW3jZio",
+    "section": "prayers",
+    "category": "صلوات الحرم المكي",
+    "track": "yt_NJYfqW3jZio",
+    "date": "1445-01-25",
+    "year": "1445",
+    "source_type": "youtube",
+    "youtube_url": "https://www.youtube.com/watch?v=NJYfqW3jZio",
+    "archive_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445-01-25_Fajr_Az-Zumar_yt_NJYfqW3jZio.mp3",
+    "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445-01-25_Fajr_Az-Zumar_yt_NJYfqW3jZio.jpg",
+    "size_mb": 14.78,
+    "uploaded_at": "2026-10-27 09:00:07"
+  },
+  {
+    "id": "yt_a5xzcovUq0o",
+    "youtube_id": "a5xzcovUq0o",
+    "title": "هذه التلاوة أعجز عن وصفها | الآسر د. ياسر الدوسري في ترنّم لن يتكرر لسورة إبراهيم كاملة",
+    "standard_name": "1445_Prayer_Ibrahim_yt_a5xzcovUq0o",
+    "section": "prayers",
+    "category": "صلوات الحرم المكي",
+    "track": "yt_a5xzcovUq0o",
+    "date": "1445",
+    "year": "1445",
+    "source_type": "youtube",
+    "youtube_url": "https://www.youtube.com/watch?v=a5xzcovUq0o",
+    "archive_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Ibrahim_yt_a5xzcovUq0o.mp3",
+    "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Ibrahim_yt_a5xzcovUq0o.jpg",
+    "size_mb": 29.24,
+    "uploaded_at": "2026-10-27 09:00:14"
+  },
+  {
+    "id": "yt_W1PxYa_9WvY",
+    "youtube_id": "W1PxYa_9WvY",
+    "title": "العِقدُ الآسِرْ لتلاوات الشيخ ياسر الدوسري | تلاوات شهر شوال لعام 1444هـ من الحرم المكي✨",
+    "standard_name": "1444_Prayer_Qaf_yt_W1PxYa_9WvY",
+    "section": "prayers",
+    "category": "صلوات الحرم المكي",
+    "track": "yt_W1PxYa_9WvY",
+    "date": "1444",
+    "year": "1444",
+    "source_type": "youtube",
+    "youtube_url": "https://www.youtube.com/watch?v=W1PxYa_9WvY",
+    "archive_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_Qaf_yt_W1PxYa_9WvY.mp3",
+    "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_Qaf_yt_W1PxYa_9WvY.jpg",
+    "size_mb": 70.32,
+    "uploaded_at": "2026-10-27 09:00:46"
   }
 ]
