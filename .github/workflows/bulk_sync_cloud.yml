@@ -9,7 +9,7 @@ on:
       limit:
         description: 'Number of videos to sync in this cloud run (e.g. 50, 100)'
         required: true
-        default: '50'
+        default: '100'
       workers:
         description: 'Number of parallel cloud workers'
         required: true
@@ -82,7 +82,7 @@ jobs:
       - name: Run High-Speed Bulk Sync in the Cloud
         env:
           WORKERS: ${{ github.event.inputs.workers || '2' }}
-          LIMIT: ${{ github.event.inputs.limit || '50' }}
+          LIMIT: ${{ github.event.inputs.limit || '100' }}
         run: |
           python bulk_sync.py --workers "$WORKERS" --limit "$LIMIT"
 
@@ -134,4 +134,4 @@ jobs:
           else:
               print('All recitations have been fully synced!')
               sys.exit(1)
-          " && gh workflow run "Cloud Bulk Sync (Zero Local Bandwidth)" -f limit=50 -f workers=2 || echo "Chain paused or complete."
+          " && gh workflow run "Cloud Bulk Sync (Zero Local Bandwidth)" -f limit=100 -f workers=2 || echo "Chain paused or complete."
