@@ -12789,23 +12789,6 @@
     "uploaded_at": "2026-10-27 08:51:12"
   },
   {
-    "id": "yt_HDbFTfmLb9M",
-    "youtube_id": "HDbFTfmLb9M",
-    "title": "\"إن زلزلة الساعة شيء عظيم\" تلاوة خاشعة لفواتح سورة الحج للشيخ د. ياسر الدوسري | فجر  20-8-1444هـ",
-    "standard_name": "1444-08-20_Fajr_Al-Hajj_yt_HDbFTfmLb9M",
-    "section": "prayers",
-    "category": "صلوات الحرم المكي",
-    "track": "yt_HDbFTfmLb9M",
-    "date": "1444-08-20",
-    "year": "1444",
-    "source_type": "youtube",
-    "youtube_url": "https://www.youtube.com/watch?v=HDbFTfmLb9M",
-    "archive_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-08-20_Fajr_Al-Hajj_yt_HDbFTfmLb9M.mp3",
-    "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-08-20_Fajr_Al-Hajj_yt_HDbFTfmLb9M.jpg",
-    "size_mb": 10.69,
-    "uploaded_at": "2026-10-27 08:51:45"
-  },
-  {
     "id": "yt_rNWHoZyBqW4",
     "youtube_id": "rNWHoZyBqW4",
     "title": "تلاوة جميلة للشيخ د.⁧ ياسر الدوسري⁩ لخواتيم سورة الرحمن | فجر الاثنين 21-8-1444هـ",
@@ -13161,5 +13144,39 @@
     "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_Qaf_yt_W1PxYa_9WvY.jpg",
     "size_mb": 70.32,
     "uploaded_at": "2026-10-27 09:00:46"
+  },
+  {
+    "id": "yt_HDbFTfmLb9M",
+    "youtube_id": "HDbFTfmLb9M",
+    "title": "\"إن زلزلة الساعة شيء عظيم\" تلاوة خاشعة لفواتح سورة الحج للشيخ د. ياسر الدوسري | فجر  20-8-1444هـ",
+    "standard_name": "1444-08-20_Fajr_Al-Hajj_yt_HDbFTfmLb9M",
+    "section": "prayers",
+    "category": "صلوات الحرم المكي",
+    "track": "yt_HDbFTfmLb9M",
+    "date": "1444-08-20",
+    "year": "1444",
+    "source_type": "youtube",
+    "youtube_url": "https://www.youtube.com/watch?v=HDbFTfmLb9M",
+    "archive_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-08-20_Fajr_Al-Hajj_yt_HDbFTfmLb9M.mp3",
+    "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-08-20_Fajr_Al-Hajj_yt_HDbFTfmLb9M.jpg",
+    "size_mb": 10.69,
+    "uploaded_at": "2026-10-27 09:17:20"
+  },
+  {
+    "id": "yt_GZFOSpS1bmI",
+    "youtube_id": "GZFOSpS1bmI",
+    "title": "تلاوة خاشعة من سورة آل عمران للشيخ أ.د. ياسر الدوسري | مغرب الخميس 18-7-1444هـ",
+    "standard_name": "1444-07-18_Maghrib_Ali-Imran_yt_GZFOSpS1bmI",
+    "section": "prayers",
+    "category": "صلوات الحرم المكي",
+    "track": "yt_GZFOSpS1bmI",
+    "date": "1444-07-18",
+    "year": "1444",
+    "source_type": "youtube",
+    "youtube_url": "https://www.youtube.com/watch?v=GZFOSpS1bmI",
+    "archive_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-07-18_Maghrib_Ali-Imran_yt_GZFOSpS1bmI.mp3",
+    "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-07-18_Maghrib_Ali-Imran_yt_GZFOSpS1bmI.jpg",
+    "size_mb": 5.75,
+    "uploaded_at": "2026-10-27 09:19:39"
   }
 ]
