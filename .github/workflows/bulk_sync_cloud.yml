@@ -33,6 +33,17 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Set up Cloudflare WARP (Bypass Datacenter IP Block)
+        uses: fscarmen/warp-on-actions@v1.4
+        with:
+          stack: dual
+          mode: wireguard
+
+      - name: Verify Public Exit IP
+        run: |
+          echo "=== Cloudflare WARP Exit IP Info ==="
+          curl -s https://www.cloudflare.com/cdn-cgi/trace | grep -E "ip|loc|warp" || true
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
