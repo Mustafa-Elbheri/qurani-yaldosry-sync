@@ -60,14 +60,9 @@ jobs:
           echo "access = ${{ secrets.IA_ACCESS_KEY }}" >> ~/.ia
           echo "secret = ${{ secrets.IA_SECRET_KEY }}" >> ~/.ia
 
-      - name: Inject YouTube Cookies
+      - name: YouTube Mobile Client Protocol
         run: |
-          if [ -n "${{ secrets.YT_COOKIES }}" ]; then
-            echo "${{ secrets.YT_COOKIES }}" | base64 --decode > cookies.txt
-            echo "YouTube authentication cookies injected successfully."
-          else
-            echo "No YT_COOKIES secret found."
-          fi
+          echo "Using native Android client protocol (player_skip=webpage,configs) to bypass cloud bot challenges."
 
       - name: Run High-Speed Bulk Sync in the Cloud
         env:

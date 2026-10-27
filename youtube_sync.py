@@ -15,6 +15,9 @@ if hasattr(sys.stderr, 'reconfigure'):
 CHANNEL_VIDEOS_URL = "https://www.youtube.com/channel/UClncV9OLPto_MinRzGfjr2g/videos"
 
 def get_cookie_file():
+    # Never use browser cookies in GitHub Actions to avoid datacenter bot challenge
+    if os.environ.get("GITHUB_ACTIONS"):
+        return None
     if os.path.exists("cookies.txt") and os.path.getsize("cookies.txt") > 0:
         return "cookies.txt"
     return None
@@ -29,7 +32,7 @@ def get_channel_long_videos(limit=50):
         "yt-dlp",
         "--flat-playlist",
         "--dump-single-json",
-        "--extractor-args", "youtube:player_client=android,ios,mweb",
+        "--extractor-args", "youtube:player_client=android;player_skip=webpage,configs",
         "--playlist-items", f"1:{limit}"
     ]
     cookie_file = get_cookie_file()
@@ -54,7 +57,7 @@ def get_playlist_videos(playlist_id, limit=None):
         "yt-dlp",
         "--flat-playlist",
         "--dump-single-json",
-        "--extractor-args", "youtube:player_client=android,ios,mweb"
+        "--extractor-args", "youtube:player_client=android;player_skip=webpage,configs"
     ]
     cookie_file = get_cookie_file()
     if cookie_file:
@@ -84,7 +87,7 @@ def download_youtube_audio_and_thumb(video_id, output_base):
     cmd_audio = [
         "yt-dlp",
         "--remote-components", "ejs:github",
-        "--extractor-args", "youtube:player_client=android,ios,mweb",
+        "--extractor-args", "youtube:player_client=android;player_skip=webpage,configs",
         "-x",
         "--audio-format", "mp3",
         "--audio-quality", "0",
