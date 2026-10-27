@@ -35,6 +35,8 @@ def get_channel_long_videos(limit=50):
         "--extractor-args", "youtube:player_client=android;player_skip=webpage,configs",
         "--playlist-items", f"1:{limit}"
     ]
+    if os.environ.get("GITHUB_ACTIONS"):
+        cmd.extend(["--proxy", "socks5://127.0.0.1:40000"])
     cookie_file = get_cookie_file()
     if cookie_file:
         cmd.extend(["--cookies", cookie_file])
@@ -93,6 +95,8 @@ def download_youtube_audio_and_thumb(video_id, output_base):
         "--audio-quality", "0",
         "-o", f"{output_base}.%(ext)s"
     ]
+    if os.environ.get("GITHUB_ACTIONS"):
+        cmd_audio.extend(["--proxy", "socks5://127.0.0.1:40000"])
     cookie_file = get_cookie_file()
     if cookie_file:
         cmd_audio.extend(["--cookies", cookie_file])

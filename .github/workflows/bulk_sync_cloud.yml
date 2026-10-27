@@ -33,16 +33,20 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set up Cloudflare WARP (Bypass Datacenter IP Block)
-        uses: fscarmen/warp-on-actions@v1.4
-        with:
-          stack: dual
-          mode: wireguard
-
-      - name: Verify Public Exit IP
+      - name: Setup Cloudflare WARP SOCKS5 Proxy (YouTube Only)
         run: |
-          echo "=== Cloudflare WARP Exit IP Info ==="
-          curl -s https://www.cloudflare.com/cdn-cgi/trace | grep -E "ip|loc|warp" || true
+          curl -fsSL https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
+          echo "deb [arch=amd64 signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/cloudflare-client.list
+          sudo apt-get update && sudo apt-get install -y cloudflare-warp
+          sudo systemctl start warp-svc
+          sleep 2
+          warp-cli --accept-tos registration new || true
+          warp-cli --accept-tos mode proxy
+          warp-cli --accept-tos proxy port 40000
+          warp-cli --accept-tos connect
+          sleep 3
+          echo "=== Cloudflare WARP Proxy Active on 127.0.0.1:40000 ==="
+          curl -s --socks5-hostname 127.0.0.1:40000 https://www.cloudflare.com/cdn-cgi/trace | grep -E "ip|loc|warp" || true
 
       - name: Set up Python
         uses: actions/setup-python@v5
