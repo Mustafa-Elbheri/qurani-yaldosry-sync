@@ -96,6 +96,11 @@ def download_youtube_audio_and_thumb(video_id, output_base):
         
     cmd_audio.append(video_url)
     res_audio = subprocess.run(cmd_audio, capture_output=True, text=True)
+    if not os.path.exists(mp3_path) and cookie_file:
+        # Fallback without expired cookies
+        cmd_no_cookies = [arg for arg in cmd_audio if arg != "--cookies" and arg != cookie_file]
+        res_audio = subprocess.run(cmd_no_cookies, capture_output=True, text=True)
+
     if not os.path.exists(mp3_path):
         print(f"  ERROR: Failed to download audio for {video_id}")
         if res_audio.stderr:
