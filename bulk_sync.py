@@ -13,9 +13,12 @@ if hasattr(sys.stderr, 'reconfigure'):
     sys.stderr.reconfigure(encoding='utf-8', errors='replace')
 
 STATE_LOCK = threading.Lock()
+STOP_SYNC = threading.Event()
 
 def process_single_video(video_entry, progress_info):
     """Worker function to process and upload a single video."""
+    if STOP_SYNC.is_set():
+        return None
     video_id = video_entry.get("id")
     title = video_entry.get("title", "")
     
@@ -52,6 +55,10 @@ def process_single_video(video_entry, progress_info):
                 total_all = progress_info["total"]
                 print(f"==> PROGRESS: [{total_done}/{total_all}] Finished in {t_elapsed}s | {title[:50]}...")
             return record
+    except youtube_sync.ArchiveGlobalLimitExceeded as e:
+        print(f"\n[Archive.org Queue Cooldown Triggered] Server account limit reached: {e}. Pausing batch gracefully.")
+        STOP_SYNC.set()
+        return None
     except Exception as e:
         print(f"Error processing video {video_id}: {e}")
         return None

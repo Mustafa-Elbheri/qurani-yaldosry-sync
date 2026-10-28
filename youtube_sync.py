@@ -8,6 +8,10 @@ import threading
 import requests
 import uploader
 
+class ArchiveGlobalLimitExceeded(Exception):
+    """Raised when Archive.org account reaches total_tasks_queued global_limit."""
+    pass
+
 ARCHIVE_UPLOAD_LOCK = threading.Lock()
 
 if hasattr(sys.stdout, 'reconfigure'):
@@ -241,6 +245,9 @@ def sync_youtube_video(video_entry, category_name="صلوات الحرم الم�
                 except Exception as upload_err:
                     last_upload_err = upload_err
                     err_msg = str(upload_err).lower()
+                    if "total_tasks_queued" in err_msg or "global_limit" in err_msg:
+                        print(f"  [Archive.org Global Limit] Account task queue is at maximum server capacity: {upload_err}")
+                        raise ArchiveGlobalLimitExceeded(upload_err)
                     is_rate_limit = any(k in err_msg for k in ["bucket_tasks_queued", "reduce your request rate", "slow down", "503", "429", "rationed amount"])
                     if is_rate_limit:
                         wait_time = 45 * attempt
