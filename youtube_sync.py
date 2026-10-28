@@ -33,6 +33,8 @@ def get_channel_long_videos(limit=50):
     print(f"Fetching long videos from channel: {CHANNEL_VIDEOS_URL} ...")
     cmd = [
         "yt-dlp",
+        "--socket-timeout", "30",
+        "--retries", "3",
         "--flat-playlist",
         "--dump-single-json",
         "--extractor-args", "youtube:player_client=android,ios,visionos;player_skip=configs",
@@ -45,8 +47,8 @@ def get_channel_long_videos(limit=50):
         cmd.extend(["--cookies", cookie_file])
     cmd.append(CHANNEL_VIDEOS_URL)
     
-    proc = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", errors="ignore")
     try:
+        proc = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", errors="ignore", timeout=300)
         data = json.loads(proc.stdout)
         entries = data.get("entries", [])
         return entries
@@ -91,6 +93,8 @@ def download_youtube_audio_and_thumb(video_id, output_base):
     # 1. Download best audio with remote JS challenge solver (ejs) + mobile client
     cmd_audio = [
         "yt-dlp",
+        "--socket-timeout", "30",
+        "--retries", "3",
         "--remote-components", "ejs:github",
         "--extractor-args", "youtube:player_client=android,ios,visionos;player_skip=configs",
         "-x",
@@ -105,11 +109,19 @@ def download_youtube_audio_and_thumb(video_id, output_base):
         cmd_audio.extend(["--cookies", cookie_file])
         
     cmd_audio.append(video_url)
-    res_audio = subprocess.run(cmd_audio, capture_output=True, text=True)
+    try:
+        res_audio = subprocess.run(cmd_audio, capture_output=True, text=True, timeout=180)
+    except subprocess.TimeoutExpired:
+        print(f"  ERROR: yt-dlp timed out downloading audio for {video_id}")
+        return None, None
+        
     if not os.path.exists(mp3_path) and cookie_file:
         # Fallback without expired cookies
         cmd_no_cookies = [arg for arg in cmd_audio if arg != "--cookies" and arg != cookie_file]
-        res_audio = subprocess.run(cmd_no_cookies, capture_output=True, text=True)
+        try:
+            res_audio = subprocess.run(cmd_no_cookies, capture_output=True, text=True, timeout=180)
+        except subprocess.TimeoutExpired:
+            return None, None
 
     if not os.path.exists(mp3_path):
         print(f"  ERROR: Failed to download audio for {video_id}")
