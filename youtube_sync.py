@@ -4,8 +4,11 @@ import json
 import re
 import subprocess
 import time
+import threading
 import requests
 import uploader
+
+ARCHIVE_UPLOAD_LOCK = threading.Lock()
 
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8', errors='replace')
@@ -204,13 +207,42 @@ def sync_youtube_video(video_entry, category_name="صلوات الحرم الم�
         
         print(f"  Uploading to Archive.org [{target_identifier}] with HD cover...")
         import internetarchive as ia
-        ia.upload(
-            target_identifier,
-            files=files_to_upload,
-            metadata=metadata,
-            queue_derive=False,
-            verbose=False
-        )
+        
+        # Upload serialized across threads with automatic retry & rate-limit queue drain backoff
+        with ARCHIVE_UPLOAD_LOCK:
+            max_upload_retries = 5
+            upload_success = False
+            last_upload_err = None
+            for attempt in range(1, max_upload_retries + 1):
+                try:
+                    ia.upload(
+                        target_identifier,
+                        files=files_to_upload,
+                        metadata=metadata,
+                        queue_derive=False,
+                        verbose=False
+                    )
+                    upload_success = True
+                    # Polite spacing between uploads to keep Archive.org catalog queue healthy
+                    time.sleep(3)
+                    break
+                except Exception as upload_err:
+                    last_upload_err = upload_err
+                    err_msg = str(upload_err).lower()
+                    is_rate_limit = any(k in err_msg for k in ["bucket_tasks_queued", "reduce your request rate", "slow down", "503", "429", "rationed amount"])
+                    if is_rate_limit:
+                        wait_time = 45 * attempt
+                        print(f"  [Archive.org Queue Saturated] Server task limit hit. Waiting {wait_time}s for queue to drain (Attempt {attempt}/{max_upload_retries})...")
+                        time.sleep(wait_time)
+                    else:
+                        if attempt == max_upload_retries:
+                            break
+                        print(f"  [Upload Warning] {upload_err}. Retrying in 15s (Attempt {attempt}/{max_upload_retries})...")
+                        time.sleep(15)
+                        
+            if not upload_success:
+                print(f"  ERROR: Upload permanently failed after {max_upload_retries} attempts: {last_upload_err}")
+                raise last_upload_err
         
         archive_url = f"https://archive.org/download/{target_identifier}/{remote_mp3}"
         archive_cover = f"https://archive.org/download/{target_identifier}/{remote_jpg}" if os.path.exists(jpg_file) else ""

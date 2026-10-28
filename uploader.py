@@ -243,13 +243,36 @@ def upload_recitation_with_cover(item_dict):
     
     print(f"  Uploading to Archive.org [{target_identifier}] with cover image & strict metadata...")
     try:
-        ia.upload(
-            target_identifier,
-            files=files_to_upload,
-            metadata=item_metadata,
-            queue_derive=False,
-            verbose=False
-        )
+        max_upload_retries = 5
+        upload_success = False
+        last_upload_err = None
+        for attempt in range(1, max_upload_retries + 1):
+            try:
+                ia.upload(
+                    target_identifier,
+                    files=files_to_upload,
+                    metadata=item_metadata,
+                    queue_derive=False,
+                    verbose=False
+                )
+                upload_success = True
+                break
+            except Exception as upload_err:
+                last_upload_err = upload_err
+                err_msg = str(upload_err).lower()
+                is_rate_limit = any(k in err_msg for k in ["bucket_tasks_queued", "reduce your request rate", "slow down", "503", "429", "rationed amount"])
+                if is_rate_limit:
+                    wait_time = 45 * attempt
+                    print(f"  [Archive.org Queue Saturated] Server task limit hit. Waiting {wait_time}s for queue to drain (Attempt {attempt}/{max_upload_retries})...")
+                    time.sleep(wait_time)
+                else:
+                    if attempt == max_upload_retries:
+                        break
+                    print(f"  [Upload Warning] {upload_err}. Retrying in 15s (Attempt {attempt}/{max_upload_retries})...")
+                    time.sleep(15)
+                    
+        if not upload_success:
+            raise last_upload_err
         
         archive_url = f"https://archive.org/download/{target_identifier}/{remote_mp3_name}"
         archive_thumb_url = f"https://archive.org/download/{target_identifier}/{remote_jpg_name}" if has_cover else ""
