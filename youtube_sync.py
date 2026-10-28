@@ -32,7 +32,7 @@ def get_channel_long_videos(limit=50):
         "yt-dlp",
         "--flat-playlist",
         "--dump-single-json",
-        "--extractor-args", "youtube:player_client=android;player_skip=webpage,configs",
+        "--extractor-args", "youtube:player_client=android,ios,visionos;player_skip=configs",
         "--playlist-items", f"1:{limit}"
     ]
     if os.environ.get("GITHUB_ACTIONS"):
@@ -59,7 +59,7 @@ def get_playlist_videos(playlist_id, limit=None):
         "yt-dlp",
         "--flat-playlist",
         "--dump-single-json",
-        "--extractor-args", "youtube:player_client=android;player_skip=webpage,configs"
+        "--extractor-args", "youtube:player_client=android,ios,visionos;player_skip=configs"
     ]
     cookie_file = get_cookie_file()
     if cookie_file:
@@ -89,7 +89,7 @@ def download_youtube_audio_and_thumb(video_id, output_base):
     cmd_audio = [
         "yt-dlp",
         "--remote-components", "ejs:github",
-        "--extractor-args", "youtube:player_client=android;player_skip=webpage,configs",
+        "--extractor-args", "youtube:player_client=android,ios,visionos;player_skip=configs",
         "-x",
         "--audio-format", "mp3",
         "--audio-quality", "0",

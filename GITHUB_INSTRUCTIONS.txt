@@ -56,11 +56,12 @@ https://archive.org/download/qurani-yasser-aldosari-prayers/aldosari_prayers.jso
    - هذا يمنح تحميلات يوتيوب عنوان IP مستقلاً ونظيفاً، بينما تظل بقية اتصالات السيرفر
      (Archive.org و GitHub Git) تعمل عبر شبكتها الرسمية الأصلية بأمان تام.
 
-3. بروتوكول تطبيق أندرويد وتخطي صفحات الويب:
+3. بروتوكول تطبيق أندرويد وتخطي صفحات الويب وتجاوز قيود SABR:
    - يتم تمرير المعاملات التالية لـ yt-dlp:
-     --extractor-args "youtube:player_client=android;player_skip=webpage,configs"
-   - هذا يلغي طلب صفحة الويب (HTML Webpage) التي تسبب الـ 429، ويخاطب خوادم يوتيوب
-     بواجهة تطبيق الموبايل الرسمية.
+     --extractor-args "youtube:player_client=android,ios,visionos;player_skip=configs"
+   - يدمج هذا البروتوكول عملاء (Android, iOS, visionOS) متخطياً صفحة الويب والـ configs،
+     مما يتجاوز تجارب يوتيوب لتقييد الروابط (SABR streaming) ويضمن توفر مسارات الصوت (Opus 251 / AAC 140)
+     بدون كابتشا أو أخطاء 429.
 
 4. نظام الدفعات المتسلسلة (Batch & Auto-Chain Architecture):
    - حجم الدفعة المعتمد: 25 إلى 50 تلاوة في كل تشغيلة (تستغرق حوالي 12-20 دقيقة).
