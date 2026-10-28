@@ -2906,3476 +2906,3741 @@
     },
     {
       "number": 581,
+      "name": "سورة يونس - ليلة ١٤ رمضان - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Yunus_yt_UxqoFq3UsLw.mp3"
+    },
+    {
+      "number": 582,
+      "name": "\"اللهم إنا نعوذ بك من الحَوْرِ بعد الكَوْر\" دعاء خاشع ١٤٤٢هـ | للشيخ د - ليلة ١٤ رمضان - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_yt_FhPvc2q_lsI.mp3"
+    },
+    {
+      "number": 583,
+      "name": "سورة الرعد - ليلة ١٧ رمضان ١٤٤٢هـ للشيخ د: #ياسر_الدوسري - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Ar-Rad_yt_gCFEWyDaqi4.mp3"
+    },
+    {
+      "number": 584,
+      "name": "سورة الكهف - ليلة ٢٠ رمضان ١٤٤٢هـ للشيخ د - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Kahf_yt_K5KXYdzFrzc.mp3"
+    },
+    {
+      "number": 585,
+      "name": "سورة طه - ليلة ٢١ رمضان - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Taha_yt_WwSmyFWNFFw.mp3"
+    },
+    {
+      "number": 586,
+      "name": "سورة النور - قيام ليلة 22-9 - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_An-Nur_yt_d46DCr3O6yM.mp3"
+    },
+    {
+      "number": 587,
+      "name": "من أجمل ما قد تسمع للشيخ - قيام ليلة ٢٢ رمضان ١٤٤٢هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Qaf_yt_Oag60WiMHfs.mp3"
+    },
+    {
+      "number": 588,
+      "name": "سورة النور - ليلة ٢٢ رمضان - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_An-Nur_yt_sv85IcDwdyQ.mp3"
+    },
+    {
+      "number": 589,
+      "name": "سورة النمل - تراويح ليلة ٢٣ رمضان ١٤٤٢هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_An-Naml_yt_SzaGWNBGoTo.mp3"
+    },
+    {
+      "number": 590,
+      "name": "سورة لقمان - ليلة ٢٤ رمضان - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Luqman_yt_-Te9y4jc7Sk.mp3"
+    },
+    {
+      "number": 591,
+      "name": "سورة يس - ليلة ٢٥ رمضان - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Ya-Sin_yt_ywJWzFo0KLM.mp3"
+    },
+    {
+      "number": 592,
+      "name": "سورتي فصلت والشورى - قيام ليلة ٢٦ رمضان ١٤٤٢هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt_qL0fLUpwOhE.mp3"
+    },
+    {
+      "number": 593,
+      "name": "سورتي محمد والفتح - ليلة 27-9 - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Muhammad_yt_q_ZxnpyuiLQ.mp3"
+    },
+    {
+      "number": 594,
+      "name": "سورة المجادلة - ليلة ٢٨ رمضان - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Qaf_yt_XqOR7pXyIWA.mp3"
+    },
+    {
+      "number": 595,
+      "name": "سورتي النبأ والنازعات - ليلة ٢٩ رمضان ١٤٤٢ للشيخ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Qaf_yt_08oAQwCuhvg.mp3"
+    },
+    {
+      "number": 596,
+      "name": "﴿اقترب للناس حسابهم وهم في غفلة﴾ تحابير آسرة لسورة الانبياء للشيخ - ليلة ٣٠ رمضان ١٤٤٢ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Qaf_yt_xuuNtS9uMSQ.mp3"
+    },
+    {
+      "number": 597,
+      "name": "سورة البقرة - مغرب وعشاء الخميس ٨ شوال ١٤٤٢هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Maghrib_Al-Baqarah_yt_lqnmIe4dHuU.mp3"
+    },
+    {
+      "number": 598,
+      "name": "سورتي الشورى والواقعة - مغرب وعشاء الجمعة ٩ شوال ١٤٤٢هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Maghrib_Ash-Shura_yt_9u0osERANtQ.mp3"
+    },
+    {
+      "number": 599,
+      "name": "سورة الزخرف - فجر 10-10-42 - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Fajr_Az-Zukhruf_yt_uoUHP-5InCc.mp3"
+    },
+    {
+      "number": 600,
       "name": "سورة غافر - مغرب 12-10-42 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Maghrib_Ghafir_yt_auro0gIt-9w.mp3"
     },
     {
-      "number": 582,
+      "number": 601,
       "name": "تأخذك إلى عالم آخر من التدبر والخشوع للشيخ - مغرب الاثنين ١٢ شوال ١٤٤٢هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Maghrib_yt_6PJDbR5-GBs.mp3"
     },
     {
-      "number": 583,
+      "number": 602,
       "name": "سورة فاطر - الاثنين ١٢ شوال ١٤٤٢هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Fatir_yt_F7G1543TqZQ.mp3"
     },
     {
-      "number": 584,
+      "number": 603,
       "name": "اللؤلؤ والمرجان فروض الشيخ ياسر بعد شهر رمضان | يُبهر المصلين بهذه التلاوات الرائعة - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt_kLhigtAKIU0.mp3"
     },
     {
-      "number": 585,
+      "number": 604,
       "name": "سورة البقرة - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Baqarah_yt_P0uaLRO6V1U.mp3"
     },
     {
-      "number": 586,
+      "number": 605,
       "name": "سورة ص - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt_fWLr1CfCa84.mp3"
     },
     {
-      "number": 587,
+      "number": 606,
       "name": "سورة المطففين - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Qaf_yt_PusNA9XnAbA.mp3"
     },
     {
-      "number": 588,
+      "number": 607,
       "name": "سورة يوسف - 22-8 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Yusuf_yt_q6WlpPmFfD0.mp3"
     },
     {
-      "number": 589,
+      "number": 608,
       "name": "ساعة كاملة من التلاوات المتنوعة للشيخ | فترة مدهشة ومميزة - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_yt_Ub-SYvaAqsk.mp3"
     },
     {
-      "number": 590,
+      "number": 609,
       "name": "بمناسبة 50 ألف مشترك♥️ - اخترنا لكم أفضل 10 فجريات لـ من الحرم المكي - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Fajr_yt_OnwAcJ1_16k.mp3"
     },
     {
-      "number": 591,
+      "number": 610,
       "name": "ينبه المصلين قبل صلاة الظهر بأهمية الالتزام بالإجراءات الاحترازية والوقائية - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Dhuhr_Sad_yt_hG8aZcuECm4.mp3"
     },
     {
-      "number": 592,
+      "number": 611,
       "name": "100 ألف مشترك في القناة | نهديكم هذا المقطع للآسر بهذه المناسبة - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Qaf_yt_08ududzNAXY.mp3"
     },
     {
-      "number": 593,
+      "number": 612,
       "name": "سورتي التوبة ويونس - ليلة 14-9 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_At-Tawbah_yt_uv6dM6EzqIk.mp3"
     },
     {
-      "number": 594,
+      "number": 613,
       "name": "سورة لقمان - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Luqman_yt_tZkzLdZnjj8.mp3"
     },
     {
-      "number": 595,
+      "number": 614,
       "name": "سورتي آل عمران والمائدة - فروض الثلاثاء ٢٣ شوال ١٤٤٣ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Ali-Imran_yt_LRHltYxordk.mp3"
     },
     {
-      "number": 596,
+      "number": 615,
       "name": "سورتي الجاثية والقيامة - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt_0_29hvUF8lI.mp3"
     },
     {
-      "number": 597,
+      "number": 616,
       "name": "أرح قلبك! تلاوتي المغرب والعشاء للشيخ السبت ٢٠ شوال ١٤٤٣هـ. - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Maghrib_Qaf_yt_iGxphwgIuos.mp3"
     },
     {
-      "number": 598,
+      "number": 617,
       "name": "بمناسبة حصول أ. على مرتبة الأستاذية نهديكم هذه الالعظيمة | من أجمل ما رتل الشيخ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt_a-hhP4Z-X54.mp3"
     },
     {
-      "number": 599,
+      "number": 618,
       "name": "سورة الأنعام - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Anam_yt_EFG_KlJwGbk.mp3"
     },
     {
-      "number": 600,
+      "number": 619,
       "name": "سورة فاطر - عشاء الاثنين 30-2-144هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Isha_Fatir_yt_ShNV_PBzgiE.mp3"
     },
     {
-      "number": 601,
+      "number": 620,
       "name": "سورة إبراهيم - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Ibrahim_yt_a5xzcovUq0o.mp3"
     },
     {
-      "number": 602,
+      "number": 621,
       "name": "سورة الصافات - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_As-Saffat_yt_WNb1wHL-3dY.mp3"
     },
     {
-      "number": 603,
+      "number": 622,
       "name": "سورة المؤمنون - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Muminun_yt_XwuS4O7wjuc.mp3"
     },
     {
-      "number": 604,
+      "number": 623,
       "name": "تشويقات رمضانية- الالتي أثرت في كل من سمعها | وتحبير لن ينسى من جامع الدخيل - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Qaf_yt_R73HrOt4qxA.mp3"
     },
     {
-      "number": 605,
+      "number": 624,
       "name": "سورة الذاريات - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Adh-Dhariyat_yt_jVdZUIsPiic.mp3"
     },
     {
-      "number": 606,
+      "number": 625,
       "name": "هذا المقطع لا أستطيع تجاوزه! #ياسر_الدوسري - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Qaf_yt_jUJdQ5l7eVg.mp3"
     },
     {
-      "number": 607,
+      "number": 626,
       "name": "سورتي الروم ولقمان - تلاوات عراقية أخاذة ليلة 24-9 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Ar-Rum_yt_wOaWTpCE97c.mp3"
     },
     {
-      "number": 608,
+      "number": 627,
       "name": "الترتيل الذي لا يمل! لأول مرة ننشر هذه التلاوات بتسجيل خاص من مكسر الحرم للشيخ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt_npJ6OzL-zOA.mp3"
     },
     {
-      "number": 609,
+      "number": 628,
       "name": "سورة الشعراء - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Ash-Shuara_yt_RaFatT0yMPI.mp3"
     },
     {
-      "number": 610,
+      "number": 629,
       "name": "روائع ذهبية لفجريات تاريخية للشيخ - الخشوع والإبداع♥️! فترة 11-18محرم-1445هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Fajr_yt_5lDE7Vc9Ov8.mp3"
     },
     {
-      "number": 611,
+      "number": 630,
       "name": "سورة القصص - فجر 14 محرم 1445هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Fajr_Al-Qasas_yt_hdLyqAqfSac.mp3"
     },
     {
-      "number": 612,
+      "number": 631,
       "name": "سورة غافر - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Ghafir_yt_LXQK0f_7DNg.mp3"
     },
     {
-      "number": 613,
+      "number": 632,
       "name": "أجمل نهاوندية سمعتها للمبدع الآسر - من الفجريات التي لا تنسى - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Fajr_Al-Fajr_yt__9WGeG3uR2M.mp3"
     },
     {
-      "number": 614,
+      "number": 633,
       "name": "العِقدُ الآسِرْ لتلاوات - تلاوات شهر شوال 1445هـ من الحرم المكي✨ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Qaf_yt_BXVPIOQDZiY.mp3"
     },
     {
-      "number": 615,
+      "number": 634,
       "name": "العِقدُ الآسِرْ لتلاوات - تلاوات شهر محرم 1445هـ من الحرم المكي✨ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Qaf_yt_k3zQj4yI5NM.mp3"
     },
     {
-      "number": 616,
+      "number": 635,
       "name": "العِقدُ الآسِرْ لتلاوات - تلاوات شهر صفر 1445هـ من الحرم المكي✨ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt_MKML_VkxeCA.mp3"
     },
     {
-      "number": 617,
+      "number": 636,
       "name": "في ليلة رمضان 1445 يرتّل آيات الصيام بترتيل رائع لا يُنسى | أول فرض بعد طول انقطاع♥️ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt_xh1se23goO4.mp3"
     },
     {
-      "number": 618,
+      "number": 637,
       "name": "سورة يوسف - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Yusuf_yt_OE_ZRvEUZes.mp3"
     },
     {
-      "number": 619,
+      "number": 638,
       "name": "في أولى لياليه في رمضان 1445هـ - يُمتع من خلفه بمقام الرست من سورة البقرة ليلة 2-9 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Baqarah_yt_cUFzB8HdgMk.mp3"
     },
     {
-      "number": 620,
+      "number": 639,
       "name": "سورتي الشعراء والنمل - ليلة 23-9 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Ash-Shuara_yt_R3b7BiFlmPw.mp3"
     },
     {
-      "number": 621,
+      "number": 640,
       "name": "العِقدُ الآسِرْ لتلاوات - تلاوات شهر ذو الحجة لعام 1445هـ من الحرم المكي✨ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Hajj_yt_nkwRuN3J42o.mp3"
     },
     {
-      "number": 622,
+      "number": 641,
       "name": "﴿وأذن في الناس بالحج﴾ الغريد د.⁧ يمتع الحجاج بهذه التلاوات البهية فروض يوم التروية 1445 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Hajj_yt_HC2MnQjuR_4.mp3"
     },
     {
-      "number": 623,
+      "number": 642,
       "name": "العِقدُ الآسِرْ لتلاوات - تلاوات شهر ذو القعدة لعام 1445هـ من الحرم المكي✨ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Qaf_yt_gtlIVsXE3sQ.mp3"
     },
     {
-      "number": 624,
+      "number": 643,
       "name": "سورة يوسف - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Yusuf_yt_vtsN12Anp8s.mp3"
     },
     {
-      "number": 625,
+      "number": 644,
       "name": "سورة آل عمران - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Ali-Imran_yt_WVAUpLDzwDM.mp3"
     },
     {
-      "number": 626,
+      "number": 645,
       "name": "سورتي الحجر والحج - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Hijr_yt_ddfyXmOCBGQ.mp3"
     },
     {
-      "number": 627,
+      "number": 646,
       "name": "كلمة تذكيرية لفضيلة الشيخ أ.د.⁧‫‬⁩ عن إقامة ⁧‫صلاة الاستسقاء‬⁩ صباح يوم غد الخميس. - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Ya-Sin_yt_hu9CBlHuhjs.mp3"
     },
     {
-      "number": 628,
+      "number": 647,
       "name": "سورة الفاتحة - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Fatihah_yt_O7QECN-f9os.mp3"
     },
     {
-      "number": 629,
+      "number": 648,
       "name": "سورة النساء - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_An-Nisa_yt_2Y0XWH_AGRw.mp3"
     },
     {
-      "number": 630,
+      "number": 649,
       "name": "سورة المائدة - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Maidah_yt_4UFS0sEXT0A.mp3"
     },
     {
-      "number": 631,
+      "number": 650,
       "name": "سورة الانعام - مرتلة بصوت - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt_4uyNfmaossA.mp3"
     },
     {
-      "number": 632,
+      "number": 651,
       "name": "سورة التوبة - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_At-Tawbah_yt_mAJzF3UdsUk.mp3"
     },
     {
-      "number": 633,
+      "number": 652,
       "name": "سورة هود - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Hud_yt_nFEDpY4sJmI.mp3"
     },
     {
-      "number": 634,
+      "number": 653,
       "name": "خواتيم سورتي الكهف والحشر - مغرب 14-12 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Maghrib_Al-Kahf_yt_6cUaGu0f0W4.mp3"
     },
     {
-      "number": 635,
+      "number": 654,
       "name": "سورة الأعراف - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Araf_yt_jqL0DMfzwP4.mp3"
     },
     {
-      "number": 636,
+      "number": 655,
       "name": "سورة الأنفال - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Anfal_yt_VHi9u0QktBM.mp3"
     },
     {
-      "number": 637,
+      "number": 656,
       "name": "إهداء لـ مليون أخ وأخت | الغرّيد أ. في تلاوات لا تنسى من جميع الأعوام السابقة - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Qaf_yt_NUkykA4cz4Q.mp3"
     },
     {
-      "number": 638,
+      "number": 657,
       "name": "سورة مريم - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Maryam_yt_sk6EcymzOR4.mp3"
     },
     {
-      "number": 639,
+      "number": 658,
       "name": "سورة يونس - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Yunus_yt_T90FAdbRL3s.mp3"
     },
     {
-      "number": 640,
+      "number": 659,
       "name": "سورة الرعد - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Ar-Rad_yt_v1OuepitC7Y.mp3"
     },
     {
-      "number": 641,
+      "number": 660,
       "name": "سورة ابراهيم - مرتلة بصوت - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt_QZ4Ls6BXn8M.mp3"
     },
     {
-      "number": 642,
+      "number": 661,
       "name": "سورة النحل - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_An-Nahl_yt_dBdVCsaU_tA.mp3"
     },
     {
-      "number": 643,
+      "number": 662,
       "name": "سورة الاسراء - مرتلة بصوت - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt_e00MkphRsJI.mp3"
     },
     {
-      "number": 644,
+      "number": 663,
       "name": "سورة الكهف - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Kahf_yt_3rvK5z1CSYM.mp3"
     },
     {
-      "number": 645,
+      "number": 664,
       "name": "سورة طه - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Taha_yt_iUZhtEkv880.mp3"
     },
     {
-      "number": 646,
+      "number": 665,
       "name": "سورة الانبياء - مرتلة بصوت - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt_xjCffjPsW5E.mp3"
     },
     {
-      "number": 647,
+      "number": 666,
       "name": "سورة الشعراء - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Ash-Shuara_yt_ISmxUwGAcwA.mp3"
     },
     {
-      "number": 648,
+      "number": 667,
       "name": "سورة غافر - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt_E-ATMin1m8k.mp3"
     },
     {
-      "number": 649,
+      "number": 668,
       "name": "سورة القصص - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Qasas_yt_u0Rxbmv1k5Q.mp3"
     },
     {
-      "number": 650,
+      "number": 669,
       "name": "سورة الأعراف - عشاء 21-12 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Isha_Al-Araf_yt_8i8XmUIB5AY.mp3"
     },
     {
-      "number": 651,
+      "number": 670,
       "name": "سورة الحج - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Hajj_yt_T3jb07K3CCw.mp3"
     },
     {
-      "number": 652,
+      "number": 671,
       "name": "تذكير وتنبيه لصيام يوم عاشوراء من الشيخ أ. د. ياسر بن راشد الدوسري - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt_DflPtgkRViE.mp3"
     },
     {
-      "number": 653,
+      "number": 672,
       "name": "سورة المؤمنون - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Muminun_yt_cLU6bjXZQ1g.mp3"
     },
     {
-      "number": 654,
+      "number": 673,
       "name": "سورة النور - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_An-Nur_yt_k9m3KRWl_qc.mp3"
     },
     {
-      "number": 655,
+      "number": 674,
       "name": "سورة الفرقان - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Furqan_yt_cLnLAhVhU3o.mp3"
     },
     {
-      "number": 656,
+      "number": 675,
       "name": "سورة النمل - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_An-Naml_yt_Crq4WtMpXXo.mp3"
     },
     {
-      "number": 657,
+      "number": 676,
       "name": "سورة العنكبوت - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Ankabut_yt_wkUNel_W_d4.mp3"
     },
     {
-      "number": 658,
+      "number": 677,
       "name": "سورة الروم - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Ar-Rum_yt_VOQ8zqFxFP4.mp3"
     },
     {
-      "number": 659,
+      "number": 678,
       "name": "سورة السجدة - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_As-Sajdah_yt_BhZkKq3oNHo.mp3"
     },
     {
-      "number": 660,
+      "number": 679,
       "name": "سورة لقمان - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Luqman_yt_wD0m6G6qhg8.mp3"
     },
     {
-      "number": 661,
+      "number": 680,
       "name": "سورة الصافات - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_As-Saffat_yt_0eDNIZ1icdo.mp3"
     },
     {
-      "number": 662,
+      "number": 681,
       "name": "سورة ص - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt_QGynVyMWUUM.mp3"
     },
     {
-      "number": 663,
+      "number": 682,
       "name": "سورة الاحزاب بصوت عذب يريح القلب والروح - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt_yZVfD9pIYmk.mp3"
     },
     {
-      "number": 664,
+      "number": 683,
       "name": "سورة سبأ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Saba_yt_P__oNWjraXQ.mp3"
     },
     {
-      "number": 665,
+      "number": 684,
       "name": "سورة فاطر - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Fatir_yt_yaGm_BMCkVA.mp3"
     },
     {
-      "number": 666,
+      "number": 685,
       "name": "سورة يس - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Ya-Sin_yt_DXaiNbS3YcU.mp3"
     },
     {
-      "number": 667,
+      "number": 686,
       "name": "سورة الزمر - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt_bvuV9feF4A8.mp3"
     },
     {
-      "number": 668,
+      "number": 687,
       "name": "حصرياً على قناتنا - وقفات من قوله تعالى \"شهر رمضان\" لفضيلة أ. - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt__Q_VY7mobpo.mp3"
     },
     {
-      "number": 669,
+      "number": 688,
       "name": "سورة الواقعة - ليلة 27-9 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Qaf_yt_NekhfeBuUvU.mp3"
     },
     {
-      "number": 670,
+      "number": 689,
       "name": "أرشيف النوادر | مرئية للشيخ تكاد تكون المرئية الوحيدة من تلك الأعوام الذهبية. - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_yt_5dFKIUk23gQ.mp3"
     },
     {
-      "number": 671,
+      "number": 690,
       "name": "سورة الواقعة - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Qaf_yt_CRB-2SdCUPw.mp3"
     },
     {
-      "number": 672,
+      "number": 691,
       "name": "من أجمل ما سمعت للشيخ - من فجريّات جامع الدخيل المميزة♥️ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Fajr_yt_IpGwiah1OtA.mp3"
     },
     {
-      "number": 673,
+      "number": 692,
       "name": "تذلل وخشوع في دعاء أبكى القلوب وأسال الدموع من أرض الحرم للشيخ ⁧د. ياسر_الدوسري⁩ - ليلة 29 رمضان - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Qaf_yt_uHDI3G7BymY.mp3"
     },
     {
-      "number": 674,
+      "number": 693,
       "name": "إصدار مرئي - رمضان 1445هـ كامل للشيخ د. ياسر بن راشد الدوسري من محراب المسجد الحرام♥️ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Sad_yt_mcLGUGa36Ws.mp3"
     },
     {
-      "number": 675,
+      "number": 694,
       "name": "سورة الكهف - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Kahf_yt_GYqzkR_AnKE.mp3"
     },
     {
-      "number": 676,
+      "number": 695,
       "name": "سورة البقرة - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Baqarah_yt_WgSCF44uBk4.mp3"
     },
     {
-      "number": 677,
+      "number": 696,
       "name": "سورة الكهف - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Prayer_Al-Kahf_yt_u-iKYgHyIBI.mp3"
     },
     {
-      "number": 678,
+      "number": 697,
       "name": "تلاوات فائقة الجمال والروحانية للشيخ ⁩ - مغرب وعشاء الثلاثاء 30-12-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-12-30_Maghrib_Qaf_yt_JTa7BGHrR9A.mp3"
     },
     {
-      "number": 679,
+      "number": 698,
       "name": "يأسرك بإبداعه - الاثنين 29-12-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-12-29_Maghrib_yt_V1ibFEuvng8.mp3"
     },
     {
-      "number": 680,
+      "number": 699,
       "name": "تلاوتي المغرب والعشاء للشيخ - الأحد 28-12-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-12-28_Maghrib_yt_E9QnjwnjGRU.mp3"
     },
     {
-      "number": 681,
+      "number": 700,
       "name": "سورتي النمل وإبراهيم - مغرب وعشاء 14-12-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-12-14_Maghrib_Ibrahim_yt_lPP7sLrpL5g.mp3"
     },
     {
-      "number": 682,
+      "number": 701,
       "name": "فروض يوم العيد بتحابير خاشعة للشيخ د. ⁧ - 10-12-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-12-10_Prayer_yt_ejNqxtFW7Jc.mp3"
     },
     {
-      "number": 683,
+      "number": 702,
       "name": "سورة الحج - فروض 7-12-1444هـ ♥️! - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-12-07_Prayer_Al-Hajj_yt_fyCPse5u1Fc.mp3"
     },
     {
-      "number": 684,
+      "number": 703,
       "name": "تلاوات خاشعة للشيخ - صلاتي المغرب والعشاء 6-12-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-12-06_Maghrib_Sad_yt_3czketb0vsY.mp3"
     },
     {
-      "number": 685,
+      "number": 704,
       "name": "سورة محمد - مغرب السبت 28-11-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-11-28_Maghrib_Muhammad_yt_QYhYLLakanQ.mp3"
     },
     {
-      "number": 686,
+      "number": 705,
       "name": "سورتي الشمس والتين - مغرب الجمعة 27-11-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-11-27_Maghrib_Al-Jumuah_yt_n7dfNOj9_t0.mp3"
     },
     {
-      "number": 687,
+      "number": 706,
       "name": "سورتي الكافرون والإخلاص - مغرب الخميس 26-11-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-11-26_Maghrib_Ya-Sin_yt_cZ5htVS5beg.mp3"
     },
     {
-      "number": 688,
+      "number": 707,
       "name": "آية الكرسي بترتيل خاشع وبديع للشيخ - مغرب الأربعاء 25-11-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-11-25_Maghrib_yt_o_v8qJ4p23c.mp3"
     },
     {
-      "number": 689,
+      "number": 708,
       "name": "سورة محمد - الثلاثاء 24-11-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-11-24_Fajr_Muhammad_yt_L6RTLRiP_lg.mp3"
     },
     {
-      "number": 690,
+      "number": 709,
       "name": "كأنما يفسر الآيات - فجر 23-11-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-11-23_Fajr_Ya-Sin_yt__Mhb6t6RGtc.mp3"
     },
     {
-      "number": 691,
+      "number": 710,
       "name": "سورة المؤمنون - فجر الأحد 22-11-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-11-22_Fajr_Al-Muminun_yt_eYoUTuH3OeA.mp3"
     },
     {
-      "number": 692,
+      "number": 711,
       "name": "سورة غافر - فجر السبت 14-11-1444هـ للشيخ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-11-14_Fajr_Ghafir_yt_TGVGNzrqbM4.mp3"
     },
     {
-      "number": 693,
+      "number": 712,
       "name": "سورة المعارج - فجر 13-11-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-11-13_Fajr_Sad_yt_4rflUBW4e_g.mp3"
     },
     {
-      "number": 694,
+      "number": 713,
       "name": "سورة يس - فجر الخميس 12-11-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-11-12_Fajr_Al-Hajj_yt_Wp9qJGe42jo.mp3"
     },
     {
-      "number": 695,
+      "number": 714,
       "name": "سورتي النبأ والأعلى - فجر 11-11-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-11-11_Fajr_An-Naba_yt_tMHGKNRgmt4.mp3"
     },
     {
-      "number": 696,
+      "number": 715,
       "name": "سورة البقرة - فجر 10-11-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-11-10_Fajr_Al-Baqarah_yt_ENGwtaqsRbM.mp3"
     },
     {
-      "number": 697,
+      "number": 716,
       "name": "خواتيم سورة الأنبياء - في فجر رائعة 7-11-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-11-07_Fajr_Al-Anbiya_yt_sYDpfg35lsc.mp3"
     },
     {
-      "number": 698,
+      "number": 717,
       "name": "خواتيم سورة الأنبياء - فجر السبت 7-11-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-11-07_Fajr_Al-Anbiya_yt_OIJ_ZenbXJI.mp3"
     },
     {
-      "number": 699,
+      "number": 718,
       "name": "سورة المجادلة - فجر الخميس 5-11-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-11-05_Fajr_Ya-Sin_yt_w7lEPK9Gw9k.mp3"
     },
     {
-      "number": 700,
+      "number": 719,
       "name": "سورة المجادلة - فجر الخميس 5-11-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-11-05_Fajr_Ya-Sin_yt_PY0KqUrTDME.mp3"
     },
     {
-      "number": 701,
+      "number": 720,
       "name": "سورة سبأ - فجر الأربعاء 4-11-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-11-04_Fajr_Saba_yt_wv7Am1oXiaY.mp3"
     },
     {
-      "number": 702,
+      "number": 721,
       "name": "تلاوتي المغرب والعشاء بترتيل آسر وفريد للشيخ أ.د. ⁧‫‬⁩ - الأربعاء 4-11-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-11-04_Maghrib_yt_apLObikWoxU.mp3"
     },
     {
-      "number": 703,
+      "number": 722,
       "name": "سورة فاطر - فجر الثلاثاء 3-11-1444 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-11-03_Fajr_Fatir_yt_ausOAM2vvp8.mp3"
     },
     {
-      "number": 704,
+      "number": 723,
       "name": "سورة فاطر - فجر الاثنين 2-11-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-11-02_Fajr_Fatir_yt_nC9SBTuHSf0.mp3"
     },
     {
-      "number": 705,
+      "number": 724,
       "name": "سورة لقمان - فجر الأحد 1-11-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-11-01_Fajr_Luqman_yt_e7fev80NxYk.mp3"
     },
     {
-      "number": 706,
+      "number": 725,
       "name": "سورتي عبس والطارق - فجر السبت 23-10-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-10-23_Fajr_Qaf_yt_G1sqBv0sldQ.mp3"
     },
     {
-      "number": 707,
+      "number": 726,
       "name": "سورة الجمعة - فجر الجمعة 22-10-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-10-22_Fajr_Al-Jumuah_yt_kOm1yCCyU6w.mp3"
     },
     {
-      "number": 708,
+      "number": 727,
       "name": "سورتي التكاثر والماعون - الجمعة 22-10-1444 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-10-22_Prayer_Sad_yt_XqDWuh1LwyI.mp3"
     },
     {
-      "number": 709,
+      "number": 728,
       "name": "سورة الفرقان - فجر الثلاثاء 19-10-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-10-19_Fajr_Al-Furqan_yt_bN3bMNP3U1Q.mp3"
     },
     {
-      "number": 710,
+      "number": 729,
       "name": "سورة الشعراء - فجر 18-10-1444 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-10-18_Fajr_Ash-Shuara_yt_zH1pse0XRaQ.mp3"
     },
     {
-      "number": 711,
+      "number": 730,
       "name": "سورتي الحجر والحج - فجر الأحد 17-10-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-10-17_Fajr_Al-Hijr_yt_9XHXT0XIwr4.mp3"
     },
     {
-      "number": 712,
+      "number": 731,
       "name": "سورتي الشمس والليل - فجر السبت 16-10-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-10-16_Fajr_Ash-Shams_yt_7nJsZX9iFQk.mp3"
     },
     {
-      "number": 713,
+      "number": 732,
       "name": "في ليلة الختمة يتألق أ. في تلاوات لا توصف - ليلة 29-9-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-09-29_Prayer_Sad_yt_QdeKGG4zppU.mp3"
     },
     {
-      "number": 714,
+      "number": 733,
       "name": "أوائل سورة الملك - تهجد ليلة 28-9-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-09-28_Prayer_Al-Mulk_yt_-6TNeGklPR4.mp3"
     },
     {
-      "number": 715,
+      "number": 734,
       "name": "وجاءت سكرة الموت بالحق-بنبرته الآسرة يُبكي المصلين - ليلة 27-9-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-09-27_Prayer_Sad_yt_JI26A32iLVQ.mp3"
     },
     {
-      "number": 716,
+      "number": 735,
       "name": "سورتي غافر وفصلت - أ. ليلة 26-9-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-09-26_Prayer_Sad_yt_Q3x5ToxsinQ.mp3"
     },
     {
-      "number": 717,
+      "number": 736,
       "name": "أ. في ليلة هي من أجمل ليالي الحرم المكي - ليلة 25-9-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-09-25_Prayer_As-Saffat_yt_w6wQToMdwAA.mp3"
     },
     {
-      "number": 718,
+      "number": 737,
       "name": "من أرض الحجاز يغرد ويتغنى بمقام الحجاز - سورة الشعراء ليلة 23-9-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-09-23_Prayer_Al-Hajj_yt_4_sE8swdo-o.mp3"
     },
     {
-      "number": 719,
+      "number": 738,
       "name": "سورة النور - تهجد ليلة 22-9-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-09-22_Prayer_An-Nur_yt_a64wsu45XXs.mp3"
     },
     {
-      "number": 720,
+      "number": 739,
       "name": "ملك التحبير يترنم ويتغنى في أولى ليالي العشر المباركة - ليلة 21-9-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-09-21_Prayer_yt_50m34VwwliE.mp3"
     },
     {
-      "number": 721,
+      "number": 740,
       "name": "أجمل ليلة من رمضان 1444هـ للشيخ أ. - تصوير من الأمام ليلة 21-9-1444هـ كاملة!! - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-09-21_Prayer_Sad_yt_O3XOKCVyVF0.mp3"
     },
     {
-      "number": 722,
+      "number": 741,
       "name": "يتألق في ليلة مليئة بالجمال والكمال - من سورتي النحل والإسراء ليلة 19-9-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-09-19_Prayer_An-Nahl_yt_5Ssi57Dj4zY.mp3"
     },
     {
-      "number": 723,
+      "number": 742,
       "name": "سورة النحل - ليلة 18-9-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-09-18_Prayer_An-Nahl_yt_DGhZTkDehzI.mp3"
     },
     {
-      "number": 724,
+      "number": 743,
       "name": "يا فرجنا إذا أُغلقت الأبواب! دعاء يُبكي القلوب للشيخ - ليلة 18-9-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-09-18_Prayer_Qaf_yt_skyxlNEXISo.mp3"
     },
     {
-      "number": 725,
+      "number": 744,
       "name": "ليلة فاضت بالدموع - ليلة 15-9-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-09-15_Prayer_Hud_yt_nREkBALhJko.mp3"
     },
     {
-      "number": 726,
+      "number": 745,
       "name": "ليلة فاضت بالدموع - ليلة 15-9-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-09-15_Prayer_Hud_yt_MZLjGe7eVw8.mp3"
     },
     {
-      "number": 727,
+      "number": 746,
       "name": "سور الأنفال ويس والتوبة - ليلة 13-9-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-09-13_Prayer_Al-Anfal_yt_s3ARWPUhQt8.mp3"
     },
     {
-      "number": 728,
+      "number": 747,
       "name": "سورتي الأعراف والأنفال - ليلة 12-9-1444 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-09-12_Prayer_Al-Araf_yt_9rPBWDNR7Jg.mp3"
     },
     {
-      "number": 729,
+      "number": 748,
       "name": "\"واجعل الجنة هي دارنا وقرارنا \" دعاء هـ للشيخ - ليلة 12-9-1444 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-09-12_Prayer_Qaf_yt_HpiGrnIJZ48.mp3"
     },
     {
-      "number": 730,
+      "number": 749,
       "name": "دعاء بطريقة خاشعة من هـ للشيخ - ليلة 9-9-1444 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-09-09_Prayer_Qaf_yt_AvbTnZ6eW8U.mp3"
     },
     {
-      "number": 731,
+      "number": 750,
       "name": "سورتي الأعلى والغاشية - 9-9-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-09-09_Prayer_Sad_yt_QLSaAbS7wJg.mp3"
     },
     {
-      "number": 732,
+      "number": 751,
       "name": "سورة النساء - ليلة 6-9-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-09-06_Prayer_An-Nisa_yt_5R5Rnyi2UIE.mp3"
     },
     {
-      "number": 733,
+      "number": 752,
       "name": "شاهد آية الكرسي في تحبير خاشع من من تراويح الحرم المكي هـ - ليلة 3-9-1444 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-09-03_Prayer_yt_u5NSiRZCrg4.mp3"
     },
     {
-      "number": 734,
+      "number": 753,
       "name": "سورة البقرة - ليلة 3-9-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-09-03_Prayer_Al-Baqarah_yt_YBRaljGUVvg.mp3"
     },
     {
-      "number": 735,
+      "number": 754,
       "name": "سورة الزخرف - Surah Az-Zukhruf فروض 26-8-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-08-26_Prayer_Az-Zukhruf_yt_807Qd5NhiGM.mp3"
     },
     {
-      "number": 736,
+      "number": 755,
       "name": "سورتي السجدة والإنسان - فجر الجمعة 25-8-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-08-25_Fajr_As-Sajdah_yt_gfHQ6--zLgw.mp3"
     },
     {
-      "number": 737,
+      "number": 756,
       "name": "سورة القلم - فجر الخميس 24-8-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-08-24_Fajr_Ya-Sin_yt_VtNZr9ppd3A.mp3"
     },
     {
-      "number": 738,
+      "number": 757,
       "name": "﴿كل نفس ذائقة الموت﴾ تلاوات خيالية لا أجد لها وصفا للشيخ أ.⁩ - فروض 23-8-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-08-23_Prayer_Sad_yt_ZQa46F4KyLs.mp3"
     },
     {
-      "number": 739,
+      "number": 758,
       "name": "سورة الجاثية - فجر الثلاثاء 22-8-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-08-22_Fajr_Al-Jathiyah_yt_YIbcnnGpcqk.mp3"
     },
     {
-      "number": 740,
+      "number": 759,
       "name": "خواتيم سورة الرحمن - فجر الاثنين 21-8-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-08-21_Fajr_Ar-Rahman_yt_rNWHoZyBqW4.mp3"
     },
     {
-      "number": 741,
+      "number": 760,
       "name": "سورة الحج - فجر  20-8-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-08-20_Fajr_Al-Hajj_yt_HDbFTfmLb9M.mp3"
     },
     {
-      "number": 742,
+      "number": 761,
       "name": "سورة يس - فجر السبت 12-8-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-08-12_Fajr_Ya-Sin_yt_ojE-jGuRAwM.mp3"
     },
     {
-      "number": 743,
+      "number": 762,
       "name": "أجمل ثلث ساعة - \"أمن يجيب المضطر إذا دعاه\" فروض الجمعة 11-8-1444 هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-08-11_Prayer_Al-Jumuah_yt_YewWANo_w8k.mp3"
     },
     {
-      "number": 744,
+      "number": 763,
       "name": "تلاوات تداوي القلب للشيخ ⁩فروض يوم هـ - الخميس 10-8-1444 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-08-10_Prayer_Ya-Sin_yt_PM0KpVJ2HoI.mp3"
     },
     {
-      "number": 745,
+      "number": 764,
       "name": "تلاوات خاشعة للشيخ ‬⁩ - صلاتي الفجر والعشاء 9-8-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-08-09_Fajr_Sad_yt_BoUkUGJmyvM.mp3"
     },
     {
-      "number": 746,
+      "number": 765,
       "name": "سورة الفجر - الثلاثاء 8-8-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-08-08_Fajr_Sad_yt_NoN8oOO7Pps.mp3"
     },
     {
-      "number": 747,
+      "number": 766,
       "name": "سورة الفجر - الاثنين 7-8-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-08-07_Fajr_Sad_yt_ychhMsltjiE.mp3"
     },
     {
-      "number": 748,
+      "number": 767,
       "name": "سورتي آل عمران والمائدة - فجر وعشاء الأحد 6-8-1444 هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-08-06_Fajr_Ali-Imran_yt_rapJB46enuY.mp3"
     },
     {
-      "number": 749,
+      "number": 768,
       "name": "سورتي الأحزاب والنبأ - 25-7-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-07-25_Maghrib_Al-Ahzab_yt_eYb2i2AQ_io.mp3"
     },
     {
-      "number": 750,
+      "number": 769,
       "name": "﴿والسابقون السابقون﴾ تراتيل بديعة لتلاوتي المغرب والعشاء للشيخ أ. - 24-7-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-07-24_Maghrib_Qaf_yt_PkTEr5bwAac.mp3"
     },
     {
-      "number": 751,
+      "number": 770,
       "name": "\"وما يلقاها إلا الذين صبروا\" تلاوات في غاية الجمال للشيخ صلاتي المغرب وال - عشاء 23-7-1444 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-07-23_Maghrib_Sad_yt_c5QaOpgDMUQ.mp3"
     },
     {
-      "number": 752,
+      "number": 771,
       "name": "تلاوات شجية ندية لصلاتي المغرب والعشاء للشيخ - الاثنين 22-7-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-07-22_Maghrib_Sad_yt_2IjWLP3XGxc.mp3"
     },
     {
-      "number": 753,
+      "number": 772,
       "name": "أداء خيالي وترتيل خاشع للشيخ - من صلاتي المغرب والعشاء 21-7-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-07-21_Maghrib_Sad_yt_s5QomPmHwP4.mp3"
     },
     {
-      "number": 754,
+      "number": 773,
       "name": "سورتي الليل والضحى - مغرب السبت 20-7-1444هـ ⁩ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-07-20_Maghrib_Al-Layl_yt_bZ2GLSp4Ydo.mp3"
     },
     {
-      "number": 755,
+      "number": 774,
       "name": "سورة آل عمران - مغرب الخميس 18-7-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-07-18_Maghrib_Ali-Imran_yt_GZFOSpS1bmI.mp3"
     },
     {
-      "number": 756,
+      "number": 775,
       "name": "لقطات من زيارة فضيلة الشيخ أ. لبانكوك في دولة تايلند - الثلاثاء 16-7-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-07-16_Prayer_Qaf_yt_k2t5prFD1bE.mp3"
     },
     {
-      "number": 757,
+      "number": 776,
       "name": "الآسر يأسر المصلين في دولة تايلند في مذهلة وخاشعة - 16-7-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-07-16_Prayer_Sad_yt_mrrG1Qu-7CU.mp3"
     },
     {
-      "number": 758,
+      "number": 777,
       "name": "سورة الأعراف - أ. فجر الأحد 14-7-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-07-14_Fajr_Al-Araf_yt_ascmrDygWcU.mp3"
     },
     {
-      "number": 759,
+      "number": 778,
       "name": "سورة النساء - فجر 13-7-1444 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-07-13_Fajr_An-Nisa_yt_pMIV17REbe8.mp3"
     },
     {
-      "number": 760,
+      "number": 779,
       "name": "سورتي آل عمران والأحزاب - أ. 12-7-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-07-12_Fajr_Ali-Imran_yt_ex7ISr4FCaI.mp3"
     },
     {
-      "number": 761,
+      "number": 780,
       "name": "سورتي الأعلى والغاشية - الجمعة 12-7-1444 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-07-12_Prayer_Sad_yt_PHOSljO4Hl0.mp3"
     },
     {
-      "number": 762,
+      "number": 781,
       "name": "سورة الرعد - عشاء السبت 6-7-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-07-06_Isha_Ar-Rad_yt_40XCHHPctXI.mp3"
     },
     {
-      "number": 763,
+      "number": 782,
       "name": "سورة الفرقان - عشاء الجمعة 5-7-1444 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-07-05_Isha_Al-Furqan_yt_C11vpL4_TH0.mp3"
     },
     {
-      "number": 764,
+      "number": 783,
       "name": "سورة آل عمران - عشاء الخميس 4-7-1444 هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-07-04_Isha_Ali-Imran_yt_s_NHovO32rU.mp3"
     },
     {
-      "number": 765,
+      "number": 784,
       "name": "﴿ولسوف يرضى﴾ صلاتي المغرب والعشاء للشيخ⁧ - الأربعاء 3-7-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-07-03_Maghrib_Sad_yt_d8wSiydJEW8.mp3"
     },
     {
-      "number": 766,
+      "number": 785,
       "name": "سورتي الشمس والقدر - عشاء الثلاثاء 2-7-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-07-02_Isha_Qaf_yt_V1ljn7wBv5I.mp3"
     },
     {
-      "number": 767,
+      "number": 786,
       "name": "سورة الحاقة - أ. عشاء الاثنين 1-7-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-07-01_Isha_Qaf_yt_U0ciAifJcXk.mp3"
     },
     {
-      "number": 768,
+      "number": 787,
       "name": "سورة يونس - عشاء الأحد 29-6-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-06-29_Isha_Yunus_yt_9dMr6r9lGAw.mp3"
     },
     {
-      "number": 769,
+      "number": 788,
       "name": "ياسلام ياسلام على هذه التلاوات - فجر السبت 21-6-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-06-21_Fajr_Ad-Dukhan_yt_SVhGBCaRnsU.mp3"
     },
     {
-      "number": 770,
+      "number": 789,
       "name": "تلاوات جميلة رتلها بصوته العذب - مغرب وعشاء السبت 21-6-1444 هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-06-21_Maghrib_Sad_yt_iCCao8_LEac.mp3"
     },
     {
-      "number": 771,
+      "number": 790,
       "name": "سورة النبأ - عشاء الجمعة 20-6-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-06-20_Isha_Al-Jumuah_yt_OLvX_KnnBlY.mp3"
     },
     {
-      "number": 772,
+      "number": 791,
       "name": "سورتي السجدة والإنسان - فجر الجمعة 20-6-1444 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-06-20_Fajr_As-Sajdah_yt_t4co6iiACKc.mp3"
     },
     {
-      "number": 773,
+      "number": 792,
       "name": "سورة ص - أ. فجر الأربعاء 18-6-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-06-18_Fajr_Sad_yt_NfER_swAqqA.mp3"
     },
     {
-      "number": 774,
+      "number": 793,
       "name": "سورة ص - أ. الثلاثاء 17-6-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-06-17_Fajr_Sad_yt_2hS_o1QHXw0.mp3"
     },
     {
-      "number": 775,
+      "number": 794,
       "name": "سورة الصافات - فجر الاثنين 16-6-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-06-16_Fajr_As-Saffat_yt_MPU5p8Irspg.mp3"
     },
     {
-      "number": 776,
+      "number": 795,
       "name": "سورة يونس - 15-6-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-06-15_Fajr_Yunus_yt_6ZsZQu9jL-E.mp3"
     },
     {
-      "number": 777,
+      "number": 796,
       "name": "سورة الصافات - السبت 7-6-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-06-07_Fajr_As-Saffat_yt_h5yeBq2FSIA.mp3"
     },
     {
-      "number": 778,
+      "number": 797,
       "name": "أرعِ سمعك لهذه التلاوات البديعة للشيخ أ. - صلاتي الفجر والعشاء ~ الجمعة 6-6-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-06-06_Fajr_Sad_yt_zLKhETEm-gk.mp3"
     },
     {
-      "number": 779,
+      "number": 798,
       "name": "سورة الجمعة - عشاء الخميس 5-6-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-06-05_Isha_Ya-Sin_yt_ItlIOVpi2eU.mp3"
     },
     {
-      "number": 780,
+      "number": 799,
       "name": "أنصت بقلبك لهذه التلاوات التدبرية للشيخ - فروض يوم الأربعاء 4-6-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-06-04_Prayer_Sad_yt_f1TW_kOEKPw.mp3"
     },
     {
-      "number": 781,
+      "number": 800,
       "name": "سورة إبراهيم - فجر الثلاثاء 3-6-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-06-03_Fajr_Ibrahim_yt_IzPhfTbWkZ4.mp3"
     },
     {
-      "number": 782,
+      "number": 801,
       "name": "سورة الأنعام - فجر 2-6-1444 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-06-02_Fajr_Al-Anam_yt_EEwMskOedE0.mp3"
     },
     {
-      "number": 783,
+      "number": 802,
       "name": "سورة الأعراف - فجر الأحد 1-6-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-06-01_Fajr_Al-Araf_yt_eXwFjNOLAsE.mp3"
     },
     {
-      "number": 784,
+      "number": 803,
       "name": "خواتيم سورة مريم - عشاء السبت 23-5-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-05-23_Isha_Maryam_yt_y84QvjdxoKA.mp3"
     },
     {
-      "number": 785,
+      "number": 804,
       "name": "سور الإخلاص والبقرة والحشر - عشاء الجمعة 22-5-1444 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-05-22_Maghrib_Al-Baqarah_yt_MFtlBXJU_kM.mp3"
     },
     {
-      "number": 786,
+      "number": 805,
       "name": "أول صلاة جمعة للشيخ أ. من المسجد الحرام - سورتي الأعلى والغاشية 22-5-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-05-22_Prayer_Sad_yt_yoFmrJXEE4c.mp3"
     },
     {
-      "number": 787,
+      "number": 806,
       "name": "يتألق في مغرب وهـ | جمااال لا يوصف - عشاء الخميس 21-5-1444 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-05-21_Maghrib_Ya-Sin_yt_WIVn48mTQ0M.mp3"
     },
     {
-      "number": 788,
+      "number": 807,
       "name": "سورتي الحجر والحج - الأربعاء 20-5-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-05-20_Prayer_Al-Hijr_yt_lxPeHRFrs2s.mp3"
     },
     {
-      "number": 789,
+      "number": 808,
       "name": "سورة الأنفال - الثلاثاء 19-5-1444هـ .. - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-05-19_Prayer_Al-Anfal_yt_wTsfGzbATbU.mp3"
     },
     {
-      "number": 790,
+      "number": 809,
       "name": "تلاوات ترنمية خاشعة لصلاتي المغرب والعشاء للشيخ - الأحد 17-5-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-05-17_Maghrib_Sad_yt_0_Z3Rt3nEG0.mp3"
     },
     {
-      "number": 791,
+      "number": 810,
       "name": "تلاوات شجية بتحبير نديّ للشيخ - مغرب وعشاء السبت 16-5-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-05-16_Maghrib_yt_gg2awaZ1NOY.mp3"
     },
     {
-      "number": 792,
+      "number": 811,
       "name": "أداء رائق وفائق لتلاوتي المغرب والعشاء للشيخ - الجمعة 15-5-1444 هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-05-15_Maghrib_Qaf_yt_ivkc-yK6cL0.mp3"
     },
     {
-      "number": 793,
+      "number": 812,
       "name": "تلاوات خاشعة ومميزة لصلاتي المغرب والعشاء للشيخ - الخميس 14-5-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-05-14_Maghrib_Ya-Sin_yt_1jweAPnA3OI.mp3"
     },
     {
-      "number": 794,
+      "number": 813,
       "name": "سورتي الحشر والفجر - مغرب وعشاء الثلاثاء 12-5-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-05-12_Fajr_Al-Hashr_yt_TorKZJl6kHY.mp3"
     },
     {
-      "number": 795,
+      "number": 814,
       "name": "سورتي التكوير والمعارج - مغرب وعشاء 11-5-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-05-11_Maghrib_Al-Maarij_yt_C74sPHOd2AU.mp3"
     },
     {
-      "number": 796,
+      "number": 815,
       "name": "تلاوات تحبيرية جميلة للشيخ - مغرب وعشاء الأحد 10-5-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-05-10_Maghrib_yt_okbAaZ2x5x0.mp3"
     },
     {
-      "number": 797,
+      "number": 816,
       "name": "سورة الزمر - فجر السبت 9-5-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-05-09_Fajr_Sad_yt_mIhhuDM1L18.mp3"
     },
     {
-      "number": 798,
+      "number": 817,
       "name": "سورتي السجدة والإنسان - فجر 8-5-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-05-08_Fajr_As-Sajdah_yt_QQShYysrjj4.mp3"
     },
     {
-      "number": 799,
+      "number": 818,
       "name": "\"لقد كان في قصصهم عبرة\" فجرية الختام لأحسن القصص - 7-5-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-05-07_Fajr_Al-Qasas_yt_twAh27C8ivg.mp3"
     },
     {
-      "number": 800,
+      "number": 819,
       "name": "آيات من سورة يوسف - 6-5-1444 هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-05-06_Prayer_Yusuf_yt_SWzutjmKoW8.mp3"
     },
     {
-      "number": 801,
+      "number": 820,
       "name": "فجرية الابداع من أطهر البقاع للمبدع الشيخ أ. - من سورة يوسف فجر الثلاثاء 5-5-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-05-05_Fajr_Yusuf_yt_hx8HgzCbZ5U.mp3"
     },
     {
-      "number": 802,
+      "number": 821,
       "name": "سورة الكهف - فجر الاثنين 4-5-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-05-04_Fajr_Al-Kahf_yt_SidYx4xy5TU.mp3"
     },
     {
-      "number": 803,
+      "number": 822,
       "name": "سورتي الملك ونوح - صلاتي الفجر والعشاء 3-5-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-05-03_Fajr_Sad_yt_IieyG-Rh4wE.mp3"
     },
     {
-      "number": 804,
+      "number": 823,
       "name": "سورة يوسف - 2-5-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-05-02_Fajr_Yusuf_yt_XOsjlHGVc-s.mp3"
     },
     {
-      "number": 805,
+      "number": 824,
       "name": "تعجز الحروف عن وصف هذا التراتيل الخاشعة - فروض يوم الجمعة 1-5-1444هـ للشيخ أ. - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-05-01_Prayer_Sad_yt_2I05nwKAIiI.mp3"
     },
     {
-      "number": 806,
+      "number": 825,
       "name": "سورة الأحقاف - فجر الخميس 30-4-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-04-30_Fajr_Ya-Sin_yt_PnQS_03vApk.mp3"
     },
     {
-      "number": 807,
+      "number": 826,
       "name": "سورة الرحمن - فجر الأربعاء 29-4-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-04-29_Fajr_Qaf_yt_mwLGeGZjlZA.mp3"
     },
     {
-      "number": 808,
+      "number": 827,
       "name": "سورة البقرة - فجر الثلاثاء 28-4-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-04-28_Fajr_Al-Baqarah_yt_BdTryIzD8Y0.mp3"
     },
     {
-      "number": 809,
+      "number": 828,
       "name": "سورة النحل - فجر الاثنين 27-4-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-04-27_Fajr_An-Nahl_yt_WnB4Q6417sY.mp3"
     },
     {
-      "number": 810,
+      "number": 829,
       "name": "صلاتي المغرب والعشاء للشيخ⁩ - الأحد 19-4-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-04-19_Maghrib_Sad_yt_5tppA1iF5vE.mp3"
     },
     {
-      "number": 811,
+      "number": 830,
       "name": "سورة ص - أ. 18-4-1444هـ. - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-04-18_Fajr_Sad_yt_PCH0rxq05Os.mp3"
     },
     {
-      "number": 812,
+      "number": 831,
       "name": "سورتي الممتحنة والدخان - 16-4-1444 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-04-16_Fajr_Sad_yt_wytaVoqUo5Q.mp3"
     },
     {
-      "number": 813,
+      "number": 832,
       "name": "خشعت القلوب ودمعت العيون من هذه التلاوة - فجر 15-4-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-04-15_Fajr_Sad_yt_A65Xx6bv5jc.mp3"
     },
     {
-      "number": 814,
+      "number": 833,
       "name": "سورة الدخان - فجر الثلاثاء 14-4-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-04-14_Fajr_Ad-Dukhan_yt__P3MSIi-n6w.mp3"
     },
     {
-      "number": 815,
+      "number": 834,
       "name": "سورة الزخرف - الاثنين 13-4-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-04-13_Fajr_Sad_yt_1CpSAKsg0Ac.mp3"
     },
     {
-      "number": 816,
+      "number": 835,
       "name": "سورة الزخرف - الاثنين 13-4-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-04-13_Fajr_Az-Zukhruf_yt_Ui4b-N4p7y8.mp3"
     },
     {
-      "number": 817,
+      "number": 836,
       "name": "سورة طه - فجر 12-4-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-04-12_Fajr_Taha_yt_bbQDMTX22Aw.mp3"
     },
     {
-      "number": 818,
+      "number": 837,
       "name": "\"يعلم السر وأخفى\" أ. يستفتح سورة طـه بتاريخية وتحبير رهيب - فجر 12-4-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-04-12_Fajr_Ya-Sin_yt_7CUIv3PVsuM.mp3"
     },
     {
-      "number": 819,
+      "number": 838,
       "name": "لم أسمع من قبل مثل هذا الترنم والتغني! أ. من مغرب وهـ - عشاء السبت 11-4-1444 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-04-11_Maghrib_Qaf_yt_MCgkaqMnZTM.mp3"
     },
     {
-      "number": 820,
+      "number": 839,
       "name": "سورة الأحزاب - مغرب الخميس 9-4-1444 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-04-09_Maghrib_Al-Ahzab_yt_ZB5qFZ4f3Ok.mp3"
     },
     {
-      "number": 821,
+      "number": 840,
       "name": "سورتي التين والعاديات - مغرب الأربعاء 8-4-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-04-08_Maghrib_At-Tin_yt_PqpqKP0CEuk.mp3"
     },
     {
-      "number": 822,
+      "number": 841,
       "name": "سورة البروج - مغرب الثلاثاء 7-4-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-04-07_Maghrib_Sad_yt_O7L9ZNXz3vk.mp3"
     },
     {
-      "number": 823,
+      "number": 842,
       "name": "سورة الغاشية - مغرب الأحد 6-4-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-04-06_Maghrib_Al-Ghashiyah_yt_VD3J_V1Eonk.mp3"
     },
     {
-      "number": 824,
+      "number": 843,
       "name": "سورتي الطارق والشرح - مغرب الإثنين 6-4-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-04-06_Maghrib_Qaf_yt_VT7aDJo8njs.mp3"
     },
     {
-      "number": 825,
+      "number": 844,
       "name": "يوم رائع ومميز لتلاوات تغشاها السكينة والراحة - فروض يوم السبت 4-4-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-04-04_Prayer_yt_WQkDBGTBmt4.mp3"
     },
     {
-      "number": 826,
+      "number": 845,
       "name": "سورة الحاقة - فجر الجمعة 3-4-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-04-03_Fajr_Qaf_yt_bJGUVAbX4uw.mp3"
     },
     {
-      "number": 827,
+      "number": 846,
       "name": "سورة التغابن - فجر الخميس 2-4-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-04-02_Fajr_Ya-Sin_yt_R6on-wV6R2E.mp3"
     },
     {
-      "number": 828,
+      "number": 847,
       "name": "سورة الشعراء - فجر 1-4-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-04-01_Fajr_Ash-Shuara_yt_btr0cnMek1U.mp3"
     },
     {
-      "number": 829,
+      "number": 848,
       "name": "سورتي آل عمران ويونس - فجر الثلاثاء 29-3-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-03-29_Fajr_Ali-Imran_yt_6S7pnF_pBWQ.mp3"
     },
     {
-      "number": 830,
+      "number": 849,
       "name": "سورة سبأ - فجر الاثنين 28-3-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-03-28_Fajr_Saba_yt_IPr8DdI4Yio.mp3"
     },
     {
-      "number": 831,
+      "number": 850,
       "name": "سورة إبراهيم - فجر الأحد 27-3-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-03-27_Fajr_Ibrahim_yt_OTrcJlxyktU.mp3"
     },
     {
-      "number": 832,
+      "number": 851,
       "name": "سورة الواقعة - عشاء السبت 19-3-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-03-19_Isha_Qaf_yt_1oSOWAlNFrg.mp3"
     },
     {
-      "number": 833,
+      "number": 852,
       "name": "سورة ق - عشاء الجمعة 18-3-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-03-18_Isha_Qaf_yt_h_lmkt88wY8.mp3"
     },
     {
-      "number": 834,
+      "number": 853,
       "name": "سورة لقمان - عشاء الخميس 17-3-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-03-17_Isha_Luqman_yt_06TbQk_Cssc.mp3"
     },
     {
-      "number": 835,
+      "number": 854,
       "name": "سورة الروم - الأربعاء 16-3-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-03-16_Prayer_Ar-Rum_yt_qVktxdZDOQg.mp3"
     },
     {
-      "number": 836,
+      "number": 855,
       "name": "سورة المؤمنون - عشاء الثلاثاء 15-3-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-03-15_Isha_Al-Muminun_yt_H6TuX55YYSY.mp3"
     },
     {
-      "number": 837,
+      "number": 856,
       "name": "سورتي الشمس والليل - عشاء الاثنين 14-3-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-03-14_Isha_Ash-Shams_yt_NNQ_ZflmoDQ.mp3"
     },
     {
-      "number": 838,
+      "number": 857,
       "name": "سورة المؤمنون - عشاء الأحد 13-3-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-03-13_Isha_Al-Muminun_yt_e_BTmWnP2CM.mp3"
     },
     {
-      "number": 839,
+      "number": 858,
       "name": "أ. يُحلق بالمصلين في سماء الإبداع - صدر سورة النحل فجر الإثنين 7-3-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-03-07_Fajr_An-Nahl_yt_NEG5S4t4aLA.mp3"
     },
     {
-      "number": 840,
+      "number": 859,
       "name": "سورة هود - فجر الأحد 6-3-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-03-06_Fajr_Hud_yt_50B_aGEF42M.mp3"
     },
     {
-      "number": 841,
+      "number": 860,
       "name": "سورة الأنبياء - فجر 5-3-1444 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-03-05_Fajr_Al-Anbiya_yt_lf7WgvrzLTY.mp3"
     },
     {
-      "number": 842,
+      "number": 861,
       "name": "أ. يُبحر بمن خلفه في سماء الإبداع في يوم مميز - فروض الجمعة 4-3-1444 هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-03-04_Prayer_Al-Jumuah_yt_5lvN94aqMgM.mp3"
     },
     {
-      "number": 843,
+      "number": 862,
       "name": "آيات من سورة الجاثية - فجر الخميس 3-3-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-03-03_Fajr_Ya-Sin_yt_FqxKnS1uVnA.mp3"
     },
     {
-      "number": 844,
+      "number": 863,
       "name": "سور غافر والحجر والحج - صلاتي الفجر والعشاء 2-3-1444 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-03-02_Fajr_Al-Hijr_yt_-cPuKUpDJ8A.mp3"
     },
     {
-      "number": 845,
+      "number": 864,
       "name": "﴿وَاللَّه يدعو إِلى دارِ السلام﴾ تلاوات بديعة ومميزة للشيخ - مغرب وعشاء 1-3-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-03-01_Maghrib_yt_YkNjwmd9yuI.mp3"
     },
     {
-      "number": 846,
+      "number": 865,
       "name": "سورة النبأ - عشاء الأحد 29-2-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-02-29_Isha_Qaf_yt_pnbEREssGx4.mp3"
     },
     {
-      "number": 847,
+      "number": 866,
       "name": "تلاوات في مُنتهى الجمال والإبداع! للشيخ فرضي المغرب والهـ - عشاء  21-2-1444 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-02-21_Maghrib_yt_xc5ppXjI-fM.mp3"
     },
     {
-      "number": 848,
+      "number": 867,
       "name": "أنصت بقلبك لهذه التلاوات الخاشعة للشيخ صلاتي المغرب والهـ - عشاء 20-2-1444 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-02-20_Maghrib_Sad_yt_vzSQ1AamjcQ.mp3"
     },
     {
-      "number": 849,
+      "number": 868,
       "name": "تحبير بديع لتلاوتي المغرب والعشاء للشيخ - الخميس 19-2-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-02-19_Maghrib_Ya-Sin_yt_QrjNt_jyYWE.mp3"
     },
     {
-      "number": 850,
+      "number": 869,
       "name": "قراءة ممتعة لصلاتي المغرب والعشاء للشيخ - الأربعاء 18-2-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-02-18_Maghrib_Sad_yt__G5OCnW06zk.mp3"
     },
     {
-      "number": 851,
+      "number": 870,
       "name": "آيات من سورتي آل عمران والأعراف - مغرب وعشاء 17-2-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-02-17_Maghrib_Ali-Imran_yt_GUPNpVXLO5w.mp3"
     },
     {
-      "number": 852,
+      "number": 871,
       "name": "تلاوات خاشعة تفوق الوصف للشيخ - مغرب وعشاء الاثنين 16-2-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-02-16_Maghrib_Sad_yt_1V-0lzdC4f0.mp3"
     },
     {
-      "number": 853,
+      "number": 872,
       "name": "﴿اللَّهُ نورُ السَّماواتِ وَالأَرضِ﴾ تلاوات تحبيرية هادئة للشيخ مغرب و - عشاء 15-2-1444 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-02-15_Maghrib_yt_S2OKtg1bNyA.mp3"
     },
     {
-      "number": 854,
+      "number": 873,
       "name": "يُذيب الأفئدة بهذه التلاوات الفريدة - مغرب وعشاء الجمعة 6-2-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-02-06_Maghrib_Al-Jumuah_yt_SMsLTDUxVLY.mp3"
     },
     {
-      "number": 855,
+      "number": 874,
       "name": "سورتي الأنعام وفاطر - مغرب وعشاء 5-2-1444 هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-02-05_Maghrib_Al-Anam_yt_3umKMcC57gs.mp3"
     },
     {
-      "number": 856,
+      "number": 875,
       "name": "سورتي يونس والبقرة - مغرب وعشاء الأربعاء 4-2-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-02-04_Maghrib_Al-Baqarah_yt_72bguvpPXBA.mp3"
     },
     {
-      "number": 857,
+      "number": 876,
       "name": "تلاوات شجيّة يملؤها الإبداع والتحبير لصلاتي المغرب والعشاء للشيخ - 3-2-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-02-03_Maghrib_Sad_yt_-qddssu16dc.mp3"
     },
     {
-      "number": 858,
+      "number": 877,
       "name": "رتلت فأرحت القلوب لله درك يا أبا راشد! تلاوات العشائين هـ - 2-2-1444 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-02-02_Prayer_Qaf_yt_LdeHOBR2Hgo.mp3"
     },
     {
-      "number": 859,
+      "number": 878,
       "name": "تراتيل جميلة ورائعة لتلاوتي المغرب والعشاء للشيخ أ. - الأحد 1-2-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-02-01_Maghrib_yt_x4cJAe9ZzoA.mp3"
     },
     {
-      "number": 860,
+      "number": 879,
       "name": "سورتي الكافرون والفلق - مغرب السبت 29-1-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-01-29_Maghrib_Qaf_yt_wQcOmgtS5Io.mp3"
     },
     {
-      "number": 861,
+      "number": 880,
       "name": "تلاوات جمالية أخاذة لصلاتي المغرب والعشاء للشيخ - الجمعة 28-1-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-01-28_Maghrib_Sad_yt_W2lqCpmD8qo.mp3"
     },
     {
-      "number": 862,
+      "number": 881,
       "name": "بكى وأبكى - تلاوات مميزة لفروض الخميس 20-1-1444 هـ للشيخ أ. - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-01-20_Prayer_Ya-Sin_yt_pbqOJ_Ywpk0.mp3"
     },
     {
-      "number": 863,
+      "number": 882,
       "name": "أسر القلوب بهذا الأداء! فروض هـ للآسر أ. - الأربعاء 19-1-1444 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-01-19_Prayer_Qaf_yt_eMhuK9GEOAM.mp3"
     },
     {
-      "number": 864,
+      "number": 883,
       "name": "حبر وتغنى في تلاوات جميلة لصلاتي المغرب والعشاء - 18-1-1444 هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-01-18_Maghrib_Sad_yt_NkMeOVFyt4c.mp3"
     },
     {
-      "number": 865,
+      "number": 884,
       "name": "﴿رَبِّ اجعَل هذَا البَلَدَ آمِنًا﴾ - صلاتي المغرب والعشاء للشيخ  17-1-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-01-17_Maghrib_Sad_yt_8C144AnH0NQ.mp3"
     },
     {
-      "number": 866,
+      "number": 885,
       "name": "سور الحشر والحجر والحج - مغرب وعشاء 16-1-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-01-16_Maghrib_Al-Hijr_yt_TNxZhjNXc-g.mp3"
     },
     {
-      "number": 867,
+      "number": 886,
       "name": "سورتي قريش والفجر - مغرب وعشاء السبت 15-1-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-01-15_Fajr_Qaf_yt_HObR0juMiu4.mp3"
     },
     {
-      "number": 868,
+      "number": 887,
       "name": "تلاوات ممتعة بهدوء آسر للشيخ - مغرب وعشاء الجمعة 14-1-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444-01-14_Maghrib_Al-Jumuah_yt_ahC6vp_ncCU.mp3"
     },
     {
-      "number": 869,
+      "number": 888,
       "name": "سورة الإسراء - 26 ربيع الآخر 1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Fajr_Hud_yt_xQs8izB3QX0.mp3"
     },
     {
-      "number": 870,
+      "number": 889,
       "name": "تلاوات روحانية وأداءات مذهلة - 12-18 ربيع الآخر 1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_yt_hBfd6XX3zQk.mp3"
     },
     {
-      "number": 871,
+      "number": 890,
       "name": "العِقدُ الآسِرْ لتلاوات - تلاوات شهر محرم لعام 1444هـ من الحرم المكي - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_Qaf_yt_G3URM8Bx4os.mp3"
     },
     {
-      "number": 872,
+      "number": 891,
       "name": "العِقدُ الآسِرْ لتلاوات - تلاوات شهر صفر لعام 1444هـ من الحرم المكي - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_Sad_yt_TQndqUaSsHE.mp3"
     },
     {
-      "number": 873,
+      "number": 892,
       "name": "سورة يوسف - فجريات شهر 5-1444هـ Surah Yusuf - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Fajr_Yusuf_yt_Jk6WC1FBt88.mp3"
     },
     {
-      "number": 874,
+      "number": 893,
       "name": "العِقدُ الآسِرْ لتلاوات - تلاوات شهر ربيع الأول لعام 1444هـ من الحرم المكي - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_Qaf_yt_GYtg6EvIxL0.mp3"
     },
     {
-      "number": 875,
+      "number": 894,
       "name": "22 دقيقة من التحبير القرآني المؤثر - فروض يوم الجمعة 17-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_Qaf_yt_q6epwLXQrkk.mp3"
     },
     {
-      "number": 876,
+      "number": 895,
       "name": "العِقدُ الآسِرْ لتلاوات - تلاوات شهر ربيع الآخر لعام 1444هـ من الحرم المكي - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_Qaf_yt_fRejmnRAPSI.mp3"
     },
     {
-      "number": 877,
+      "number": 896,
       "name": "سورة الأعراف - 18 جمادى الأولى 1444 هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_Al-Araf_yt_N1u1s34rHtU.mp3"
     },
     {
-      "number": 878,
+      "number": 897,
       "name": "سورة البقرة - تراويح ليلة 1 رمضان 1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_Al-Baqarah_yt_Ot0gvhzHAeg.mp3"
     },
     {
-      "number": 879,
+      "number": 898,
       "name": "رهيييبة ومؤثرة من الآسر - فجريات شهر 6-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Fajr_Sad_yt_sJOno-KKa08.mp3"
     },
     {
-      "number": 880,
+      "number": 899,
       "name": "العِقدُ الآسِرْ لتلاوات - تلاوات شهر جمادى الآخرة لعام 1444هـ من الحرم المكي - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_Qaf_yt_tY709Zumodc.mp3"
     },
     {
-      "number": 881,
+      "number": 900,
       "name": "بأعلى جودة شاهد كامل تراتيل أ. لرمضان | أجمل التلاوات تجدها هنا - 1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_yt_kXGF4s83ezg.mp3"
     },
     {
-      "number": 882,
+      "number": 901,
       "name": "العِقدُ الآسِرْ لتلاوات - تلاوات شهر جمادى الأولى لعام 1444هـ من الحرم المكي - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_Qaf_yt_QHfcJ7-uyAU.mp3"
     },
     {
-      "number": 883,
+      "number": 902,
       "name": "العِقدُ الآسِرْ لتلاوات - تلاوات شهر شوال لعام 1444هـ من الحرم المكي✨ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_Qaf_yt_W1PxYa_9WvY.mp3"
     },
     {
-      "number": 884,
+      "number": 903,
       "name": "العِقدُ الآسِرْ لتلاوات - تلاوات شهر رجب لعام 1444 هـ من الحرم المكي - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_Qaf_yt_MJqmZAtmgxg.mp3"
     },
     {
-      "number": 885,
+      "number": 904,
       "name": "أ. يستفتح ليالي رمضان من المسجد الحرام في ورائعة - الليلة الأولى 1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_Ya-Sin_yt_tu_0Htel7jc.mp3"
     },
     {
-      "number": 886,
+      "number": 905,
       "name": "وخضعت رقابنا لسلطانك-مناجاة وأدعية وابتهالات تبكي القلوب - أ. ليلة 3-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_Qaf_yt_UfZ1zG8jD6M.mp3"
     },
     {
-      "number": 887,
+      "number": 906,
       "name": "دعاء يُبكي القلوب في ليلة من أجمل الليالي للآسر - ليلة 6 رمضان 1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_Qaf_yt_C1JCJ2keYaw.mp3"
     },
     {
-      "number": 888,
+      "number": 907,
       "name": "سورة الأنعام - ليلة 9-رمضان-1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_Al-Anam_yt_BRRfoUfw2TE.mp3"
     },
     {
-      "number": 889,
+      "number": 908,
       "name": "“اللهُم اغفر لنا مامضى من ذنوبنا\"دعاء خاشع و مؤثر للشيخ - ليلة 15 رمضان 1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_yt_D7iVQOhFZB8.mp3"
     },
     {
-      "number": 890,
+      "number": 909,
       "name": "العِقدُ الآسِرْ لتلاوات - تلاوات شهر شعبان لعام 1444هـ من الحرم المكي✨ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_Qaf_yt_yLunaClC7p0.mp3"
     },
     {
-      "number": 891,
+      "number": 910,
       "name": "سورة سبأ - فجر الأربعاء 20 شوال 1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Fajr_Saba_yt_IYwlbi2-dac.mp3"
     },
     {
-      "number": 892,
+      "number": 911,
       "name": "سورة النحل - فجر الخميس 21 شوال 1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Fajr_An-Nahl_yt_qJG_gv8X1y4.mp3"
     },
     {
-      "number": 893,
+      "number": 912,
       "name": "السور المكتملة من ليالي رمضان الآسر أ. - 1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_yt_I96HmSSMwP4.mp3"
     },
     {
-      "number": 894,
+      "number": 913,
       "name": "سورتي السجدة والإنسان - فجر 6 ذو القعدة 1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Fajr_As-Sajdah_yt_j4GvKhpqryI.mp3"
     },
     {
-      "number": 895,
+      "number": 914,
       "name": "سورة فاطر - من فروض شهر ذو القعدة 1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_Fatir_yt_pxB2Y4fuhDc.mp3"
     },
     {
-      "number": 896,
+      "number": 915,
       "name": "فروض شهر رمضان كاملة للشيخ - 1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_yt_Rfufyve-tsE.mp3"
     },
     {
-      "number": 897,
+      "number": 916,
       "name": "سورة محمد - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Fajr_Muhammad_yt_kHa004HE9cY.mp3"
     },
     {
-      "number": 898,
+      "number": 917,
       "name": "سورتي الأعلى والغاشية - صلاة عيد الأضحى 1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_Sad_yt_7FHF1XkS4r0.mp3"
     },
     {
-      "number": 899,
+      "number": 918,
       "name": "الآسر د.⁧⁩ يمتع الحجاج بهذه التراتيل العذبة - فجر ومغرب ثاني أيام التشريق 1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Fajr_Al-Hajj_yt_X8RPwARmj_4.mp3"
     },
     {
-      "number": 900,
+      "number": 919,
       "name": "العِقدُ الآسِرْ لتلاوات - تلاوات شهر ذو القعدة لعام 1444هـ من الحرم المكي✨ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_Qaf_yt_F5qXmVup8hA.mp3"
     },
     {
-      "number": 901,
+      "number": 920,
       "name": "سورة الأنفال - 1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_Al-Anfal_yt_4EFSNgIf6Jg.mp3"
     },
     {
-      "number": 902,
+      "number": 921,
       "name": "العِقدُ الآسِرْ لتلاوات - تلاوات شهر ذو الحجة لعام 1444هـ من الحرم المكي✨ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_Al-Hajj_yt_RwBncx0D5rQ.mp3"
     },
     {
-      "number": 903,
+      "number": 922,
       "name": "ابداع منقطع النظير من غرّيد الحرم المكي - سورة النحل كاملة رمضان 1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_An-Nahl_yt_Hx1f4l_xZL0.mp3"
     },
     {
-      "number": 904,
+      "number": 923,
       "name": "تذلل وخشوع! أدعية رمضان كاملة للشيخ - 1444هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1444_Prayer_yt_yNpQGMJ_2qc.mp3"
     },
     {
-      "number": 905,
+      "number": 924,
       "name": "من أجمل فجريات الآسر - فجر الخميس 29-12-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-12-29_Fajr_Taha_yt_jLpcpT09MIs.mp3"
     },
     {
-      "number": 906,
+      "number": 925,
       "name": "تسجيل مختلف ل ومميزة لأخر سورة طـه - فجر الخميس 29-12-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-12-29_Fajr_Ya-Sin_yt_krWXZvH3cJw.mp3"
     },
     {
-      "number": 907,
+      "number": 926,
       "name": "سورة الفرقان - فجر الأربعاء 28-12-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-12-28_Fajr_Al-Furqan_yt_EkXVo3ksQj4.mp3"
     },
     {
-      "number": 908,
+      "number": 927,
       "name": "سورة مريم - فجر الثلاثاء 27-12-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-12-27_Fajr_Maryam_yt_Z5DbgKlPm3Y.mp3"
     },
     {
-      "number": 909,
+      "number": 928,
       "name": "سورة الأنعام - الاثنين 26-12-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-12-26_Fajr_Al-Anam_yt_N8gRakD913o.mp3"
     },
     {
-      "number": 910,
+      "number": 929,
       "name": "سورة الأنعام - فجر الأحد 25-12-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-12-25_Fajr_Al-Anam_yt_HLT35oKGWo8.mp3"
     },
     {
-      "number": 911,
+      "number": 930,
       "name": "سورة الزمر - فجر السبت 24-12-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-12-24_Fajr_Az-Zumar_yt_uWVQ-jnzytQ.mp3"
     },
     {
-      "number": 912,
+      "number": 931,
       "name": "سورتي السجدة والإنسان - فجر الجمعة 23-12-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-12-23_Fajr_As-Sajdah_yt_L4JFARvx7bk.mp3"
     },
     {
-      "number": 913,
+      "number": 932,
       "name": "\"وجزاهم بِما صبروا جَنة وَحريرًا \" تلاوتي المغرب والعشاء للشيخ هـ - الأربعاء 14-12-1443 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-12-14_Maghrib_Sad_yt_PReiMLBOy_w.mp3"
     },
     {
-      "number": 914,
+      "number": 933,
       "name": "تأثر وبكاء أ. عندما قرأ هذه الآية \"وماقدروا الله حق قدره\" - فجر الأربعاء 14-12-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-12-14_Fajr_Qaf_yt_DT3eZ3NZ5tE.mp3"
     },
     {
-      "number": 915,
+      "number": 934,
       "name": "فروض آخر أيام التشريق بتحابير من الغرّيد - 13-12-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-12-13_Prayer_Qaf_yt_Ut31P4jDSaI.mp3"
     },
     {
-      "number": 916,
+      "number": 935,
       "name": "تلاوات تداوي القلب للشيخ أ. - فروض الأحد أول أيام التشريق 11-12-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-12-11_Prayer_Qaf_yt_zSKoWIiQk0M.mp3"
     },
     {
-      "number": 917,
+      "number": 936,
       "name": "\"إن زلزلة الساعة شيء عظيم\" تراتيل خاشعة لا توصف لتلاوتي المغرب والعشاء للشيخ - 7-12-1443 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-12-07_Maghrib_Sad_yt_you-hOzg3Xc.mp3"
     },
     {
-      "number": 918,
+      "number": 937,
       "name": "سورتي البقرة ومريم - 26-11-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-11-26_Maghrib_Al-Baqarah_yt_2bOs-SNM0iI.mp3"
     },
     {
-      "number": 919,
+      "number": 938,
       "name": "أ. يُبحر بمن خلفه في سماء الإبداع في يوم مميز - فروض الجمعة 25-11-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-11-25_Prayer_Al-Jumuah_yt_g2nLr66A38Y.mp3"
     },
     {
-      "number": 920,
+      "number": 939,
       "name": "آيات من سورة النساء - فجر الخميس 24-11-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-11-24_Fajr_An-Nisa_yt_sRaLx0Sii9Q.mp3"
     },
     {
-      "number": 921,
+      "number": 940,
       "name": "سورتي الشمس والشرح - فجر وعشاء الأربعاء 23-11-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-11-23_Fajr_Sad_yt_mi3hiUdNMn8.mp3"
     },
     {
-      "number": 922,
+      "number": 941,
       "name": "سورتي الأعراف والبروج - فجر وعشاء 22-11-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-11-22_Fajr_Al-Araf_yt_SRA4Bq2iuAo.mp3"
     },
     {
-      "number": 923,
+      "number": 942,
       "name": "يوم مميز بتراتيل عذبة للشيخ - فروض يوم الاثنين 21-11-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-11-21_Prayer_yt_-w-F3L_38RE.mp3"
     },
     {
-      "number": 924,
+      "number": 943,
       "name": "سورتي القدر والكوثر - فجر ومغرب الأحد 20-11-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-11-20_Fajr_Al-Hajj_yt_Ikw0QnTMbt8.mp3"
     },
     {
-      "number": 925,
+      "number": 944,
       "name": "سورتي يونس والمعارج - مغرب وعشاء السبت 12-11-1443 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-11-12_Maghrib_Yunus_yt_NuXr64KkuQo.mp3"
     },
     {
-      "number": 926,
+      "number": 945,
       "name": "سورتي الأحزاب والإسراء - مغرب وعشاء الجمعة 11-11-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-11-11_Maghrib_Al-Isra_yt_f1taql7St6M.mp3"
     },
     {
-      "number": 927,
+      "number": 946,
       "name": "سورتي الفيل والأعراف - مغرب وعشاء 10-11-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-11-10_Maghrib_Al-Araf_yt_SiFwoh8A_aQ.mp3"
     },
     {
-      "number": 928,
+      "number": 947,
       "name": "تحابير رستية لا تملّ من الغرّيد - مغرب وعشاء 9-11-1443 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-11-09_Maghrib_Al-Furqan_yt_alT9oYmdA2Q.mp3"
     },
     {
-      "number": 929,
+      "number": 948,
       "name": "سورتي الإخلاص وعبس - 8-11-1443 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-11-08_Maghrib_Sad_yt_u-k20OoFFCk.mp3"
     },
     {
-      "number": 930,
+      "number": 949,
       "name": "تلاوات جميلة رتلها بصوته العذب - مغرب وعشاء الاثنين 7-11-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-11-07_Maghrib_Sad_yt_CrK6nhVCSh8.mp3"
     },
     {
-      "number": 931,
+      "number": 950,
       "name": "سورتي التين والتكاثر - مغرب الأحد 6-11-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-11-06_Maghrib_At-Tin_yt_OCPm5u3YrCA.mp3"
     },
     {
-      "number": 932,
+      "number": 951,
       "name": "سورتي المطففين والشمس - فجر السبت 5-11-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-11-05_Fajr_Al-Mutaffifin_yt_trXwqPrcdGQ.mp3"
     },
     {
-      "number": 933,
+      "number": 952,
       "name": "سورة الزمر - فجر الجمعة 4-11-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-11-04_Fajr_Sad_yt_TTmtlhEJwNA.mp3"
     },
     {
-      "number": 934,
+      "number": 953,
       "name": "عِش جوّ الحرم - فجر الجمعة 4-11-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-11-04_Fajr_Az-Zumar_yt_HAyfx_nNces.mp3"
     },
     {
-      "number": 935,
+      "number": 954,
       "name": "سورة الممتحنة - فجر الأربعاء 2-11-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-11-02_Fajr_Al-Mumtahanah_yt_jAZrrF5Vaew.mp3"
     },
     {
-      "number": 936,
+      "number": 955,
       "name": "سورة القمر - فجر الثلاثاء 1-11-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-11-01_Fajr_Qaf_yt_zP5yZKBFxqo.mp3"
     },
     {
-      "number": 937,
+      "number": 956,
       "name": "سورة القلم - فجر الاثنين 29-10-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-10-29_Fajr_Qaf_yt_nPURyMypRw0.mp3"
     },
     {
-      "number": 938,
+      "number": 957,
       "name": "سورة الملك - فجر الأحد 28-10-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-10-28_Fajr_Al-Mulk_yt_Xg3dnwXfsBc.mp3"
     },
     {
-      "number": 939,
+      "number": 958,
       "name": "سور البقرة والعصر ولقمان - فروض السبت 27-10-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-10-27_Asr_Al-Baqarah_yt_rq6MFCupNpc.mp3"
     },
     {
-      "number": 940,
+      "number": 959,
       "name": "الآسر في لا توصف وتحبير لا يملّ - فجر 26-10-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-10-26_Fajr_As-Sajdah_yt_sjwnx0EeAis.mp3"
     },
     {
-      "number": 941,
+      "number": 960,
       "name": "سورة الكهف - فجر الخميس 25-10-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-10-25_Fajr_Al-Kahf_yt_q1Ist5YsKOY.mp3"
     },
     {
-      "number": 942,
+      "number": 961,
       "name": "سورة نوح - فجر 24-10-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-10-24_Fajr_Sad_yt_vR1pxdVPhQQ.mp3"
     },
     {
-      "number": 943,
+      "number": 962,
       "name": "سورة الإنسان - فروض الاثنين 22-10-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-10-22_Prayer_Al-Insan_yt_pV81qHIbQWQ.mp3"
     },
     {
-      "number": 944,
+      "number": 963,
       "name": "\"أَمَّن يُجيبُ المُضطَرَّ إِذا دَعاهُ\" تلاوتي المغرب والعشاء للشيخ - الأحد 21-10-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-10-21_Maghrib_yt_z2XfOkIHhPo.mp3"
     },
     {
-      "number": 945,
+      "number": 964,
       "name": "في محاكاة مذهلة لسيّد القراء المنشاوي - فجر الأحد 21-10-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-10-21_Fajr_Al-Kahf_yt_92lw9O1bzMI.mp3"
     },
     {
-      "number": 946,
+      "number": 965,
       "name": "سورة الواقعة - فجر 20-10-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-10-20_Fajr_Qaf_yt_PVeDA_1K8mc.mp3"
     },
     {
-      "number": 947,
+      "number": 966,
       "name": "سورة غافر - فجر الجمعة 19-10-1443 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-10-19_Fajr_Ghafir_yt_1wgBas3atWE.mp3"
     },
     {
-      "number": 948,
+      "number": 967,
       "name": "سورة القصص - الخميس 18-10-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-10-18_Fajr_Al-Qasas_yt_IqC7bv_-AHo.mp3"
     },
     {
-      "number": 949,
+      "number": 968,
       "name": "سورتي الجاثية والحشر - 17-10-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-10-17_Fajr_Al-Jathiyah_yt_SL9PpOunnIo.mp3"
     },
     {
-      "number": 950,
+      "number": 969,
       "name": "سورة الروم - فجر الثلاثاء 16-10-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-10-16_Fajr_Ar-Rum_yt_8rqy5qXn0lk.mp3"
     },
     {
-      "number": 951,
+      "number": 970,
       "name": "سورة آل عمران - فجر 15-10-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-10-15_Fajr_Ali-Imran_yt_vyt-mGiiYwg.mp3"
     },
     {
-      "number": 952,
+      "number": 971,
       "name": "سورة هود - الأحد 14-10-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-10-14_Fajr_Hud_yt_DEuCOM45m0I.mp3"
     },
     {
-      "number": 953,
+      "number": 972,
       "name": "سورتي البقرة والنور - السبت 13-10-1443 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-10-13_Prayer_Al-Baqarah_yt_wN_g6tE7wHA.mp3"
     },
     {
-      "number": 954,
+      "number": 973,
       "name": "سور السجدة والإنسان والرحمن - عشاء 12-10-1443 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-10-12_Fajr_As-Sajdah_yt_2_Y_NWRvfIk.mp3"
     },
     {
-      "number": 955,
+      "number": 974,
       "name": "سورة النحل - فجر وعشاء 10-10-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-10-10_Fajr_An-Nahl_yt_C7sUM--7pYk.mp3"
     },
     {
-      "number": 956,
+      "number": 975,
       "name": "آيات من سورتي النحل والفرقان - فجر وعشاء 9-10-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-10-09_Fajr_An-Nahl_yt_dzH9azgsJik.mp3"
     },
     {
-      "number": 957,
+      "number": 976,
       "name": "سورتي المؤمنون والنبأ - الاثنين 8-10-1443 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-10-08_Fajr_Al-Muminun_yt_RQXQyb8Cw70.mp3"
     },
     {
-      "number": 958,
+      "number": 977,
       "name": "سورتي آل عمران والحديد - فجر وعشاء 7-10-1443 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-10-07_Fajr_Ali-Imran_yt_uhIc23TB80g.mp3"
     },
     {
-      "number": 959,
+      "number": 978,
       "name": "\"وجاءت سكرة الموت\" بالأداء الشهير يُبكي من خلفه في أرجى الليالي - ليلة 27-9-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-09-27_Prayer_yt_Ju0WWQ7RQqg.mp3"
     },
     {
-      "number": 960,
+      "number": 979,
       "name": "يبكي القلوب بهذا الترتيل الحزين - ليلة 26-9-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-09-26_Prayer_Sad_yt_lMAQdbteyg4.mp3"
     },
     {
-      "number": 961,
+      "number": 980,
       "name": "سورتي غافر وفصلت - ليلة 26-9-1443 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-09-26_Prayer_Sad_yt_D-lmA3vUS0w.mp3"
     },
     {
-      "number": 962,
+      "number": 981,
       "name": "سورتي الروم ولقمان - ليلة 24-9-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-09-24_Prayer_Ar-Rum_yt_tVGgX-x8cF0.mp3"
     },
     {
-      "number": 963,
+      "number": 982,
       "name": "سورتي الشعراء والنمل - ليلة 23-9-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-09-23_Prayer_Ash-Shuara_yt_uL3Z9GNDJkk.mp3"
     },
     {
-      "number": 964,
+      "number": 983,
       "name": "سورتي مريم وطه - ليلة 21-9-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-09-21_Prayer_Maryam_yt_8R8SrWYtYG8.mp3"
     },
     {
-      "number": 965,
+      "number": 984,
       "name": "في أخر لياليه في القنوت.. يبكي المصلين بهذا الدعاء المبكي والخاشع - ليلة 20-9-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-09-20_Prayer_Sad_yt_8VV3fRXhrkE.mp3"
     },
     {
-      "number": 966,
+      "number": 985,
       "name": "سورتي الرعد وإبراهيم - ليلة 17-9-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-09-17_Prayer_Ar-Rad_yt_j-K14iG6I6A.mp3"
     },
     {
-      "number": 967,
+      "number": 986,
       "name": "والله يدعو إِلى دار السلام - قبس من مبكية وعظيمة للآسر - من ليلة 14-9-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-09-14_Prayer_Qaf_yt_l997ww3urkE.mp3"
     },
     {
-      "number": 968,
+      "number": 987,
       "name": "سورة الأحزاب - فجر الخميس 28-8-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-08-28_Fajr_Al-Ahzab_yt_lDMTgKLKWOQ.mp3"
     },
     {
-      "number": 969,
+      "number": 988,
       "name": "خواتيم سورة الأحقاف - عشاء الخميس 28-8-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-08-28_Isha_Ya-Sin_yt_MOMjUGxHG24.mp3"
     },
     {
-      "number": 970,
+      "number": 989,
       "name": "سورتي الطلاق والتغابن - فجر وعشاء 27-8-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-08-27_Fajr_Qaf_yt_yrzoVFz_cJ4.mp3"
     },
     {
-      "number": 971,
+      "number": 990,
       "name": "سورتي الجن وسبأ - الثلاثاء 26-8-1443 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-08-26_Fajr_Saba_yt_SbxCf1Tj9p0.mp3"
     },
     {
-      "number": 972,
+      "number": 991,
       "name": "ترتيل وإبداع لا يوصف للشيخ - صلاتي المغرب والعشاء 25-8-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-08-25_Maghrib_Sad_yt_stBzzTeHwmY.mp3"
     },
     {
-      "number": 973,
+      "number": 992,
       "name": "سورة الدخان - 25-8-1443هـ Surah Ad-Dukhaan - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-08-25_Prayer_Ad-Dukhan_yt_zmarpXKqMno.mp3"
     },
     {
-      "number": 974,
+      "number": 993,
       "name": "سورة المؤمنون - صلاتي الفجر والعشاء 24-8-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-08-24_Fajr_Al-Muminun_yt_4fHE6sFepKU.mp3"
     },
     {
-      "number": 975,
+      "number": 994,
       "name": "سورة مريم - فجر السبت 23-8-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-08-23_Fajr_Maryam_yt_qjHedLLCB1E.mp3"
     },
     {
-      "number": 976,
+      "number": 995,
       "name": "سورة النساء - 20-8-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-08-20_Fajr_An-Nisa_yt_nGAeUQMaFVE.mp3"
     },
     {
-      "number": 977,
+      "number": 996,
       "name": "سورة آل عمران - فجر الثلاثاء 19-8-1443 هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-08-19_Fajr_Ali-Imran_yt_w1EFn8_c37I.mp3"
     },
     {
-      "number": 978,
+      "number": 997,
       "name": "سورة الشعراء - فجر الاثنين 18-8-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-08-18_Fajr_Ash-Shuara_yt_Ky8jUUhL4cc.mp3"
     },
     {
-      "number": 979,
+      "number": 998,
       "name": "\"وننزل من القرآن ما هو شفاء ورحمة\" بترتيل خاشع للشيخ - 17-8-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-08-17_Prayer_Qaf_yt_yFe_sXZrUGk.mp3"
     },
     {
-      "number": 980,
+      "number": 999,
       "name": "سورتي هود والجاثية - 2-8-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-08-02_Prayer_Hud_yt_eSMrL8_HNMw.mp3"
     },
     {
-      "number": 981,
+      "number": 1000,
       "name": "سورتي السجدة والإنسان - فجر الجمعة 1-8-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-08-01_Fajr_As-Sajdah_yt_AezuirW3vgA.mp3"
     },
     {
-      "number": 982,
+      "number": 1001,
       "name": "سورة الفجر - فروض الجمعة 1-8-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-08-01_Fajr_Sad_yt_QYJCHmf_HRo.mp3"
     },
     {
-      "number": 983,
+      "number": 1002,
       "name": "سورة الكهف - فجر الخميس 30-7-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-07-30_Fajr_Al-Kahf_yt_TpO-rEfRT-o.mp3"
     },
     {
-      "number": 984,
+      "number": 1003,
       "name": "سورتي الكهف والشعراء - من صلاتي الفجر والعشاء 30-7-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-07-30_Fajr_Al-Kahf_yt_WzTWInJQY6U.mp3"
     },
     {
-      "number": 985,
+      "number": 1004,
       "name": "سورتي الزخرف والإسراء - 29-7-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-07-29_Prayer_Al-Isra_yt_6ICr81ttpco.mp3"
     },
     {
-      "number": 986,
+      "number": 1005,
       "name": "خواتيم سورة الزخرف - الأربعاء 29-7-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-07-29_Fajr_Az-Zukhruf_yt_wsnDhc61mTs.mp3"
     },
     {
-      "number": 987,
+      "number": 1006,
       "name": "وعاد الآسر للأداء العراقي - الثلاثاء 28-7-1443 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-07-28_Fajr_Sad_yt_QT6dWH7ZVlc.mp3"
     },
     {
-      "number": 988,
+      "number": 1007,
       "name": "سورتي فصلت والزخرف - عشاء 28-7-1443 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-07-28_Fajr_Sad_yt_uylIdqHw1U8.mp3"
     },
     {
-      "number": 989,
+      "number": 1008,
       "name": "سورة الحديد - الإثنين 27-7-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-07-27_Fajr_Al-Hadid_yt__6Su_0Pg6-8.mp3"
     },
     {
-      "number": 990,
+      "number": 1009,
       "name": "تلاوات تحبيرية لا يمل السامع من سماعها - فجر وعشاء 27-7-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-07-27_Fajr_yt_Y5C4SymXIxk.mp3"
     },
     {
-      "number": 991,
+      "number": 1010,
       "name": "سورة الواقعة - فجر وعشاء 26-7-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-07-26_Fajr_Qaf_yt_SasMw4eImCE.mp3"
     },
     {
-      "number": 992,
+      "number": 1011,
       "name": "سورة ق - فجر الأحد 26-7-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-07-26_Fajr_Qaf_yt_g0BsU8hCFhw.mp3"
     },
     {
-      "number": 993,
+      "number": 1012,
       "name": "أداء بديع لصلاة المغرب والعشاء للشيخ - السبت 25-7-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-07-25_Maghrib_Sad_yt_6KAHIhFIOTs.mp3"
     },
     {
-      "number": 994,
+      "number": 1013,
       "name": "بأجمل أداء وأحلى ترتيل لصلاتي المغرب والعشاء - الجمعة 24-7-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-07-24_Maghrib_Sad_yt_E9rrRU-Yg1I.mp3"
     },
     {
-      "number": 995,
+      "number": 1014,
       "name": "سورة الفرقان - عشاء الخميس 23-7-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-07-23_Isha_Al-Furqan_yt_UIpawNRIuZE.mp3"
     },
     {
-      "number": 996,
+      "number": 1015,
       "name": "تلاوات عذبة ندية للشيخ - مغرب وعشاء الأربعاء 22-7-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-07-22_Maghrib_yt_Pzs_MoiRHj8.mp3"
     },
     {
-      "number": 997,
+      "number": 1016,
       "name": "سورة إبراهيم - عشاء الثلاثاء 21-7-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-07-21_Isha_Ibrahim_yt_KpRL163vM3Q.mp3"
     },
     {
-      "number": 998,
+      "number": 1017,
       "name": "خواتيم سورة الحشر - عشاء الإثنين 20-7-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-07-20_Isha_Al-Hashr_yt_3Hs29Fx092g.mp3"
     },
     {
-      "number": 999,
+      "number": 1018,
       "name": "عشائية مبهرة تألق فيها الآسر - سورة النبأ الأحد 19-7-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-07-19_Prayer_Qaf_yt_QQzj-msC6EM.mp3"
     },
     {
-      "number": 1000,
+      "number": 1019,
       "name": "سورتي الطارق والمائدة - مغرب وعشاء السبت 11-7-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-07-11_Maghrib_Al-Maidah_yt_CqN6hGoVXoU.mp3"
     },
     {
-      "number": 1001,
+      "number": 1020,
       "name": "تلاوات ندية رائعة - مغرب وعشاء الجمعة 10-7-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-07-10_Maghrib_Al-Jumuah_yt_u2KHnv3ZzOQ.mp3"
     },
     {
-      "number": 1002,
+      "number": 1021,
       "name": "سورة القيامة - عشاء الخميس 9-7-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-07-09_Isha_Ya-Sin_yt_crx8jvvAU7U.mp3"
     },
     {
-      "number": 1003,
+      "number": 1022,
       "name": "سور التكاثر والعصر والقيامة - مغرب وعشاء 9-7-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-07-09_Maghrib_Sad_yt_PuQlC8LAVq8.mp3"
     },
     {
-      "number": 1004,
+      "number": 1023,
       "name": "تلاوات بالبيات الحزين للشيخ - مغرب وعشاء 8-7-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-07-08_Maghrib_Al-Hijr_yt_Y5HUVVRtwnY.mp3"
     },
     {
-      "number": 1005,
+      "number": 1024,
       "name": "سور الشمس والقارعة وفاطر - مغرب وعشاء 7-7-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-07-07_Maghrib_Fatir_yt_1dScWRyQkR8.mp3"
     },
     {
-      "number": 1006,
+      "number": 1025,
       "name": "سورتي آل عمران والأنعام - مغرب وعشاء الإثنين 6-7-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-07-06_Maghrib_Ali-Imran_yt_TsIvWvgvztI.mp3"
     },
     {
-      "number": 1007,
+      "number": 1026,
       "name": "سورتي الأعلى والحديد - مغرب وعشاء الأحد 5-7-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-07-05_Maghrib_Al-Hadid_yt_4KUHQNf8N6s.mp3"
     },
     {
-      "number": 1008,
+      "number": 1027,
       "name": "سورة الأعراف - فجر السبت 26-6-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-06-26_Fajr_Al-Araf_yt_mtHAXLVT3C4.mp3"
     },
     {
-      "number": 1009,
+      "number": 1028,
       "name": "سورتي السجدة والإنسان - فجر الجمعة 25-6-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-06-25_Fajr_As-Sajdah_yt_inSxDMzk9sk.mp3"
     },
     {
-      "number": 1010,
+      "number": 1029,
       "name": "سورتي السجدة والإنسان - فجر الجمعة 25-6-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-06-25_Fajr_As-Sajdah_yt__bZUglN--5E.mp3"
     },
     {
-      "number": 1011,
+      "number": 1030,
       "name": "سورة الأنبياء - فجر الخميس 24-6-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-06-24_Fajr_Al-Anbiya_yt_5C92gtCl9nk.mp3"
     },
     {
-      "number": 1012,
+      "number": 1031,
       "name": "سورة الإسراء - فجر الأربعاء 23-6-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-06-23_Fajr_Al-Isra_yt_usOL3VhZgyo.mp3"
     },
     {
-      "number": 1013,
+      "number": 1032,
       "name": "ياسلام على مثل هذه التلاوات - فجر 22-6-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-06-22_Fajr_Al-Anam_yt_o9soRzq2P7k.mp3"
     },
     {
-      "number": 1014,
+      "number": 1033,
       "name": "سورة الأنعام - الثلاثاء 22-6-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-06-22_Fajr_Al-Anam_yt_2-anNF3v2Z4.mp3"
     },
     {
-      "number": 1015,
+      "number": 1034,
       "name": "خواتيم سورة الفرقان - فجر الاثنين 21-6-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-06-21_Fajr_Al-Furqan_yt_JG4GOq4AbrA.mp3"
     },
     {
-      "number": 1016,
+      "number": 1035,
       "name": "أوائل سورة الأنعام - فجر الأحد 20-6-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-06-20_Fajr_Al-Anam_yt_gBBcEdit5vg.mp3"
     },
     {
-      "number": 1017,
+      "number": 1036,
       "name": "سورة الأنعام - الأحد 20-6-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-06-20_Fajr_Al-Anam_yt_6M_vu4l3LJY.mp3"
     },
     {
-      "number": 1018,
+      "number": 1037,
       "name": "سورة الأعراف - السبت 19-6-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-06-19_Fajr_Al-Araf_yt_3sYo2yLC_CY.mp3"
     },
     {
-      "number": 1019,
+      "number": 1038,
       "name": "سورة الأعراف - فجر السبت 19-6-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-06-19_Fajr_Al-Araf_yt_L4U2pRUTdFE.mp3"
     },
     {
-      "number": 1020,
+      "number": 1039,
       "name": "سورة فصلت - 12-6-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-06-12_Fajr_Sad_yt_tQB86kxERSI.mp3"
     },
     {
-      "number": 1021,
+      "number": 1040,
       "name": "ترتيل تاريخي مدهش نادرا ما يرتل به - فروض يوم السبت 12-6-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-06-12_Prayer_yt_MxP1tv-SzVc.mp3"
     },
     {
-      "number": 1022,
+      "number": 1041,
       "name": "سورتي الأحزاب والواقعة - مغرب وعشاء الجمعة 11-6-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-06-11_Maghrib_Al-Ahzab_yt_5c_d9QwgX2A.mp3"
     },
     {
-      "number": 1023,
+      "number": 1042,
       "name": "سورتي النور والبقرة - مغرب وعشاء 10-6-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-06-10_Maghrib_Al-Baqarah_yt_wxnM8NF3izk.mp3"
     },
     {
-      "number": 1024,
+      "number": 1043,
       "name": "تلاوات رائعة وإبداع ليس بمستغرب من - مغرب وعشاء 9-6-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-06-09_Maghrib_Ya-Sin_yt_K-8VxrgInKk.mp3"
     },
     {
-      "number": 1025,
+      "number": 1044,
       "name": "تلاوات خاشعة ومميزة للشيخ - مغرب وعشاء الثلاثاء 8-6-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-06-08_Maghrib_yt_t-NexHJJk2w.mp3"
     },
     {
-      "number": 1026,
+      "number": 1045,
       "name": "تلاوات عذبة للشيخ د. ياسرالدوسري - مغرب وعشاء الاثنين 7-6-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-06-07_Maghrib_yt_gh1U9evBnnA.mp3"
     },
     {
-      "number": 1027,
+      "number": 1046,
       "name": "تلاوات بياتية محبرة لصلاتي المغرب والعشاء - الأحد 6-6-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-06-06_Maghrib_Sad_yt_MOJ5RcLCgac.mp3"
     },
     {
-      "number": 1028,
+      "number": 1047,
       "name": "أوائل سورة الصافات - 28-5-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-05-28_Fajr_As-Saffat_yt_bwSaEzYNc3s.mp3"
     },
     {
-      "number": 1029,
+      "number": 1048,
       "name": "سورة الصافات - فجر السبت 28-5-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-05-28_Fajr_As-Saffat_yt_JiVEGsnXwnE.mp3"
     },
     {
-      "number": 1030,
+      "number": 1049,
       "name": "سورتي النبأ والفجر - فجر الجمعة 27-5-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-05-27_Fajr_Al-Jumuah_yt_vzzXSMV8FCE.mp3"
     },
     {
-      "number": 1031,
+      "number": 1050,
       "name": "سورتي العنكبوت والروم - فجر 26-5-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-05-26_Fajr_Al-Ankabut_yt_BnFWKowvXxc.mp3"
     },
     {
-      "number": 1032,
+      "number": 1051,
       "name": "سورة الشورى - فجر 25-5-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-05-25_Fajr_Ash-Shura_yt_v-CHWYf3sqA.mp3"
     },
     {
-      "number": 1033,
+      "number": 1052,
       "name": "سورة الأحزاب - الثلاثاء 24-5-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-05-24_Fajr_Al-Ahzab_yt_24HWq7uS3wI.mp3"
     },
     {
-      "number": 1034,
+      "number": 1053,
       "name": "سورة المزمل - فجر الاثنين 23-5-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-05-23_Fajr_Al-Muzzammil_yt_FKk7NFK-5Wk.mp3"
     },
     {
-      "number": 1035,
+      "number": 1054,
       "name": "سورة التحريم - الأحد 22-5-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-05-22_Fajr_At-Tahrim_yt_B7L9apcLPDU.mp3"
     },
     {
-      "number": 1036,
+      "number": 1055,
       "name": "سورة آل عمران - مغرب السبت 21-5-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-05-21_Maghrib_Ali-Imran_yt_RX0uP_2XVqo.mp3"
     },
     {
-      "number": 1037,
+      "number": 1056,
       "name": "سورة آل عمران - مغرب الجمعة 20-5-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-05-20_Maghrib_Ali-Imran_yt_SqfHcW_tRzE.mp3"
     },
     {
-      "number": 1038,
+      "number": 1057,
       "name": "سورتي العصر والكوثر - مغرب الخميس 19-5-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-05-19_Maghrib_Ya-Sin_yt_LhuMuZZjuks.mp3"
     },
     {
-      "number": 1039,
+      "number": 1058,
       "name": "مميزة لسورة الإنفطار للشيخ - مغرب الأربعاء 18-5-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-05-18_Maghrib_yt_SOyRl2uxbqs.mp3"
     },
     {
-      "number": 1040,
+      "number": 1059,
       "name": "سورتي الماعون والمسد - مغرب الثلاثاء 17-5-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-05-17_Maghrib_Al-Maun_yt_DVRK5Ul0faM.mp3"
     },
     {
-      "number": 1041,
+      "number": 1060,
       "name": "سورتي التكاثر والفلق - مغرب الاثنين 16-5-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-05-16_Maghrib_Qaf_yt_6VZCgw4BqQg.mp3"
     },
     {
-      "number": 1042,
+      "number": 1061,
       "name": "سورتي البقرة والصافات - مغرب الأحد 15-5-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-05-15_Maghrib_Al-Baqarah_yt_nr3ZPyjKMgE.mp3"
     },
     {
-      "number": 1043,
+      "number": 1062,
       "name": "سورة البروج - مغرب الأحد 8-5-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-05-08_Maghrib_Al-Buruj_yt_BOnFSyfyAF8.mp3"
     },
     {
-      "number": 1044,
+      "number": 1063,
       "name": "سورة الفرقان - فجر وعشاء السبت 7-5-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-05-07_Fajr_Al-Furqan_yt_1o7n73bFPFY.mp3"
     },
     {
-      "number": 1045,
+      "number": 1064,
       "name": "سورتي السجدة والإنسان - فجر 6-5-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-05-06_Fajr_As-Sajdah_yt_B6wVyaCesgY.mp3"
     },
     {
-      "number": 1046,
+      "number": 1065,
       "name": "سورتي السجدة والإنسان - فجر 6-5-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-05-06_Fajr_As-Sajdah_yt_O9bn7aEWKdE.mp3"
     },
     {
-      "number": 1047,
+      "number": 1066,
       "name": "سورة يونس - الجمعة 6-5-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-05-06_Prayer_Yunus_yt_s4rIJdVN_oI.mp3"
     },
     {
-      "number": 1048,
+      "number": 1067,
       "name": "سورة هود - الخميس 5-5-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-05-05_Fajr_Hud_yt_wDW_vDyadSM.mp3"
     },
     {
-      "number": 1049,
+      "number": 1068,
       "name": "سورة هود - 5-5-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-05-05_Fajr_Hud_yt_HQV69H2Cn3g.mp3"
     },
     {
-      "number": 1050,
+      "number": 1069,
       "name": "سورة الفجر - الخميس 5-5-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-05-05_Fajr_Ya-Sin_yt_ea0ocUEHF04.mp3"
     },
     {
-      "number": 1051,
+      "number": 1070,
       "name": "سورة لقمان - عشاء الأربعاء 4-5-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-05-04_Isha_Luqman_yt_w21eIapjuAI.mp3"
     },
     {
-      "number": 1052,
+      "number": 1071,
       "name": "خواتيم سورة مريم - عشاء الثلاثاء 3-5-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-05-03_Isha_Maryam_yt_faAspBKl_qs.mp3"
     },
     {
-      "number": 1053,
+      "number": 1072,
       "name": "خواتيم سورتي الحشر والليل - عشاء الإثنين 2-5-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-05-02_Isha_Al-Hashr_yt_zs5uEkw7AuQ.mp3"
     },
     {
-      "number": 1054,
+      "number": 1073,
       "name": "خواتيم سورة الفرقان - عشاء الأحد 1-5-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-05-01_Isha_Al-Furqan_yt_8HvtqZGipTg.mp3"
     },
     {
-      "number": 1055,
+      "number": 1074,
       "name": "سورة النبأ - عشاء السبت 22-4-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-04-22_Isha_An-Naba_yt_gEyE3-0v_d8.mp3"
     },
     {
-      "number": 1056,
+      "number": 1075,
       "name": "سورة الإسراء - 16-4-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-04-16_Fajr_Al-Isra_yt_buY13GPFWV8.mp3"
     },
     {
-      "number": 1057,
+      "number": 1076,
       "name": "سورتي الدخان والمعارج - مغرب وعشاء السبت 8-4-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-04-08_Maghrib_Ad-Dukhan_yt_3o8KlwIkJZ4.mp3"
     },
     {
-      "number": 1058,
+      "number": 1077,
       "name": "سورة الحاقة - عشاء الجمعة 7-4-1443 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-04-07_Maghrib_Sad_yt_23mhvBi9edM.mp3"
     },
     {
-      "number": 1059,
+      "number": 1078,
       "name": "سورتي يونس والأحزاب - مغرب 6-4-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-04-06_Maghrib_Yunus_yt_8xqSQIKIi7s.mp3"
     },
     {
-      "number": 1060,
+      "number": 1079,
       "name": "سورتي الحجر والحج - 6-4-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-04-06_Prayer_Al-Hijr_yt_jBXrS2SuMjc.mp3"
     },
     {
-      "number": 1061,
+      "number": 1080,
       "name": "إبداع يفوق الوصف للشيخ⁩ - مغرب وعشاء الأربعاء 5-4-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-04-05_Maghrib_Sad_yt_FZ1EKk3LrjY.mp3"
     },
     {
-      "number": 1062,
+      "number": 1081,
       "name": "أداء بديع يخشع الأفئدة لصلاتي المغرب والعشاء للشيخ - الثلاثاء 4-4-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-04-04_Maghrib_Sad_yt_RX_b11Q8lDo.mp3"
     },
     {
-      "number": 1063,
+      "number": 1082,
       "name": "أرح قلبك - تلاوتي المغرب والعشاء للشيخ 3-4-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-04-03_Maghrib_Qaf_yt_jB1a6UylWyc.mp3"
     },
     {
-      "number": 1064,
+      "number": 1083,
       "name": "تلاوات تحبيرية للشيخ - مغرب وعشاء الأحد 2-4-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-04-02_Maghrib_yt_J2tHTB5VV3Y.mp3"
     },
     {
-      "number": 1065,
+      "number": 1084,
       "name": "خواتيم سورة إبراهيم - السبت 24-3-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-03-24_Fajr_Ibrahim_yt_hx_fKnKtrf4.mp3"
     },
     {
-      "number": 1066,
+      "number": 1085,
       "name": "تلاوات ترنمية بديعة للشيخ⁧ - فجر ومغرب السبت  24-3-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-03-24_Fajr_Ibrahim_yt_40WLzht82Zc.mp3"
     },
     {
-      "number": 1067,
+      "number": 1086,
       "name": "تلاوات ⁩⁦ تفيضُ⁩جمالًا وخشوعاً للشيخ - فجر ومغرب الجمعة 23-3-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-03-23_Fajr_Al-Jumuah_yt_ogihbYXNG7o.mp3"
     },
     {
-      "number": 1068,
+      "number": 1087,
       "name": "فجرية المبدع - من سورة الزمر الخميس 22-3-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-03-22_Fajr_Ya-Sin_yt_OhmhNlqlzyY.mp3"
     },
     {
-      "number": 1069,
+      "number": 1088,
       "name": "قل الله أعبد مخلصا له ديني- فجرية بديعة ومميزة لغرّيد الحرم - 22-3-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-03-22_Fajr_Sad_yt_JwRZirv65Dk.mp3"
     },
     {
-      "number": 1070,
+      "number": 1089,
       "name": "تميّز وأبدع فيها - مغرب 22-3-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-03-22_Maghrib_Ali-Imran_yt_JN0d0s1yPhU.mp3"
     },
     {
-      "number": 1071,
+      "number": 1090,
       "name": "سورة فصلت - فجر 21-3-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-03-21_Fajr_Sad_yt_VbWa9ovjCXI.mp3"
     },
     {
-      "number": 1072,
+      "number": 1091,
       "name": "خشعت القلوب ودمعت العيون من هذه التلاوة - فجر 21-3-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-03-21_Fajr_Sad_yt_6nJ7vYyenJM.mp3"
     },
     {
-      "number": 1073,
+      "number": 1092,
       "name": "\"وهم يصطرخون فيها\" يبكي المصلين بهذه الالخاشعة - من سورة فاطر فجر 20-3-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-03-20_Fajr_Fatir_yt_gJCWbGK0dZA.mp3"
     },
     {
-      "number": 1074,
+      "number": 1093,
       "name": "خواتيم سورتي الكهف ومريم - مغرب الثلاثاء 20-3-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-03-20_Maghrib_Al-Kahf_yt_YjRBAQmfZ1M.mp3"
     },
     {
-      "number": 1075,
+      "number": 1094,
       "name": "\"وقالوا الحمدلله\" عراقية حبرها بخشوع وتألق - فجر 20-3-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-03-20_Fajr_Fatir_yt_6skPfK6KVr8.mp3"
     },
     {
-      "number": 1076,
+      "number": 1095,
       "name": "تلاوات مميزة للشيخ ياسرالدوسري - فجر ومغرب 19-3-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-03-19_Fajr_yt_KzLixwNtY-4.mp3"
     },
     {
-      "number": 1077,
+      "number": 1096,
       "name": "سورتي الأنفال ونوح - 19-3-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-03-19_Fajr_Al-Anfal_yt_Bh1JuC1Za_A.mp3"
     },
     {
-      "number": 1078,
+      "number": 1097,
       "name": "أول صلاة للشيخ بعد عودة التراص - فجر 18-3-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-03-18_Fajr_Luqman_yt_NXp16ZtNIcA.mp3"
     },
     {
-      "number": 1079,
+      "number": 1098,
       "name": "تلاوات بديعة للشيخ - فجر ومغرب 18-3-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-03-18_Fajr_yt_MfxLsw7jlYw.mp3"
     },
     {
-      "number": 1080,
+      "number": 1099,
       "name": "سورة الأنبياء - فجر 10-3-1443 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-03-10_Fajr_Al-Anbiya_yt_5K6IjO9_vgk.mp3"
     },
     {
-      "number": 1081,
+      "number": 1100,
       "name": "تلاوات‬⁩ روحانية حبرها د. ⁧‬⁩ بصوته العذب - ⁦‪مغرب‬⁩ ⁦‪وعشاء‬⁩ 10-3-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-03-10_Maghrib_Sad_yt_4RE6X6--89k.mp3"
     },
     {
-      "number": 1082,
+      "number": 1101,
       "name": "عظيمة تجلى بها الآسر وأبكى من خلفه - أخر سورة الأنبياء فجر السبت 10-3-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-03-10_Fajr_Al-Anbiya_yt_aZaNLQ-Ez1E.mp3"
     },
     {
-      "number": 1083,
+      "number": 1102,
       "name": "حلّق بالمصلين بهذه التراتيل العراقية المبكية - سورة ق فجر الجمعة 9-3-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-03-09_Fajr_Sad_yt_S9kxtK_tDy8.mp3"
     },
     {
-      "number": 1084,
+      "number": 1103,
       "name": "تلاوات بتراتيل عذبّة للشيخ - فجر ومغرب الجمعة 9-3-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-03-09_Fajr_Al-Jumuah_yt_a9baLltcXCE.mp3"
     },
     {
-      "number": 1085,
+      "number": 1104,
       "name": "سورة القيامة - فجر ومغرب 8-3-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-03-08_Fajr_Qaf_yt_-njvU3w-zvU.mp3"
     },
     {
-      "number": 1086,
+      "number": 1105,
       "name": "سورة يس - فجر الخميس 8-3-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-03-08_Fajr_Ya-Sin_yt_geWAtqYAZD8.mp3"
     },
     {
-      "number": 1087,
+      "number": 1106,
       "name": "سورة الإسراء - فجر 7-3-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-03-07_Fajr_Al-Isra_yt_40CSYwKGQTk.mp3"
     },
     {
-      "number": 1088,
+      "number": 1107,
       "name": "ألا بذكر الله تطمئن القلوب - 7-3-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-03-07_Maghrib_Qaf_yt_c-KmEUnH6NM.mp3"
     },
     {
-      "number": 1089,
+      "number": 1108,
       "name": "سورتي الأعلى وقريش - مغرب الثلاثاء 6-3-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-03-06_Maghrib_Qaf_yt_IDPx9CG-UNM.mp3"
     },
     {
-      "number": 1090,
+      "number": 1109,
       "name": "سورة الرحمن - فجر 25-2-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-02-25_Fajr_Ar-Rahman_yt_0dEPSn2pgLo.mp3"
     },
     {
-      "number": 1091,
+      "number": 1110,
       "name": "سورتي عبس والنبأ - مغرب وعشاء 25-2-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-02-25_Maghrib_An-Naba_yt_DsQB7MXQIqU.mp3"
     },
     {
-      "number": 1092,
+      "number": 1111,
       "name": "تأخذ القلوب لعالم آخر - فجر 25-2-1443هـ للآسر - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-02-25_Fajr_Qaf_yt_r4wL36wBHFc.mp3"
     },
     {
-      "number": 1093,
+      "number": 1112,
       "name": "تفوق الوصف لـ - خواتيم سورة طه ~ فجر الجمعة 24-2-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-02-24_Fajr_Taha_yt_jXlPsRGP47Q.mp3"
     },
     {
-      "number": 1094,
+      "number": 1113,
       "name": "سورة الأنعام - الخميس 23-2-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-02-23_Fajr_Al-Anam_yt_odOhdKFE-nA.mp3"
     },
     {
-      "number": 1095,
+      "number": 1114,
       "name": "سورة ص - فجر الأربعاء 22-2-1443 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-02-22_Fajr_Sad_yt_Bc8XPj3UheE.mp3"
     },
     {
-      "number": 1096,
+      "number": 1115,
       "name": "تلاوات روحانية حبرها بخشوع مؤثر - فجر ومغرب الأربعاء 22-2-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-02-22_Fajr_yt_bFrFZ2CChEc.mp3"
     },
     {
-      "number": 1097,
+      "number": 1116,
       "name": "سورة المؤمنون - فجر الثلاثاء 21-2-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-02-21_Fajr_Al-Muminun_yt_-rhwcd4XSic.mp3"
     },
     {
-      "number": 1098,
+      "number": 1117,
       "name": "تصوير مرئي لعراقية أبكت - خواتيم سورة المؤمنون~فجر الثلاثاء 21-2-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-02-21_Fajr_Al-Muminun_yt_coOxReKECKc.mp3"
     },
     {
-      "number": 1099,
+      "number": 1118,
       "name": "سورة المؤمنون - فجر الثلاثاء 21-2-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-02-21_Fajr_Al-Muminun_yt_Ib2KizUQevM.mp3"
     },
     {
-      "number": 1100,
+      "number": 1119,
       "name": "سورة النساء - فجر 20-2-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-02-20_Fajr_An-Nisa_yt_Xfh1B9FO5Qw.mp3"
     },
     {
-      "number": 1101,
+      "number": 1120,
       "name": "سورة الأنبياء - الأحد 19-2-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-02-19_Fajr_Al-Anbiya_yt_GBIyjNVMgUo.mp3"
     },
     {
-      "number": 1102,
+      "number": 1121,
       "name": "سورة البينة - مغرب الأربعاء 15-2-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-02-15_Maghrib_Al-Bayyinah_yt_miDbh3YZx1g.mp3"
     },
     {
-      "number": 1103,
+      "number": 1122,
       "name": "سورتي الليل والتكاثر - مغرب الثلاثاء 14-2-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-02-14_Maghrib_Al-Layl_yt_rO_lrwLPNiU.mp3"
     },
     {
-      "number": 1104,
+      "number": 1123,
       "name": "سورتي آل عمران والشورى - مغرب وعشاء 13-2-1443هـ للشيخ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-02-13_Maghrib_Al-Baqarah_yt_481qKH7LaEA.mp3"
     },
     {
-      "number": 1105,
+      "number": 1124,
       "name": "ترتيل عجيب وآسر للآسر - مغرب وعشاء الأحد 12-2-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-02-12_Maghrib_yt_6v4RYVHNWPg.mp3"
     },
     {
-      "number": 1106,
+      "number": 1125,
       "name": "فجرية تجلى فيها وأخشع من خلفه - 10-2-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-02-10_Fajr_As-Sajdah_yt_4rHrTGZ7AB8.mp3"
     },
     {
-      "number": 1107,
+      "number": 1126,
       "name": "فجرية تجلى فيها وأخشع من خلفه - 10-2-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-02-10_Fajr_As-Sajdah_yt_d7sBbflVWYs.mp3"
     },
     {
-      "number": 1108,
+      "number": 1127,
       "name": "فجرية تجلى فيها وأخشع من خلفه - الجمعة 10-2-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-02-10_Fajr_As-Sajdah_yt_0yTeQtUmCV8.mp3"
     },
     {
-      "number": 1109,
+      "number": 1128,
       "name": "سورة الأنعام - 9-2-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-02-09_Fajr_Al-Anam_yt_MPwoMwq_iiY.mp3"
     },
     {
-      "number": 1110,
+      "number": 1129,
       "name": "سورة الأنعام - 9-2-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-02-09_Fajr_Al-Anam_yt_DF1fbYv17gE.mp3"
     },
     {
-      "number": 1111,
+      "number": 1130,
       "name": "سورتي الروم والأحزاب - مغرب 9-2-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-02-09_Maghrib_Ar-Rum_yt_RfvByO1vBW8.mp3"
     },
     {
-      "number": 1112,
+      "number": 1131,
       "name": "يوم مميز بتراتيل عذبة للشيخ - فروض يوم الخميس 9-2-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-02-09_Prayer_Ya-Sin_yt_GhQF4wtA7AU.mp3"
     },
     {
-      "number": 1113,
+      "number": 1132,
       "name": "سورة الحاقة - فجر الثلاثاء 7-2-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-02-07_Fajr_Qaf_yt_OTpaSylf2Zk.mp3"
     },
     {
-      "number": 1114,
+      "number": 1133,
       "name": "سورة الحاقة - فجر الثلاثاء 7-2-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-02-07_Fajr_Qaf_yt_EMhqvzA8yOk.mp3"
     },
     {
-      "number": 1115,
+      "number": 1134,
       "name": "إبداع بياتي عجيب وغريب من - مغرب 27-1-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-01-27_Maghrib_An-Nahl_yt_W0wXXwdnKGg.mp3"
     },
     {
-      "number": 1116,
+      "number": 1135,
       "name": "سورة سبأ - فجر السبت 27-1-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-01-27_Fajr_Saba_yt_Pjyk9Ft08Mg.mp3"
     },
     {
-      "number": 1117,
+      "number": 1136,
       "name": "سورتي السجدة والإنسان - 26-1-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-01-26_Fajr_As-Sajdah_yt_VTfiBETGF9o.mp3"
     },
     {
-      "number": 1118,
+      "number": 1137,
       "name": "سور الإنسان والبقرة وآل عمران - مغرب 26-1-1443 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-01-26_Fajr_Al-Baqarah_yt_4WXCbVIvKNY.mp3"
     },
     {
-      "number": 1119,
+      "number": 1138,
       "name": "سورتي البلد والعصر - فجر ومغرب 25-1-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-01-25_Fajr_Al-Hajj_yt_X8rSBb1WoeM.mp3"
     },
     {
-      "number": 1120,
+      "number": 1139,
       "name": "سورة الحج - فجر 25-1-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-01-25_Fajr_Al-Hajj_yt_zRSSkC-x-ao.mp3"
     },
     {
-      "number": 1121,
-      "name": "سورة القمر - فجر الأربعاء 24-1-1443هـ - الشيخ د. ياسر الدوسري",
-      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-01-24_Fajr_Sad_yt_FubJWNQteQ0.mp3"
-    },
-    {
-      "number": 1122,
+      "number": 1140,
       "name": "سورتي القمر والمنافقون - مغرب 24-1-1443 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-01-24_Fajr_Qaf_yt_V7PQiuhnOLc.mp3"
     },
     {
-      "number": 1123,
+      "number": 1141,
+      "name": "سورة القمر - فجر الأربعاء 24-1-1443هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-01-24_Fajr_Sad_yt_FubJWNQteQ0.mp3"
+    },
+    {
+      "number": 1142,
       "name": "يالجمال هذه الويالعظمها - فجر 23-1-1443 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-01-23_Fajr_Al-Jathiyah_yt_ujf56LW6meU.mp3"
     },
     {
-      "number": 1124,
+      "number": 1143,
       "name": "تلاوات بأسلوب مميز ومؤثر للشيخ - فجر ومغرب 23-1-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-01-23_Fajr_yt_1gChuDxGywQ.mp3"
     },
     {
-      "number": 1125,
+      "number": 1144,
       "name": "سور الحجر والحج والحجرات - مغرب الإثنين 22-1-1443 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-01-22_Fajr_Al-Hijr_yt_H_DELCmGIDI.mp3"
     },
     {
-      "number": 1126,
+      "number": 1145,
       "name": "يتجلى بمقام السيكا بهذه الالهادئة - من سورة النحل فجر 22-1-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-01-22_Fajr_An-Nahl_yt_3EQWfFiS_kM.mp3"
     },
     {
-      "number": 1127,
+      "number": 1146,
       "name": "سورتي إبراهيم والقدر - فجر الأحد 21-1-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-01-21_Fajr_Ibrahim_yt_itXz6oa5C7M.mp3"
     },
     {
-      "number": 1128,
+      "number": 1147,
       "name": "تلاوات بياتية مؤثرة للشيخ - فجر ومغرب 21-1-1443هـ .. - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-01-21_Fajr_Ibrahim_yt_XSzH6Oz9-wg.mp3"
     },
     {
-      "number": 1129,
+      "number": 1148,
       "name": "يختم فترته بتلاوات مميزة وخاشعة - فروض السبت 13-1-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-01-13_Prayer_Al-Anam_yt_XwkkKbT0tQ8.mp3"
     },
     {
-      "number": 1130,
+      "number": 1149,
       "name": "سورة مريم - فجر السبت 13-1-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-01-13_Fajr_Maryam_yt_mYJizK8K0mg.mp3"
     },
     {
-      "number": 1131,
+      "number": 1150,
       "name": "سورتي غافر والمطففين - فروض الجمعة 12-1-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-01-12_Prayer_Ghafir_yt_FZ6ONwSzPcA.mp3"
     },
     {
-      "number": 1132,
+      "number": 1151,
       "name": "قصص موسى عليه السلام من القرآن الكريم - 11-1-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-01-11_Prayer_Sad_yt_j0ej52LhUMY.mp3"
     },
     {
-      "number": 1133,
+      "number": 1152,
       "name": "تلاوات روحانية حبرها بصوته العذب - مغرب وعشاء  الأربعاء 10-1-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-01-10_Maghrib_Sad_yt_TZVAYggsUHs.mp3"
     },
     {
-      "number": 1134,
+      "number": 1153,
       "name": "يبكي المصلين بهذه التلاوات المؤثرة والخاشعة - فروض الثلاثاء 9-1-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-01-09_Prayer_Sad_yt_ShSZGILjHuE.mp3"
     },
     {
-      "number": 1135,
+      "number": 1154,
       "name": "سورة آل عمران - فجر الثلاثاء 9-1-1443 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-01-09_Fajr_Ali-Imran_yt_9ZGJjozqbb8.mp3"
     },
     {
-      "number": 1136,
+      "number": 1155,
       "name": "الآسر يترنم بهذه التلاوات الخاشعة في فروض يوم هـ - الإثنين 8-1-1443 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-01-08_Prayer_yt_9JUnui4fobg.mp3"
     },
     {
-      "number": 1137,
+      "number": 1156,
       "name": "يستفتتح تلاواته في عام 1443 بتحبير مميز وترنمات مؤثرة - فجر 7-1-1443هـ فواتح آل عمران - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-01-07_Fajr_Ali-Imran_yt_90cawbkOhhI.mp3"
     },
     {
-      "number": 1138,
-      "name": "\"العِقدُ الآسِرْ لتلاوات \" - تلاوات شهر ربيع الأول 1443هـ من الحرم المكي - الشيخ د. ياسر الدوسري",
-      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Qaf_yt_AFgfDbDIodU.mp3"
-    },
-    {
-      "number": 1139,
+      "number": 1157,
       "name": "سورة الواقعة - فجر السبت 11 صفر 1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Fajr_Sad_yt_nXwKzevyqWo.mp3"
     },
     {
-      "number": 1140,
-      "name": "سورة الكهف - ليلة 20 رمضان 1443هـ - الشيخ د. ياسر الدوسري",
-      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Al-Kahf_yt_tWDOLITI-Cs.mp3"
-    },
-    {
-      "number": 1141,
+      "number": 1158,
       "name": "اللهم اشغلنا بك ولا تَشغلَنا عنك دعاء مؤثر للشيخ - ليلة 5 رمضان 1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_yt_55RZnQT2a7A.mp3"
     },
     {
-      "number": 1142,
+      "number": 1159,
+      "name": "\"العِقدُ الآسِرْ لتلاوات \" - تلاوات شهر ربيع الأول 1443هـ من الحرم المكي - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Qaf_yt_AFgfDbDIodU.mp3"
+    },
+    {
+      "number": 1160,
+      "name": "سورة الكهف - ليلة 20 رمضان 1443هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Al-Kahf_yt_tWDOLITI-Cs.mp3"
+    },
+    {
+      "number": 1161,
       "name": "\"العِقدُ الآسِرْ لتلاوات \" - تلاوات شهر جمادى الآخرة 1443هـ من الحرم المكي - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Qaf_yt_712ilB4rg60.mp3"
     },
     {
-      "number": 1143,
+      "number": 1162,
       "name": "تذلل وخشوع في دعاء أبكى القلوب وأسال الدموع من أرض الحرم للشيخ ⁧‫‬⁩ - ليلة 8 رمضان 1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Qaf_yt_uvsKCMMW7MA.mp3"
     },
     {
-      "number": 1144,
+      "number": 1163,
       "name": "سورة الأعراف - من ليلة 11 رمضان 1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Al-Araf_yt_JvPwYljHETU.mp3"
     },
     {
-      "number": 1145,
+      "number": 1164,
       "name": "تلاوات خاشعة تأخذ القلوب للتدبر للشيخ - فروض يوم الأحد 7 محرم 1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Qaf_yt_TXywaPKRD2o.mp3"
     },
     {
-      "number": 1146,
+      "number": 1165,
       "name": "\"العِقدُ الآسِرْ لتلاوات \" - تلاوات شهر محرم 1443هـ من الحرم المكي - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Qaf_yt_Z4XxrLBL_CI.mp3"
     },
     {
-      "number": 1147,
+      "number": 1166,
       "name": "سورة النحل - فجر الاثنين 6 صفر 1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Fajr_An-Nahl_yt_UCVq7wfO5wk.mp3"
     },
     {
-      "number": 1148,
+      "number": 1167,
       "name": "سورة الزمر - الأربعاء 8 صفر 1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Fajr_Sad_yt_UWhn13-3XsE.mp3"
     },
     {
-      "number": 1149,
+      "number": 1168,
       "name": "سورة الفجر - 22-27 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Fajr_Qaf_yt_XHAVJorFpPc.mp3"
     },
     {
-      "number": 1150,
+      "number": 1169,
       "name": "\"العِقدُ الآسِرْ لتلاوات \" - تلاوات شهر جمادى الأول لعام 1443هـ من الحرم المكي - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Qaf_yt_rSgYkFlGR3o.mp3"
     },
     {
-      "number": 1151,
+      "number": 1170,
       "name": "بل يداه مبسوطتان-تجلي مبكي وتصوير رائع للآيات من - قبس من ليلة 8 رمضان 1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Sad_yt_gN2V7s4Y6y4.mp3"
     },
     {
-      "number": 1152,
+      "number": 1171,
       "name": "سورة الواقعة - فجر السبت 11 صفر 1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Fajr_Sad_yt_sQ03lfsqO3M.mp3"
     },
     {
-      "number": 1153,
+      "number": 1172,
       "name": "يا فرجنا إذا أغلقت الأبواب~ يبكي من خلفه بهذا الدعاء العراقي - ليلة 2 رمضان 1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Qaf_yt_EOZECQLOFIg.mp3"
     },
     {
-      "number": 1154,
+      "number": 1173,
       "name": "\"العِقدُ الآسِرْ لتلاوات \" - تلاوات شهر صفر 1443هـ من الحرم المكي - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Sad_yt_fArrD_5UT5Q.mp3"
     },
     {
-      "number": 1155,
+      "number": 1174,
       "name": "سورتي فصلت والأحقاف - 1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Maghrib_Sad_yt_3NXKFKtIdGQ.mp3"
     },
     {
-      "number": 1156,
+      "number": 1175,
       "name": "\"العِقدُ الآسِرْ لتلاوات \" - تلاوات شهر ربيع الآخر 1443هـ من الحرم المكي - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Qaf_yt_ES4QQQ44sUg.mp3"
     },
     {
-      "number": 1157,
+      "number": 1176,
       "name": "العِقدُ الآسِرْ لتلاوات - تلاوات شهر رجب لعام 1443هـ من الحرم المكي - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Qaf_yt_fveXORTXnew.mp3"
     },
     {
-      "number": 1158,
+      "number": 1177,
       "name": "سورة آل عمران - ليلة 5 رمضان 1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Ali-Imran_yt_C7TwerBsVwQ.mp3"
     },
     {
-      "number": 1159,
+      "number": 1178,
       "name": "آيات الصيام بتحبير رااائع من مغرب ليلة رمضان - 1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Maghrib_Sad_yt_Sr1aZpzeaD4.mp3"
     },
     {
-      "number": 1160,
+      "number": 1179,
       "name": "مقتطف مميز من تراويح 1443هـ للشيخ - ليلة 2 رمضان - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Qaf_yt_1JaFi-piWh4.mp3"
     },
     {
-      "number": 1161,
+      "number": 1180,
       "name": "سورة آل عمران - ليلة 5 رمضان 1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Ali-Imran_yt_-emF4mWJwPs.mp3"
     },
     {
-      "number": 1162,
+      "number": 1181,
       "name": "سورة المائدة - ليلة 8 رمضان 1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Al-Maidah_yt_2dT37HbFxb4.mp3"
     },
     {
-      "number": 1163,
+      "number": 1182,
       "name": "ونعوذُ بكَ من كُل شيء يؤذينا أو يُشقينا دعاء حزين ومؤثر للشيخ - ليلة 11 رمضان 1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Qaf_yt_P14R_PVGL-o.mp3"
     },
     {
-      "number": 1164,
+      "number": 1183,
       "name": "ونسألك نعيمًا لا ينفد وقرة عين لا تنقطع - دعاء خاشع للشيخ - ليلة 14 رمضان 1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Qaf_yt_-us_vBy6-90.mp3"
     },
     {
-      "number": 1165,
+      "number": 1184,
       "name": "اللهم ارضنا وارضَ عنَا دعاء مؤثر للشيخ - ليلة 17 رمضان 1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_yt_n675_VavydI.mp3"
     },
     {
-      "number": 1166,
+      "number": 1185,
       "name": "سورة الرعد - من ليلة 17 رمضان 1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Ar-Rad_yt_KR_XX2C71eI.mp3"
     },
     {
-      "number": 1167,
+      "number": 1186,
       "name": "سورة المؤمنون - ليلة 22 رمضان 1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Al-Muminun_yt_92VKIkSKsQ0.mp3"
     },
     {
-      "number": 1168,
+      "number": 1187,
       "name": "سورة يس - ليلة 25-رمضان-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Ya-Sin_yt_7NhYWqiwnAc.mp3"
     },
     {
-      "number": 1169,
+      "number": 1188,
       "name": "سورة البقرة - ليلة 2-رمضان-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Al-Baqarah_yt_nxwTt8W_l5w.mp3"
     },
     {
-      "number": 1170,
+      "number": 1189,
       "name": "سورة الأعراف - ليلة 11 رمضان 1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Al-Araf_yt_YWl9Gyh5vLs.mp3"
     },
     {
-      "number": 1171,
+      "number": 1190,
       "name": "سورتي المنافقون والتحريم - ليلة 28-رمضان-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Sad_yt_VkJRaTLCSyM.mp3"
     },
     {
-      "number": 1172,
+      "number": 1191,
       "name": "قارئ لن يتكرر - في تلاوة للتاريخ لسورة إبراهيم كاملة من تهجد ليلة 29 رمضان 1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Ibrahim_yt_WgZPGhc-Ax4.mp3"
     },
     {
-      "number": 1173,
+      "number": 1192,
       "name": "سورة الأنبياء - 1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Taha_yt_Uh2wcxjlhAE.mp3"
     },
     {
-      "number": 1174,
+      "number": 1193,
       "name": "فجرية بياتية حزينة للشيخ - الخميس 3-ذو القعدة-1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Fajr_Ya-Sin_yt_MYkPHAl8pa0.mp3"
     },
     {
-      "number": 1175,
+      "number": 1194,
       "name": "صلوات لم تنشر في القناة من قبل - فروض شهر رمضان 1443هـ بتحابير مميزة من الغرّيد - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Sad_yt_nfIF3PXP9Ts.mp3"
     },
     {
-      "number": 1176,
+      "number": 1195,
       "name": "العِقدُ الآسِرْ لتلاوات - تلاوات شهر شعبان لعام 1443هـ من الحرم المكي - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Qaf_yt_Ern3FEDSWuw.mp3"
     },
     {
-      "number": 1177,
+      "number": 1196,
       "name": "العِقدُ الآسِرْ لتلاوات - تلاوات شهر شوال لعام 1443هـ من الحرم المكي - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Qaf_yt_aro2mMRqi5E.mp3"
     },
     {
-      "number": 1178,
+      "number": 1197,
       "name": "العِقدُ الآسِرْ لتلاوات - تلاوات شهر ذوالقعدة لعام 1443هـ من الحرم المكي - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Qaf_yt_zJPnFJeItkE.mp3"
     },
     {
-      "number": 1179,
+      "number": 1198,
       "name": "العِقدُ الآسِرْ لتلاوات - تلاوات شهر ذوالحجة لعام 1443هـ من الحرم المكي - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Al-Hajj_yt_0cyHnlAahng.mp3"
     },
     {
-      "number": 1180,
+      "number": 1199,
       "name": "\"وقال ربكم ادعوني أستجب لكم\" أدعية من رمضان كاملة - 1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Qaf_yt_6JrVYBxQyG8.mp3"
     },
     {
-      "number": 1181,
+      "number": 1200,
       "name": "سورة الحج - فروض يوم التروية 1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Al-Hajj_yt_yeMvJhyDvdY.mp3"
     },
     {
-      "number": 1182,
+      "number": 1201,
       "name": "إبداعات مميزة وتلاوات عظيمة من الآسر - فجريات الأسبوع الأخير من شهر ذو الحجة 1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Fajr_Al-Hajj_yt_UPgo9YnHmLg.mp3"
     },
     {
-      "number": 1183,
+      "number": 1202,
       "name": "هدية الربع مليون مشترك - تلاوات أجمل رمضان للآسر كاملة عام 1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_yt_XB0KZbGBlsU.mp3"
     },
     {
-      "number": 1184,
+      "number": 1203,
       "name": "سورة يس - أ. رمضان 1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Prayer_Ya-Sin_yt_hemEi0m32os.mp3"
     },
     {
-      "number": 1185,
+      "number": 1204,
       "name": "سورة الجاثية - من فجريات شهر شوال 1443هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443_Fajr_Al-Jathiyah_yt_dt6Su_FYLwU.mp3"
     },
     {
-      "number": 1186,
+      "number": 1205,
       "name": "سورة الملك - فواتح سورة غافر فجر 21-12-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-12-21_Fajr_Sad_yt_ennGYLkNNrA.mp3"
     },
     {
-      "number": 1187,
+      "number": 1206,
       "name": "إصدار مميز لفجريات مؤثرة لـ - 18-12 حتى 21-12-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-12-21_Fajr_Sad_yt_T4YPSvJSjPY.mp3"
     },
     {
-      "number": 1188,
+      "number": 1207,
       "name": "سورتي السجدة والإنسان - فجر 20-12-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-12-20_Fajr_As-Sajdah_yt_n1AvMiJV2Gk.mp3"
     },
     {
-      "number": 1189,
+      "number": 1208,
       "name": "سورتي البقرة والنور - 19-12-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-12-19_Fajr_Al-Baqarah_yt_jrrn4J2q22k.mp3"
     },
     {
-      "number": 1190,
+      "number": 1209,
       "name": "سورة الأعراف - فجر 18-12-1442 هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-12-18_Fajr_Al-Araf_yt_PUxfkSyUC0M.mp3"
     },
     {
-      "number": 1191,
+      "number": 1210,
       "name": "سورتي النمل والمائدة - مغرب وعشاء 17-12-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-12-17_Maghrib_Al-Maidah_yt_iRBFkAoieyE.mp3"
     },
     {
-      "number": 1192,
+      "number": 1211,
       "name": "تلاوات تاريخية حبرها بتراتيل مبكية وخاشعة - مغرب وعشاء 15-12-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-12-15_Maghrib_yt_CRYG3oehRQ0.mp3"
     },
     {
-      "number": 1193,
+      "number": 1212,
       "name": "تلاوات خاشعة ومميزة بالرست الفاخر للشيخ - مغرب وعشاء 14-12-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-12-14_Maghrib_yt_FbPkXwwBArU.mp3"
     },
     {
-      "number": 1194,
+      "number": 1213,
       "name": "سورة الحج - 13-12-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-12-13_Prayer_Al-Hajj_yt_UR-8rCAEtcY.mp3"
     },
     {
-      "number": 1195,
+      "number": 1214,
       "name": "يتغنى مجدد التراتيل في آسرة ومميزة - مغرب وعشاء يوم النحر 10-12-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-12-10_Maghrib_yt_A2sLEPhgra0.mp3"
     },
     {
-      "number": 1196,
+      "number": 1215,
       "name": "تلاوتي المغرب والعشاء - وترتيل مبكي لقصة إبراهيم عليه السلام (وفديناه بذبحٍ عظيم) 9-12-1442 هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-12-09_Maghrib_Ibrahim_yt_mm0vJPISt6c.mp3"
     },
     {
-      "number": 1197,
+      "number": 1216,
       "name": "سورة الحج - مغرب وعشاء 7-12-1442 هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-12-07_Maghrib_Al-Hajj_yt_l0RW1vkOQxA.mp3"
     },
     {
-      "number": 1198,
+      "number": 1217,
       "name": "تلاوات مميزة من فرضي المغرب والعشاء لفضيلة - 27-11-1442هـ ✨ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-11-27_Maghrib_yt_jUMfhnr15SU.mp3"
     },
     {
-      "number": 1199,
+      "number": 1218,
       "name": "تلاوتي المغرب والعشاء للشيخ 26-11-1442 هـ - لسور الشمس والليل والفجر والزلزلة - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-11-26_Fajr_Al-Fajr_yt_49EozZ1e9I4.mp3"
     },
     {
-      "number": 1200,
+      "number": 1219,
       "name": "سورة طه - فجر 25-11-1442 هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-11-25_Fajr_Taha_yt_T7ay2TkTWHo.mp3"
     },
     {
-      "number": 1201,
+      "number": 1220,
       "name": "سورة الفرقان - فجر 24-11-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-11-24_Fajr_Al-Furqan_yt_3ngjZM-5KrI.mp3"
     },
     {
-      "number": 1202,
+      "number": 1221,
       "name": "البيات الذي عجز عن وصفه الواصفون - مغرب 23-11-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-11-23_Maghrib_Sad_yt_Y1Q4Pu5x2O8.mp3"
     },
     {
-      "number": 1203,
+      "number": 1222,
       "name": "يفيض بالمشاعر الحزينة بهذا الترتيل المبكي - سورة النبأ عشاء 23-11-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-11-23_Isha_An-Naba_yt_2IjoFBr9GgA.mp3"
     },
     {
-      "number": 1204,
+      "number": 1223,
       "name": "سورة الكهف - الجمعة 22-11-1442 هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-11-22_Prayer_Al-Kahf_yt_ZYPYu-X5hVQ.mp3"
     },
     {
-      "number": 1205,
+      "number": 1224,
       "name": "سورتي الأحزاب والفتح - مغرب الجمعة 22-11-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-11-22_Maghrib_Al-Ahzab_yt_tv39NAp_FUw.mp3"
     },
     {
-      "number": 1206,
+      "number": 1225,
       "name": "عشائية آسرة من الآسر - تلاوة من سورة الأنعام 21-11-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-11-21_Prayer_Al-Anam_yt_o9oo9THqMg0.mp3"
     },
     {
-      "number": 1207,
+      "number": 1226,
       "name": "سورة آل عمران - مغرب الخميس 21-11-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-11-21_Maghrib_Ali-Imran_yt_VKF8U2hP6Ng.mp3"
     },
     {
-      "number": 1208,
+      "number": 1227,
       "name": "من أطهر البقاع يُرتل ويُبحر بهذه الالتي أدهشت كل من سمعها - فجر 4-11-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-11-04_Fajr_Taha_yt_4dlA9z4cQCo.mp3"
     },
     {
-      "number": 1209,
+      "number": 1228,
       "name": "فجرية خاشعة بترتيل آسر ومؤثر للشيخ⁩ - 4-11-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-11-04_Fajr_Qaf_yt_kqZ-3dCg7ow.mp3"
     },
     {
-      "number": 1210,
+      "number": 1229,
       "name": "سورة القصص - فجر 3-11-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-11-03_Fajr_Al-Qasas_yt_HmiwHeqc-ZA.mp3"
     },
     {
-      "number": 1211,
+      "number": 1230,
       "name": "سورة الكهف - السبت 2-11-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-11-02_Fajr_Al-Kahf_yt_p4MLKJisbuM.mp3"
     },
     {
-      "number": 1212,
+      "number": 1231,
       "name": "سورة الكهف - 2-11-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-11-02_Fajr_Al-Kahf_yt_zBJt3mPEMbY.mp3"
     },
     {
-      "number": 1213,
+      "number": 1232,
       "name": "سورتي العاديات والعصر - مغرب الجمعة 1-11-1442 هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-11-01_Maghrib_Sad_yt_S9068V75zyM.mp3"
     },
     {
-      "number": 1214,
+      "number": 1233,
       "name": "سورتي الحجر والحج - 29-10-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-10-29_Prayer_Al-Hijr_yt_4pE70clGJ-E.mp3"
     },
     {
-      "number": 1215,
+      "number": 1234,
       "name": "فجرية عظيمة وأداء مبكي وخاشع للآسر - 24-10-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-10-24_Fajr_Al-Furqan_yt_Sc11-ahaqE4.mp3"
     },
     {
-      "number": 1216,
+      "number": 1235,
       "name": "سورتي الفرقان والواقعة - السبت ⁩ 24-10-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-10-24_Fajr_Al-Furqan_yt_uGTo_H1i36c.mp3"
     },
     {
-      "number": 1217,
+      "number": 1236,
       "name": "سورتي الفرقان والواقعة - 24-10-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-10-24_Fajr_Al-Furqan_yt_gOegm7-Ebtc.mp3"
     },
     {
-      "number": 1218,
+      "number": 1237,
       "name": "للشيخ - فجر الجمعة 23-10-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-10-23_Fajr_As-Sajdah_yt_ZB3QnUM2Lvw.mp3"
     },
     {
-      "number": 1219,
+      "number": 1238,
       "name": "مجودة وبطريقة لأول مرة يقرأ بها - فجر 22-10-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-10-22_Fajr_Al-Isra_yt_ged7DluRujw.mp3"
     },
     {
-      "number": 1220,
+      "number": 1239,
       "name": "مميزة لسورة الإنشقاق للشيخ - مغرب الأربعاء 14-10-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-10-14_Maghrib_Qaf_yt_Awn1qytmidM.mp3"
     },
     {
-      "number": 1221,
+      "number": 1240,
       "name": "سورة الأعراف - 14-10-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-10-14_Prayer_Al-Araf_yt_jEkx9M0pohI.mp3"
     },
     {
-      "number": 1222,
+      "number": 1241,
       "name": "يوم رائع ومميز لتلاوات تغشاها السكينة والراحة - فروض الأربعاء 14-10-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-10-14_Prayer_yt_CQNnkAqXdQY.mp3"
     },
     {
-      "number": 1223,
+      "number": 1242,
       "name": "سورة الرحمن - فجر الأربعاء 14-10-1442 هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-10-14_Fajr_Qaf_yt_BecWf1F9qXI.mp3"
     },
     {
-      "number": 1224,
+      "number": 1243,
       "name": "سورة الزمر - عشاء 13-10-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-10-13_Isha_Sad_yt_DP07emdfkV8.mp3"
     },
     {
-      "number": 1225,
+      "number": 1244,
       "name": "أسماء الله الحسنى مع الترجمة بترتيل فاق الإبداع من - مغرب 13-10-1442 هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-10-13_Maghrib_Qaf_yt_BmnnI11b4O0.mp3"
     },
     {
-      "number": 1226,
+      "number": 1245,
       "name": "يهيج المشاعر بهذه الالكردية الآسرة - مغرب الثلاثاء 13-10-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-10-13_Maghrib_yt_ej4RBolHh6s.mp3"
     },
     {
-      "number": 1227,
+      "number": 1246,
       "name": "في لا تنسى وتحابير خاشعة لا تُمل - عشاء 12-10-1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-10-12_Isha_Fatir_yt_mgs1UqMhdVs.mp3"
     },
     {
-      "number": 1228,
+      "number": 1247,
       "name": "سورة غافر - مغرب 12-10-1442 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-10-12_Maghrib_Sad_yt_X2Vj7QSfU8o.mp3"
     },
     {
-      "number": 1229,
+      "number": 1248,
+      "name": "سورة الإخلاص - مغرب الأحد 11-10-1442هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-10-11_Maghrib_Sad_yt_iCKPng-q0V0.mp3"
+    },
+    {
+      "number": 1249,
+      "name": "أنتم الفقراء إلى الله-إبداع وإمتاع في عشائية خاشعة للشيخ - الأحد 11-10-1442هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-10-11_Prayer_Qaf_yt_UavhJXA0eVQ.mp3"
+    },
+    {
+      "number": 1250,
+      "name": "سورتي الليل والتكاثر - مغرب 10-10-1442هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-10-10_Maghrib_Al-Layl_yt_VSgocUE1tuY.mp3"
+    },
+    {
+      "number": 1251,
+      "name": "سورة الروم - عشاء السبت 10-10-1442هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-10-10_Isha_Ar-Rum_yt_A_y7mmXIT4s.mp3"
+    },
+    {
+      "number": 1252,
+      "name": "سورة الواقعة - عشاء 9-10-1442هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-10-09_Isha_Sad_yt_gO4m27JknEM.mp3"
+    },
+    {
+      "number": 1253,
+      "name": "سورة إبراهيم - عشاء الخميس 8-10-1442هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-10-08_Isha_Ibrahim_yt_rVb2crrwEWY.mp3"
+    },
+    {
+      "number": 1254,
+      "name": "يترنم ويتغنى ويأسر المصلين في ليلة ختم القرآن - ليلة 29-9-1442هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-09-29_Prayer_Sad_yt_4pupmFiuHuc.mp3"
+    },
+    {
+      "number": 1255,
+      "name": "سورتي الحديد والمجادلة - ليلة 28-9-1442هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-09-28_Prayer_Al-Hadid_yt_PTc7ix9Y3yQ.mp3"
+    },
+    {
+      "number": 1256,
+      "name": "سورة الفتح - ليلة 27-9-1442هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-09-27_Prayer_Al-Fath_yt_xkqaGdMBJG0.mp3"
+    },
+    {
+      "number": 1257,
+      "name": "سورة الشورى - ليلة 26-9-1442 - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-09-26_Prayer_Sad_yt_-WNNW4pgd98.mp3"
+    },
+    {
+      "number": 1258,
+      "name": "سورة الشورى - من ليلة 26-9-1442هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-09-26_Prayer_Ash-Shura_yt_G9cjUJZmo-s.mp3"
+    },
+    {
+      "number": 1259,
+      "name": "سورة يس - تراويح ليلة 25-9-1442هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-09-25_Prayer_Ya-Sin_yt_X91-kp3_WmA.mp3"
+    },
+    {
+      "number": 1260,
+      "name": "ينثر في مهبط الوحي عجائب التلاوات وأخشعها - ليلة 24-9-1442 - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-09-24_Prayer_Ar-Rum_yt_QOG1N8_QoBc.mp3"
+    },
+    {
+      "number": 1261,
+      "name": "سورة مريم - ليلة 21-9-1442هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-09-21_Prayer_Maryam_yt_UUz5ToEbbaA.mp3"
+    },
+    {
+      "number": 1262,
+      "name": "ليلة مميزة نثر فيها ابداعاته وتجلياته في محراب الحرم المكي - ليلة 20-9-1442هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-09-20_Prayer_yt_akvhSYvQkPI.mp3"
+    },
+    {
+      "number": 1263,
+      "name": "دعاء يُسجل في التاريخ - يتجلى في ليلة 20-9-1442هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-09-20_Prayer_Sad_yt_TGk9lQZHOhI.mp3"
+    },
+    {
+      "number": 1264,
+      "name": "تذلل وخشوع في دعاء أبكى القلوب وأسال الدموع من أرض الحرم للشيخ - ليلة 17-9-1442هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-09-17_Prayer_Qaf_yt_vMxTTaoa-CE.mp3"
+    },
+    {
+      "number": 1265,
+      "name": "سورتي الرعد وإبراهيم - ليلة 17-9-1442هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-09-17_Prayer_Ar-Rad_yt_GQvhTeB5Jms.mp3"
+    },
+    {
+      "number": 1266,
+      "name": "دعاء خاشع ومبكي من الحرم المكي للشيخ | هـ | تسجيل صافي - ليلة 17-9-1442 - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-09-17_Prayer_Sad_yt_hs2bg4EY2Og.mp3"
+    },
+    {
+      "number": 1267,
+      "name": "سور التوبة ويس ويونس - ليلة 14-9-1442هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-09-14_Prayer_At-Tawbah_yt_AE9w9Z86uck.mp3"
+    },
+    {
+      "number": 1268,
       "name": "سورة إبراهيم - فجر الأحد 5-2-1442 - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-02-05_Fajr_Ibrahim_yt_YJ9Q14OSP1I.mp3"
     },
     {
-      "number": 1230,
+      "number": 1269,
+      "name": "سورة المائدة - 1442هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Prayer_Al-Maidah_yt_yIW-FAAQHm8.mp3"
+    },
+    {
+      "number": 1270,
+      "name": "آخر دعاء للشيخ في رمضان | دعاء مبكككي وخاشع تتفطر منه القلوب - 1442هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Prayer_Qaf_yt_jbCXVFemoN4.mp3"
+    },
+    {
+      "number": 1271,
+      "name": "سورة النمل - تراويح ليلة 23 رمضان 1442هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Prayer_An-Naml_yt_TC8eywk3Dig.mp3"
+    },
+    {
+      "number": 1272,
+      "name": "مميزة بتسجيل راائع من ساحات الحرم المكي - سورة يس كاملة للشيخ~ليلة 25-9–1442هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Prayer_Ya-Sin_yt_oashoyECPsw.mp3"
+    },
+    {
+      "number": 1273,
+      "name": "سورة فصلت - ليلة 26 رمضان 1442 هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Prayer_Sad_yt_8YxCSX5eb7w.mp3"
+    },
+    {
+      "number": 1274,
+      "name": "بالمقام اللامي يتغنى مجدد التراتيل - تلاوة آسرة ومميزة من ليلة 29-رمضان-1442هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Prayer_Qaf_yt_Lmn_m0L0i_Y.mp3"
+    },
+    {
+      "number": 1275,
+      "name": "سورة الأنبياء - 1442هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Prayer_Al-Anbiya_yt_JWTaM1KY0FA.mp3"
+    },
+    {
+      "number": 1276,
+      "name": "سورتي البقرة ويونس - 30-رمضان-1442هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Fajr_Al-Baqarah_yt_Jb-5d5RjvTQ.mp3"
+    },
+    {
+      "number": 1277,
+      "name": "عيديتنا لكم - مقتطفات مرئية من محراب الحرم المكي للآسر  من ليالي رمضان 1442 هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Prayer_Qaf_yt_X9b9DIAnQKU.mp3"
+    },
+    {
+      "number": 1278,
+      "name": "سورة البقرة - مغرب 8 شوال 1442هـ. - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Maghrib_Al-Baqarah_yt_q8seHckmB0w.mp3"
+    },
+    {
+      "number": 1279,
+      "name": "أروع أداء بياتي قرأ به - مغرب 9 شوال 1442هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Maghrib_Ash-Shura_yt_F84XMTnw24Y.mp3"
+    },
+    {
+      "number": 1280,
       "name": "سورة يس - 1442 هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Prayer_Ya-Sin_yt_yEAmNisPOzk.mp3"
     },
     {
-      "number": 1231,
-      "name": "سورة الشورى - 1442 هـ - الشيخ د. ياسر الدوسري",
-      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Prayer_Ash-Shura_yt_n_1NRL5gpQY.mp3"
-    },
-    {
-      "number": 1232,
-      "name": "سورة النور - 1442 هـ - الشيخ د. ياسر الدوسري",
-      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Prayer_An-Nur_yt_A4HYgv21KXs.mp3"
-    },
-    {
-      "number": 1233,
+      "number": 1281,
       "name": "سورة لقمان - 1442 هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Prayer_Luqman_yt_UfG1nI_vkYo.mp3"
     },
     {
-      "number": 1234,
+      "number": 1282,
+      "name": "سورة الشورى - 1442 هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Prayer_Ash-Shura_yt_n_1NRL5gpQY.mp3"
+    },
+    {
+      "number": 1283,
+      "name": "سورة النور - 1442 هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Prayer_An-Nur_yt_A4HYgv21KXs.mp3"
+    },
+    {
+      "number": 1284,
       "name": "سورة محمد - 1442 هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Prayer_Muhammad_yt_GjzL7JAWFtk.mp3"
     },
     {
-      "number": 1235,
+      "number": 1285,
       "name": "نصف ساعة لتلاوات مجوَّدة رائعة من فجريات - شوال 1442 هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Fajr_Sad_yt_r23SJGHGmdo.mp3"
     },
     {
-      "number": 1236,
+      "number": 1286,
       "name": "تلاوات خاشعة تلامس القلوب للشيخ ⁧⁩ - مغرب و عشاء 29 شوال 1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Maghrib_Qaf_yt_AfGF64KNmSY.mp3"
     },
     {
-      "number": 1237,
+      "number": 1287,
       "name": "سورة القصص - فجر الأحد 3 ذو القعدة 1442هـ. - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Fajr_Al-Qasas_yt_8r7WB8-cAQ8.mp3"
     },
     {
-      "number": 1238,
+      "number": 1288,
       "name": "في مقطع واحد - السور المكتملة للشيخ من ليالي رمضان عام 1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Prayer_Qaf_yt_3uW8Hanc4ws.mp3"
     },
     {
-      "number": 1239,
+      "number": 1289,
       "name": "سورة المجادلة - 1442 هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Prayer_Al-Mujadilah_yt_Lfy2SXqh7Qg.mp3"
     },
     {
-      "number": 1240,
+      "number": 1290,
       "name": "\"العِقدُ الآسِرْ لتلاوات \" - تلاوات شهر شوال 1442هـ من الحرم المكي ✨ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Prayer_Qaf_yt_90S0JPW6usU.mp3"
     },
     {
-      "number": 1241,
+      "number": 1291,
       "name": "الآسر د. ⁧⁩ يمتع الحجاج بهذه التراتيل العذبة - مغرب وعشاء يوم التروية 1442هـ.⁦ ⁩ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Maghrib_Al-Hajj_yt_7Z7fSH28po0.mp3"
     },
     {
-      "number": 1242,
+      "number": 1292,
       "name": "سورة الأنبياء - 1442 هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Prayer_Al-Anbiya_yt_R3I1hyDtJiw.mp3"
     },
     {
-      "number": 1243,
+      "number": 1293,
       "name": "تلاوات تاريخية لن تمل من سماعها للشيخ - مغرب و عشاء 13 شوال 1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Maghrib_yt_wCsMNkytynE.mp3"
     },
     {
-      "number": 1244,
+      "number": 1294,
       "name": "سورة الحديد - 1442 هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Prayer_Al-Hadid_yt_rTQ8K3AqOj8.mp3"
     },
     {
-      "number": 1245,
+      "number": 1295,
       "name": "\"العِقدُ الآسِرْ للشيخ\" - تلاوات شهر ذو القعدة 1442هـ من الحرم المكي ✨ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Prayer_Qaf_yt_Za0UbEgMdRA.mp3"
     },
     {
-      "number": 1246,
+      "number": 1296,
       "name": "\"العِقدُ الآسِرْ لتلاوات \" - تلاوات شهر ذو الحجة 1442هـ من الحرم المكي ✨ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Prayer_Al-Hajj_yt_V7AfNmmQKlc.mp3"
     },
     {
-      "number": 1247,
+      "number": 1297,
       "name": "سورة المائدة - 1442هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Prayer_Al-Maidah_yt_XNKtWU6zBrA.mp3"
     },
     {
-      "number": 1248,
+      "number": 1298,
       "name": "ليلة بياتية أذهلني أداؤها - ليلة 22-9-1441هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1441-09-22_Prayer_Al-Muminun_yt_Y3QL0n9y1Bk.mp3"
     },
     {
-      "number": 1249,
+      "number": 1299,
       "name": "سورة الإسراء - من صلاة الكسوف 29-4-1441هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1441-04-29_Prayer_Al-Isra_yt_q0Vc3Gc9oEg.mp3"
     },
     {
-      "number": 1250,
+      "number": 1300,
       "name": "في ليلة ختم القرآن - رمضان 1441هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1441_Prayer_Qaf_yt_4C3zTLUrsaE.mp3"
     },
     {
-      "number": 1251,
+      "number": 1301,
       "name": "ليلة مبكية تأثر فيها - ليالي رمضان 1441هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1441_Prayer_As-Saffat_yt_qj6u_SdN_jM.mp3"
     },
     {
-      "number": 1252,
+      "number": 1302,
       "name": "خواتيم سورتي طه والأنبياء - ليالي رمضان 1441هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1441_Prayer_Taha_yt_BbnFYX0YfDA.mp3"
     },
     {
-      "number": 1253,
+      "number": 1303,
       "name": "سورة الشعراء (1-207) - 1441 هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1441_Prayer_Ash-Shuara_yt_ceQTqjmt9_I.mp3"
     },
     {
-      "number": 1254,
+      "number": 1304,
       "name": "ليلة عجيبة تغنى بها بالحجاز كار والعجم - رمضان 1441هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1441_Prayer_Al-Hajj_yt_jhanp3nqfEA.mp3"
     },
     {
-      "number": 1255,
+      "number": 1305,
       "name": "سورة الدخان - ليلة 27 رمضان 1441هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1441_Prayer_Ad-Dukhan_yt_hmHH3vodo04.mp3"
     },
     {
-      "number": 1256,
+      "number": 1306,
       "name": "يُبحر بمن خلفه في سماء الإبداع في ليلة تاريخية مميزة - ليلة 28 رمضان 1441هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1441_Prayer_yt_5POpJ9u51g4.mp3"
     },
     {
-      "number": 1257,
+      "number": 1307,
       "name": "سورة مريم - ليالي رمضان 1441هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1441_Prayer_Maryam_yt_WVMQC9E2j8A.mp3"
     },
     {
-      "number": 1258,
+      "number": 1308,
       "name": "سورة الأحقاف كاملة بتحبير عراقي لا ينسى - Surat Al-Ahqaf رمضان 1441هـ♥️ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1441_Prayer_Qaf_yt_GgFMPlybYKc.mp3"
     },
     {
-      "number": 1259,
+      "number": 1309,
       "name": "أجمل ليالي رمضان 1440هـ - تهجد ليلة 29 للشيخ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1440_Prayer_Al-Araf_yt_EkG64WlzRmY.mp3"
     },
     {
-      "number": 1260,
+      "number": 1310,
       "name": "سورتي التوبة ويونس - ليلة 10-9-1439هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1439-09-10_Prayer_At-Tawbah_yt_HWfuV0T5_PA.mp3"
     },
     {
-      "number": 1261,
+      "number": 1311,
       "name": "ليلة لا تنسى بتراتيل حجازية أخاذة - من سورتي الأعراف والأنفال ليلة 8-9-1439هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1439-09-08_Prayer_Al-Araf_yt_ChIh5_5_wzc.mp3"
     },
     {
-      "number": 1262,
+      "number": 1312,
+      "name": "أعظم وأخشع وأبكى ترتيل خرج من - من رمضان 1435هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1435_Prayer_Sad_yt_WOSKi5VVRfY.mp3"
+    },
+    {
+      "number": 1313,
       "name": "سورة الرحمن - رمضان 1435هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1435_Prayer_Ar-Rahman_yt_KKy9Z9VCPBk.mp3"
     },
     {
-      "number": 1263,
+      "number": 1314,
       "name": "أعظم دعاء سمعته للشيخ - بكى وأبكى رمضان 1435هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1435_Prayer_yt_glEDQwoY3II.mp3"
     },
     {
-      "number": 1264,
+      "number": 1315,
       "name": "مرئية - رمضان 1434هـ♥️ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1434_Prayer_Qaf_yt_m9Kk_lQ7Tkg.mp3"
     },
     {
-      "number": 1265,
+      "number": 1316,
       "name": "سورة الواقعة - 1434هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1434_Prayer_Sad_yt_FG2gobIzwgI.mp3"
     },
     {
-      "number": 1266,
+      "number": 1317,
+      "name": "سورة النمل - من رمضان 1432هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1432_Prayer_An-Naml_yt_U9us9joY4FE.mp3"
+    },
+    {
+      "number": 1318,
+      "name": "سورة بني إسرائيل بترتيل أبكى المصلين من في جامع الدخيل - صلاة الخسوف 14-1-1431هـ - الشيخ د. ياسر الدوسري",
+      "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1431-01-14_Prayer_Sad_yt_JBxjw3a1b1g.mp3"
+    },
+    {
+      "number": 1319,
       "name": "بياتية ساحرة من الأيام الخوالي للشيخ - رمضان 1431هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1431_Prayer_yt_Ia-8eW4md74.mp3"
     },
     {
-      "number": 1267,
+      "number": 1320,
       "name": "حصريا - ليالي رمضان 1431 بتسجيل خاص للشيخ..من سورة آل عمران ليلة لا تنسى للآسر - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1431_Prayer_Ali-Imran_yt_CkcPGXp0UA4.mp3"
     },
     {
-      "number": 1268,
+      "number": 1321,
       "name": "سورة الأنعام - 1431هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1431_Prayer_Al-Anam_yt_6wltg6y5_3g.mp3"
     },
     {
-      "number": 1269,
+      "number": 1322,
       "name": "سورة النساء - ليالي رمضان 1431هـ للشيخ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1431_Prayer_An-Nisa_yt_gFV8WvAun6Y.mp3"
     },
     {
-      "number": 1270,
+      "number": 1323,
       "name": "سورة المائدة - 1431هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1431_Prayer_Al-Maidah_yt_MrrsimPCcRk.mp3"
     },
     {
-      "number": 1271,
+      "number": 1324,
       "name": "سورة الأنفال - 1431هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1431_Prayer_Al-Anfal_yt_Gm3eh5dnxM8.mp3"
     },
     {
-      "number": 1272,
+      "number": 1325,
       "name": "لا يمكن أن تُنسى مثل هذه التلاوات | في عشائية لا توصف قبل 17 سنة | عشائيات ♥️ - 1429هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1429_Prayer_Sad_yt_IS4UwXiaLhg.mp3"
     },
     {
-      "number": 1273,
+      "number": 1326,
       "name": "خواتيم سورة الحشر (18-24) - مغرب السبت 12-1-1448هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/5161_yaldosry-prayers-5161.mp3"
     },
     {
-      "number": 1274,
+      "number": 1327,
       "name": "سورتي الانفطار والكوثر - مغرب الجمعة 11-1-1448هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/5160_yaaseer11.mp3"
     },
     {
-      "number": 1275,
+      "number": 1328,
       "name": "سورة آل عمران - فجر الأحد 7-1-1448هـ - الشيخ د. ياسر الدوسري",
       "url": "https://archive.org/download/qurani-yasser-aldosari-prayers/5159_yaaser7.mp3"
     }
