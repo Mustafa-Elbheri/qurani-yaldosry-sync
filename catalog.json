@@ -24755,5 +24755,39 @@
     "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-06-30_Maghrib_Al-Baqarah_yt_BjhKCjlz1CQ.jpg",
     "size_mb": 7.9,
     "uploaded_at": "2026-10-29 08:58:15"
+  },
+  {
+    "id": "yt_W7RfzZ7WA1A",
+    "youtube_id": "W7RfzZ7WA1A",
+    "title": "تلاوة روحانية خاشعة لا تنسى لسورة الجاثية للشيخ ياسر الدوسري | ليلة 30 رمضان 1431هـ",
+    "standard_name": "1431_Prayer_Al-Jathiyah_yt_W7RfzZ7WA1A",
+    "section": "prayers",
+    "category": "صلوات الحرم المكي",
+    "track": "yt_W7RfzZ7WA1A",
+    "date": "1431",
+    "year": "1431",
+    "source_type": "youtube",
+    "youtube_url": "https://www.youtube.com/watch?v=W7RfzZ7WA1A",
+    "archive_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1431_Prayer_Al-Jathiyah_yt_W7RfzZ7WA1A.mp3",
+    "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1431_Prayer_Al-Jathiyah_yt_W7RfzZ7WA1A.jpg",
+    "size_mb": 20.25,
+    "uploaded_at": "2026-10-29 14:02:23"
+  },
+  {
+    "id": "yt_naj4QvOpYEo",
+    "youtube_id": "naj4QvOpYEo",
+    "title": "\"العِقدُ الآسِرْ لتلاوات الشيخ ياسر الدوسري\" | تلاوات شهر ربيع الآخر 1442هـ من الحرم المكي ✨",
+    "standard_name": "1442_Prayer_Qaf_yt_naj4QvOpYEo",
+    "section": "prayers",
+    "category": "صلوات الحرم المكي",
+    "track": "yt_naj4QvOpYEo",
+    "date": "1442",
+    "year": "1442",
+    "source_type": "youtube",
+    "youtube_url": "https://www.youtube.com/watch?v=naj4QvOpYEo",
+    "archive_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Prayer_Qaf_yt_naj4QvOpYEo.mp3",
+    "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Prayer_Qaf_yt_naj4QvOpYEo.jpg",
+    "size_mb": 281.26,
+    "uploaded_at": "2026-10-29 14:06:48"
   }
 ]
