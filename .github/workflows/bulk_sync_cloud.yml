@@ -80,6 +80,7 @@ jobs:
           echo "Using native Android client protocol (player_skip=webpage,configs) to bypass cloud bot challenges."
 
       - name: Run High-Speed Bulk Sync in the Cloud
+        timeout-minutes: 45
         env:
           WORKERS: ${{ github.event.inputs.workers || '2' }}
           LIMIT: ${{ github.event.inputs.limit || '100' }}
@@ -92,6 +93,7 @@ jobs:
           rm -f cookies.txt
 
       - name: Commit and Push Updated Catalog & State
+        if: always()
         run: |
           git config --global user.name "Qurani Cloud Bot"
           git config --global user.email "bot@qurani.app"

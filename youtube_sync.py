@@ -5,8 +5,12 @@ import re
 import subprocess
 import time
 import threading
+import socket
 import requests
 import uploader
+
+# Universal TCP socket timeout: prevents any hung network connection from blocking forever
+socket.setdefaulttimeout(120)
 
 class ArchiveGlobalLimitExceeded(Exception):
     """Raised when Archive.org account reaches total_tasks_queued global_limit."""
@@ -236,7 +240,8 @@ def sync_youtube_video(video_entry, category_name="صلوات الحرم الم�
                         files=files_to_upload,
                         metadata=metadata,
                         queue_derive=False,
-                        verbose=False
+                        verbose=False,
+                        request_kwargs={"timeout": (15, 90)}
                     )
                     upload_success = True
                     # Polite spacing between uploads to keep Archive.org catalog queue healthy

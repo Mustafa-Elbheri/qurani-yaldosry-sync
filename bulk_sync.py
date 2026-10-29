@@ -2,10 +2,13 @@ import os
 import sys
 import json
 import time
+import socket
 import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import youtube_sync
 import uploader
+
+socket.setdefaulttimeout(120)
 
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8', errors='replace')
