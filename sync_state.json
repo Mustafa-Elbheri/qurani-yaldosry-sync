@@ -22812,5 +22812,39 @@
     "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-02-07_Fajr_Qaf_yt_OTpaSylf2Zk.jpg",
     "size_mb": 12.6,
     "uploaded_at": "2026-10-29 05:01:53"
+  },
+  "yt_Y1Q4Pu5x2O8": {
+    "id": "yt_Y1Q4Pu5x2O8",
+    "youtube_id": "Y1Q4Pu5x2O8",
+    "title": "البيات الذي عجز عن وصفه الواصفون | د. ياسر الدوسري يصعد بالأرواح في أعالي السماء | مغرب 23-11-1442هـ",
+    "standard_name": "1442-11-23_Maghrib_Sad_yt_Y1Q4Pu5x2O8",
+    "section": "prayers",
+    "category": "صلوات الحرم المكي",
+    "track": "yt_Y1Q4Pu5x2O8",
+    "date": "1442-11-23",
+    "year": "1442",
+    "source_type": "youtube",
+    "youtube_url": "https://www.youtube.com/watch?v=Y1Q4Pu5x2O8",
+    "archive_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-11-23_Maghrib_Sad_yt_Y1Q4Pu5x2O8.mp3",
+    "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-11-23_Maghrib_Sad_yt_Y1Q4Pu5x2O8.jpg",
+    "size_mb": 4.63,
+    "uploaded_at": "2026-10-29 05:03:55"
+  },
+  "yt_X2Vj7QSfU8o": {
+    "id": "yt_X2Vj7QSfU8o",
+    "youtube_id": "X2Vj7QSfU8o",
+    "title": "ترتيل عراقي مميز من سورة غافر للشيخ ياسر الدوسري | مغرب 12-10-1442 | تلاوة معدلة ومصححة",
+    "standard_name": "1442-10-12_Maghrib_Sad_yt_X2Vj7QSfU8o",
+    "section": "prayers",
+    "category": "صلوات الحرم المكي",
+    "track": "yt_X2Vj7QSfU8o",
+    "date": "1442-10-12",
+    "year": "1442",
+    "source_type": "youtube",
+    "youtube_url": "https://www.youtube.com/watch?v=X2Vj7QSfU8o",
+    "archive_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-10-12_Maghrib_Sad_yt_X2Vj7QSfU8o.mp3",
+    "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-10-12_Maghrib_Sad_yt_X2Vj7QSfU8o.jpg",
+    "size_mb": 7.68,
+    "uploaded_at": "2026-10-29 05:04:21"
   }
 }
