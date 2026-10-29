@@ -22846,5 +22846,39 @@
     "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-10-12_Maghrib_Sad_yt_X2Vj7QSfU8o.jpg",
     "size_mb": 7.68,
     "uploaded_at": "2026-10-29 05:04:21"
+  },
+  "yt_90cawbkOhhI": {
+    "id": "yt_90cawbkOhhI",
+    "youtube_id": "90cawbkOhhI",
+    "title": "د. ياسر الدوسري يستفتتح تلاواته في عام 1443 بتحبير مميز وترنمات مؤثرة| فجر 7-1-1443هـ فواتح آل عمران",
+    "standard_name": "1443-01-07_Fajr_Ali-Imran_yt_90cawbkOhhI",
+    "section": "prayers",
+    "category": "صلوات الحرم المكي",
+    "track": "yt_90cawbkOhhI",
+    "date": "1443-01-07",
+    "year": "1443",
+    "source_type": "youtube",
+    "youtube_url": "https://www.youtube.com/watch?v=90cawbkOhhI",
+    "archive_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-01-07_Fajr_Ali-Imran_yt_90cawbkOhhI.mp3",
+    "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-01-07_Fajr_Ali-Imran_yt_90cawbkOhhI.jpg",
+    "size_mb": 14.85,
+    "uploaded_at": "2026-10-29 05:06:24"
+  },
+  "yt_p4MLKJisbuM": {
+    "id": "yt_p4MLKJisbuM",
+    "youtube_id": "p4MLKJisbuM",
+    "title": "فجرية تاريخية في منتهى الإبداع والعذوبة من سورة الكهف للشيخ د. ياسر الدوسري ‬| السبت 2-11-1442هـ",
+    "standard_name": "1442-11-02_Fajr_Al-Kahf_yt_p4MLKJisbuM",
+    "section": "prayers",
+    "category": "صلوات الحرم المكي",
+    "track": "yt_p4MLKJisbuM",
+    "date": "1442-11-02",
+    "year": "1442",
+    "source_type": "youtube",
+    "youtube_url": "https://www.youtube.com/watch?v=p4MLKJisbuM",
+    "archive_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-11-02_Fajr_Al-Kahf_yt_p4MLKJisbuM.mp3",
+    "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-11-02_Fajr_Al-Kahf_yt_p4MLKJisbuM.jpg",
+    "size_mb": 12.33,
+    "uploaded_at": "2026-10-29 05:06:45"
   }
 }
