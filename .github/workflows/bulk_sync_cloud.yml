@@ -2,8 +2,8 @@ name: Cloud Bulk Sync (Zero Local Bandwidth)
 
 on:
   schedule:
-    # Runs automatically every hour in the cloud while you sleep!
-    - cron: '0 * * * *'
+    # Runs automatically every 30 minutes as a resilient cloud backup net
+    - cron: '*/30 * * * *'
   workflow_dispatch:
     inputs:
       limit:
@@ -21,7 +21,7 @@ permissions:
 
 concurrency:
   group: cloud-bulk-sync
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   cloud_sync:
@@ -107,31 +107,53 @@ jobs:
             git push origin master || (git pull --rebase -X ours origin master && git push origin master)
           fi
 
-      - name: Auto-Chain Next Batch
-        if: success()
+      - name: Auto-Chain Next Batch (Self-Healing Loop)
+        if: always()
         env:
           GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
         run: |
           python -c "
-          import json, sys
+          import json, sys, time, subprocess
+
           try:
-              with open('last_run_stats.json') as f:
+              with open('sync_state.json', 'r', encoding='utf-8') as f:
+                  state = json.load(f)
+              total_synced = len(state)
+          except Exception:
+              total_synced = 0
+
+          print(f'Current total synced items in state: {total_synced}/2370')
+          if total_synced >= 2360:
+              print('🎉 Channel is completely synced! Auto-chain finished successfully.')
+              sys.exit(0)
+
+          try:
+              with open('last_run_stats.json', 'r', encoding='utf-8') as f:
                   stats = json.load(f)
               new_synced = stats.get('new_synced', 0)
+              queue_limited = stats.get('queue_limited', False)
           except Exception:
               new_synced = 0
-              
-          if new_synced == 0:
-              print('0 items synced in this batch (rate-limited). Pausing chain to allow cooldown.')
-              sys.exit(1)
-              
-          with open('sync_state.json') as f:
-              state = json.load(f)
-              
-          if len(state) < 2360:
-              print(f'Batch succeeded ({new_synced} items uploaded). Auto-triggering next cloud batch...')
-              sys.exit(0)
+              queue_limited = False
+
+          print(f'Newly synced in this run: {new_synced} | Archive Queue Limited: {queue_limited}')
+          if queue_limited or new_synced == 0:
+              print('Archive.org queue saturation detected (cooldown needed).')
+              print('Sleeping 600s (10 mins) in the cloud runner to allow Archive.org task queue to drain...')
+              time.sleep(600)
+              print('Cooldown complete! Resuming cloud chain now...')
           else:
-              print('All recitations have been fully synced!')
-              sys.exit(1)
-          " && gh workflow run "Cloud Bulk Sync (Zero Local Bandwidth)" -f limit=100 -f workers=2 || echo "Chain paused or complete."
+              print(f'Batch succeeded with {new_synced} recitations. Waiting 15s before launching next batch...')
+              time.sleep(15)
+
+          # Trigger next batch via GitHub CLI
+          res = subprocess.run([
+              'gh', 'workflow', 'run', 'Cloud Bulk Sync (Zero Local Bandwidth)',
+              '-f', 'limit=100',
+              '-f', 'workers=2'
+          ], capture_output=True, text=True)
+          print('Trigger status code:', res.returncode)
+          print('Output:', res.stdout)
+          if res.stderr:
+              print('Error output:', res.stderr)
+          " || echo "Auto-chain step concluded."
