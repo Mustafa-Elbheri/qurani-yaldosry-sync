@@ -22778,5 +22778,39 @@
     "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442-08-12_Maghrib_Ya-Sin_yt_PhuGvRQ1DRA.jpg",
     "size_mb": 6.61,
     "uploaded_at": "2026-10-28 23:59:48"
+  },
+  "yt__6Su_0Pg6-8": {
+    "id": "yt__6Su_0Pg6-8",
+    "youtube_id": "_6Su_0Pg6-8",
+    "title": "فجرية مؤثرة ومبكية لفواتح سورة الحديد للشيخ د. ياسر الدوسري | الإثنين 27-7-1443هـ",
+    "standard_name": "1443-07-27_Fajr_Al-Hadid_yt__6Su_0Pg6-8",
+    "section": "prayers",
+    "category": "صلوات الحرم المكي",
+    "track": "yt__6Su_0Pg6-8",
+    "date": "1443-07-27",
+    "year": "1443",
+    "source_type": "youtube",
+    "youtube_url": "https://www.youtube.com/watch?v=_6Su_0Pg6-8",
+    "archive_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-07-27_Fajr_Al-Hadid_yt__6Su_0Pg6-8.mp3",
+    "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-07-27_Fajr_Al-Hadid_yt__6Su_0Pg6-8.jpg",
+    "size_mb": 11.35,
+    "uploaded_at": "2026-10-29 05:01:37"
+  },
+  "yt_OTpaSylf2Zk": {
+    "id": "yt_OTpaSylf2Zk",
+    "youtube_id": "OTpaSylf2Zk",
+    "title": "تلاوة نهاوندية عظيمة من الآسر د. ياسر الدوسري لسورة الحاقة | فجر الثلاثاء 7-2-1443هـ",
+    "standard_name": "1443-02-07_Fajr_Qaf_yt_OTpaSylf2Zk",
+    "section": "prayers",
+    "category": "صلوات الحرم المكي",
+    "track": "yt_OTpaSylf2Zk",
+    "date": "1443-02-07",
+    "year": "1443",
+    "source_type": "youtube",
+    "youtube_url": "https://www.youtube.com/watch?v=OTpaSylf2Zk",
+    "archive_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-02-07_Fajr_Qaf_yt_OTpaSylf2Zk.mp3",
+    "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1443-02-07_Fajr_Qaf_yt_OTpaSylf2Zk.jpg",
+    "size_mb": 12.6,
+    "uploaded_at": "2026-10-29 05:01:53"
   }
 }
