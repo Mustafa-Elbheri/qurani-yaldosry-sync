@@ -70,7 +70,7 @@ jobs:
 
       - name: Start BGUtil PO Token Provider (BotGuard Attestation Service)
         run: |
-          docker run -d --name bgutil-pot --restart=always -p 4416:4416 brainicism/bgutil-ytdlp-pot-provider:latest
+          docker run -d --name bgutil-pot --restart=always --net=host brainicism/bgutil-ytdlp-pot-provider:latest
           for i in {1..30}; do
             if curl -s http://127.0.0.1:4416/ping; then
               echo "BGUtil POT Provider successfully running on port 4416!"
@@ -96,7 +96,7 @@ jobs:
         timeout-minutes: 45
         env:
           WORKERS: ${{ github.event.inputs.workers || '2' }}
-          LIMIT: ${{ github.event.inputs.limit || '100' }}
+          LIMIT: ${{ github.event.inputs.limit || '50' }}
         run: |
           python bulk_sync.py --workers "$WORKERS" --limit "$LIMIT"
 
