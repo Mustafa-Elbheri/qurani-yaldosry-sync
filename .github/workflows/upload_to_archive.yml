@@ -20,7 +20,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install internetarchive
+          pip install internetarchive requests
 
       - name: Configure Archive.org S3 Keys
         run: |
@@ -32,4 +32,4 @@ jobs:
       - name: Generate and Upload Collections JSON
         run: |
           python generate_collections.py
-          ia upload qurani-yasser-aldosari-prayers aldosari_prayers.json
+          python upload_collections.py

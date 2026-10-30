@@ -113,7 +113,7 @@ jobs:
           git fetch origin master
           git pull --rebase -X ours origin master || true
           python generate_collections.py
-          ia upload qurani-yasser-aldosari-prayers aldosari_prayers.json || true
+          python upload_collections.py || true
           git add catalog.json sync_state.json aldosari_prayers.json last_run_stats.json || true
           if git diff --staged --quiet; then
             echo "No changes to commit."
