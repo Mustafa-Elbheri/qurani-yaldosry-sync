@@ -25420,23 +25420,6 @@
     "uploaded_at": "2026-10-29 15:54:49"
   },
   {
-    "id": "yt_r23SJGHGmdo",
-    "youtube_id": "r23SJGHGmdo",
-    "title": "نصف ساعة لتلاوات مجوَّدة رائعة من فجريات الشيخ ياسر الدوسري | شوال 1442 هـ",
-    "standard_name": "1442_Fajr_Sad_yt_r23SJGHGmdo",
-    "section": "prayers",
-    "category": "صلوات الحرم المكي",
-    "track": "yt_r23SJGHGmdo",
-    "date": "1442",
-    "year": "1442",
-    "source_type": "youtube",
-    "youtube_url": "https://www.youtube.com/watch?v=r23SJGHGmdo",
-    "archive_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Fajr_Sad_yt_r23SJGHGmdo.mp3",
-    "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Fajr_Sad_yt_r23SJGHGmdo.jpg",
-    "size_mb": 48.54,
-    "uploaded_at": "2026-10-29 15:56:11"
-  },
-  {
     "id": "yt_d0STtnLpx_g",
     "youtube_id": "d0STtnLpx_g",
     "title": "تلاوة إبداعية لأواخرسورة الفرقان  للشيخ د. ياسر الدوسري | عشاء الجمعة 27-8-1442هـ",
@@ -25945,5 +25928,22 @@
     "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1445_Maghrib_Sad_yt_gBv3wPfX3iw.jpg",
     "size_mb": 4.2,
     "uploaded_at": "2026-10-30 03:35:19"
+  },
+  {
+    "id": "yt_r23SJGHGmdo",
+    "youtube_id": "r23SJGHGmdo",
+    "title": "نصف ساعة لتلاوات مجوَّدة رائعة من فجريات الشيخ ياسر الدوسري | شوال 1442 هـ",
+    "standard_name": "1442_Fajr_Sad_yt_r23SJGHGmdo",
+    "section": "prayers",
+    "category": "صلوات الحرم المكي",
+    "track": "yt_r23SJGHGmdo",
+    "date": "1442",
+    "year": "1442",
+    "source_type": "youtube",
+    "youtube_url": "https://www.youtube.com/watch?v=r23SJGHGmdo",
+    "archive_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Fajr_Sad_yt_r23SJGHGmdo.mp3",
+    "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1442_Fajr_Sad_yt_r23SJGHGmdo.jpg",
+    "size_mb": 48.54,
+    "uploaded_at": "2026-10-30 21:57:15"
   }
 ]
