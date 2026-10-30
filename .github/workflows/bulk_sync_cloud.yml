@@ -68,6 +68,18 @@ jobs:
           python -m pip install --upgrade pip yt-dlp
           pip install -r requirements.txt
 
+      - name: Start BGUtil PO Token Provider (BotGuard Attestation Service)
+        run: |
+          docker run -d --name bgutil-pot --restart=always -p 4416:4416 brainicism/bgutil-ytdlp-pot-provider:latest
+          for i in {1..30}; do
+            if curl -s http://127.0.0.1:4416/ping; then
+              echo "BGUtil POT Provider successfully running on port 4416!"
+              break
+            fi
+            echo "Waiting for BGUtil POT service..."
+            sleep 2
+          done
+
       - name: Configure Archive.org S3 Keys
         run: |
           mkdir -p ~/.config
@@ -75,9 +87,10 @@ jobs:
           echo "access = ${{ secrets.IA_ACCESS_KEY }}" >> ~/.ia
           echo "secret = ${{ secrets.IA_SECRET_KEY }}" >> ~/.ia
 
-      - name: YouTube Mobile Client Protocol
+      - name: Verify Anti-Bot PO Token Provider
         run: |
-          echo "Using native Android client protocol (player_skip=webpage,configs) to bypass cloud bot challenges."
+          echo "Verifying BotGuard PO Token Provider:"
+          curl -s http://127.0.0.1:4416/ping || echo "Provider ping check finished"
 
       - name: Run High-Speed Bulk Sync in the Cloud
         timeout-minutes: 45

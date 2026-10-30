@@ -45,7 +45,7 @@ def get_channel_long_videos(limit=50):
         "--retries", "3",
         "--flat-playlist",
         "--dump-single-json",
-        "--extractor-args", "youtube:player_client=android,ios,visionos;player_skip=configs",
+        "--extractor-args", "youtube:player_client=mweb,web,ios,android",
         "--playlist-items", f"1:{limit}"
     ]
     if os.environ.get("GITHUB_ACTIONS"):
@@ -72,7 +72,7 @@ def get_playlist_videos(playlist_id, limit=None):
         "yt-dlp",
         "--flat-playlist",
         "--dump-single-json",
-        "--extractor-args", "youtube:player_client=android,ios,visionos;player_skip=configs"
+        "--extractor-args", "youtube:player_client=mweb,web,ios,android"
     ]
     cookie_file = get_cookie_file()
     if cookie_file:
@@ -104,7 +104,7 @@ def download_youtube_audio_and_thumb(video_id, output_base):
         "--socket-timeout", "30",
         "--retries", "3",
         "--remote-components", "ejs:github",
-        "--extractor-args", "youtube:player_client=android,ios,visionos;player_skip=configs",
+        "--extractor-args", "youtube:player_client=mweb,web,ios,android",
         "-x",
         "--audio-format", "mp3",
         "--audio-quality", "0",
@@ -123,6 +123,15 @@ def download_youtube_audio_and_thumb(video_id, output_base):
         print(f"  ERROR: yt-dlp timed out downloading audio for {video_id}")
         return None, None
         
+    if not os.path.exists(mp3_path) and os.environ.get("GITHUB_ACTIONS"):
+        # Fallback without proxy (direct runner IP with BGUtil PO Token)
+        cmd_direct = [arg for arg in cmd_audio if arg != "--proxy" and arg != "socks5://127.0.0.1:40000"]
+        try:
+            print(f"  [Proxy Fallback] Retrying {video_id} directly with PO Token provider...")
+            res_audio = subprocess.run(cmd_direct, capture_output=True, text=True, timeout=180)
+        except subprocess.TimeoutExpired:
+            pass
+
     if not os.path.exists(mp3_path) and cookie_file:
         # Fallback without expired cookies
         cmd_no_cookies = [arg for arg in cmd_audio if arg != "--cookies" and arg != cookie_file]
