@@ -114,8 +114,43 @@ def make_dignified_title(raw):
     components.append('الشيخ د. ياسر الدوسري')
     return ' - '.join(components)
 
+def to_western_digits(s):
+    if not s: return ''
+    eastern = '٠١٢٣٤٥٦٧٨٩'
+    western = '0123456789'
+    trans = str.maketrans(eastern, western)
+    return str(s).translate(trans)
+
 def sort_key(it):
-    return (it.get('date') or '0000', it.get('uploaded_at') or '')
+    raw_date = to_western_digits(it.get('date', ''))
+    raw_year = to_western_digits(it.get('year', ''))
+    title = to_western_digits(it.get('title', ''))
+    uploaded_at = it.get('uploaded_at', '')
+    
+    y, m, d = 0, 0, 0
+    m_date = re.search(r'(\d{4})(?:[-/](\d{1,2}))?(?:[-/](\d{1,2}))?', raw_date)
+    if m_date:
+        y = int(m_date.group(1))
+        m = int(m_date.group(2) or 0)
+        d = int(m_date.group(3) or 0)
+    elif raw_year and raw_year.isdigit():
+        y = int(raw_year)
+        
+    m_title = re.search(r'(\d{1,2})[-/](\d{1,2})[-/](14\d{2})', title)
+    if m_title:
+        td = int(m_title.group(1))
+        tm = int(m_title.group(2))
+        ty = int(m_title.group(3))
+        if ty > y or (ty == y and (tm > m or (tm == m and td > d))):
+            y, m, d = ty, tm, td
+    else:
+        m_year_only = re.search(r'(14\d{2})\s*هـ?', title)
+        if m_year_only:
+            ty = int(m_year_only.group(1))
+            if ty > y:
+                y = ty
+            
+    return (y, m, d, uploaded_at)
 
 def main():
     if not CATALOG_PATH.exists():
