@@ -45,7 +45,7 @@ def get_channel_long_videos(limit=50):
         "--retries", "3",
         "--flat-playlist",
         "--dump-single-json",
-        "--extractor-args", "youtube:player_client=mweb,web,ios,android",
+        "--extractor-args", "youtube:player_client=visionos,mweb,web",
         "--playlist-items", f"1:{limit}"
     ]
     if os.environ.get("GITHUB_ACTIONS"):
@@ -72,7 +72,7 @@ def get_playlist_videos(playlist_id, limit=None):
         "yt-dlp",
         "--flat-playlist",
         "--dump-single-json",
-        "--extractor-args", "youtube:player_client=mweb,web,ios,android"
+        "--extractor-args", "youtube:player_client=visionos,mweb,web"
     ]
     cookie_file = get_cookie_file()
     if cookie_file:
@@ -104,7 +104,7 @@ def download_youtube_audio_and_thumb(video_id, output_base):
         "--socket-timeout", "30",
         "--retries", "3",
         "--remote-components", "ejs:github",
-        "--extractor-args", "youtube:player_client=mweb,web,ios,android",
+        "--extractor-args", "youtube:player_client=visionos,mweb,web",
         "-x",
         "--audio-format", "mp3",
         "--audio-quality", "0",
@@ -160,9 +160,8 @@ def download_youtube_audio_and_thumb(video_id, output_base):
     return mp3_path, thumb_path
 
 KHUTBAH_KEYWORDS = [
-    "خطبة", "خطب", "الخطبة", "الخطب", "خطبتي", "خطبتي الجمعة",
-    "محاضرة", "محاضرات", "كلمة توجيهية", "كلمة الشيخ",
-    "موعظة", "ندوة", "لقاء", "مؤتمر", "برنامج", "حوار"
+    "خطبة", "الخطبة", "محاضرة", "كلمة", "درس", "خطبة الجمعة",
+    "لقاء", "ندوة", "برنامج", "مؤتمر", "حوار", "تعليق"
 ]
 
 def is_khutbah(title, category_name=""):
