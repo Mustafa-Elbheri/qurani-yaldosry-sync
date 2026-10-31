@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       limit:
-        description: 'Number of videos to sync in this cloud run (e.g. 50, 100)'
+        description: 'Number of videos to sync in this cloud run (e.g. 50)'
         required: true
-        default: '100'
+        default: '50'
       workers:
         description: 'Number of parallel cloud workers'
         required: true
@@ -26,6 +26,9 @@ concurrency:
 jobs:
   cloud_sync:
     runs-on: ubuntu-latest
+    env:
+      NO_PROXY: 'archive.org,*.archive.org,s3.us.archive.org,ia601904.us.archive.org,127.0.0.1,localhost,api.ipify.org'
+      no_proxy: 'archive.org,*.archive.org,s3.us.archive.org,ia601904.us.archive.org,127.0.0.1,localhost,api.ipify.org'
 
     steps:
       - name: Checkout Code
@@ -87,13 +90,19 @@ jobs:
           echo "access = ${{ secrets.IA_ACCESS_KEY }}" >> ~/.ia
           echo "secret = ${{ secrets.IA_SECRET_KEY }}" >> ~/.ia
 
-      - name: Verify Anti-Bot PO Token Provider
+      - name: Verify Network Egress Architecture (Fixed Archive IP vs Dynamic YouTube IP)
         run: |
-          echo "Verifying BotGuard PO Token Provider:"
-          curl -s http://127.0.0.1:4416/ping || echo "Provider ping check finished"
+          echo "=========================================================="
+          echo "1. Fixed Native Runner Direct IP (For Archive.org Uploads):"
+          curl -s https://api.ipify.org
+          echo ""
+          echo "2. Dynamic Cloudflare WARP Proxy IP (For YouTube Downloads):"
+          curl -s --socks5-hostname 127.0.0.1:40000 https://api.ipify.org
+          echo ""
+          echo "=========================================================="
 
-      - name: Run High-Speed Bulk Sync in the Cloud
-        timeout-minutes: 45
+      - name: Run High-Speed Bulk Sync in the Cloud (Batch Size: 50)
+        timeout-minutes: 60
         env:
           WORKERS: ${{ github.event.inputs.workers || '2' }}
           LIMIT: ${{ github.event.inputs.limit || '50' }}
@@ -104,6 +113,11 @@ jobs:
         if: always()
         run: |
           rm -f cookies.txt
+
+      - name: Wait on Same Runner IP for Archive.org Processing (Anti-Spam & Task Completion)
+        if: always()
+        run: |
+          python wait_for_archive.py
 
       - name: Commit and Push Updated Catalog & State
         if: always()
@@ -118,7 +132,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore: cloud sync batch completed [skip ci]" || true
+            git commit -m "chore: cloud sync batch (50 recitations) completed [skip ci]" || true
             git push origin master || (git pull --rebase -X ours origin master && git push origin master)
           fi
 
@@ -158,13 +172,13 @@ jobs:
               time.sleep(600)
               print('Cooldown complete! Resuming cloud chain now...')
           else:
-              print(f'Batch succeeded with {new_synced} recitations. Waiting 15s before launching next batch...')
+              print(f'Batch succeeded with {new_synced} recitations. Waiting 15s before launching next batch of 50...')
               time.sleep(15)
 
-          # Trigger next batch via GitHub CLI
+          # Trigger next batch of 50 via GitHub CLI
           res = subprocess.run([
               'gh', 'workflow', 'run', 'Cloud Bulk Sync (Zero Local Bandwidth)',
-              '-f', 'limit=100',
+              '-f', 'limit=50',
               '-f', 'workers=2'
           ], capture_output=True, text=True)
           print('Trigger status code:', res.returncode)

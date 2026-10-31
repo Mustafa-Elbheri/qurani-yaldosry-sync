@@ -12,6 +12,18 @@ if hasattr(sys.stdout, 'reconfigure'):
 if hasattr(sys.stderr, 'reconfigure'):
     sys.stderr.reconfigure(encoding='utf-8', errors='replace')
 
+# Enforce direct connection for all Archive.org traffic (Fixed runner IP - anti-spam)
+os.environ["NO_PROXY"] = "archive.org,*.archive.org,s3.us.archive.org,ia601904.us.archive.org,127.0.0.1,localhost,api.ipify.org"
+os.environ["no_proxy"] = "archive.org,*.archive.org,s3.us.archive.org,ia601904.us.archive.org,127.0.0.1,localhost,api.ipify.org"
+
+def get_fixed_runner_ip():
+    """Returns the native, fixed public IP of the runner machine (bypassing all proxies)."""
+    try:
+        r = requests.get("https://api.ipify.org", timeout=10, proxies={"http": None, "https": None})
+        return r.text.strip()
+    except Exception:
+        return "Unknown"
+
 STATE_FILE = os.path.join(os.path.dirname(__file__), "sync_state.json")
 CATALOG_FILE = os.path.join(os.path.dirname(__file__), "catalog.json")
 
@@ -117,7 +129,6 @@ def extract_surah_info(title):
 
 def extract_date_info(title, category_name=""):
     """Extract date and year from title or category."""
-    # Look for Hijri date like 7-1-1448 or 1448
     match = re.search(r'(\d{1,2})-(\d{1,2})-(\d{4})', title)
     if match:
         day, month, year = match.groups()
@@ -133,8 +144,6 @@ def extract_date_info(title, category_name=""):
 def generate_standard_filenames(item_dict):
     """
     Generate professional, Archive.org-compliant filenames and metadata.
-    Example Quran: 001_Surah_Al-Fatihah.mp3 & 001_Surah_Al-Fatihah.jpg
-    Example Prayer: 1448-01-07_Fajr_Al-Imran.mp3 & 1448-01-07_Fajr_Al-Imran.jpg
     """
     section = item_dict.get("section", "prayers")
     title = item_dict.get("title", "")
@@ -152,7 +161,6 @@ def generate_standard_filenames(item_dict):
             base_name = f"quran_{item_id}"
             track = item_id
     elif section == "prayers":
-        # Extract prayer type
         prayer_type = "Prayer"
         if "فجر" in title: prayer_type = "Fajr"
         elif "مغرب" in title: prayer_type = "Maghrib"
@@ -175,12 +183,7 @@ def generate_standard_filenames(item_dict):
 
 def upload_recitation_with_cover(item_dict):
     """
-    Strict Archive.org Upload Implementation:
-    1. Downloads MP3 file.
-    2. Downloads and uploads high-resolution JPG cover alongside the MP3.
-    3. Names files with standardized, meaningful filenames.
-    4. Attaches full required metadata (date, year, creator, language, subject, description).
-    5. Updates sync_state and catalog.
+    Strict Archive.org Upload Implementation via Direct Fixed Runner IP.
     """
     state = load_state()
     catalog = load_catalog()
@@ -241,7 +244,8 @@ def upload_recitation_with_cover(item_dict):
         "description": f"تسجيلات وتلاوات الشيخ د. ياسر الدوسري إمام وخطيب المسجد الحرام لتطبيق قرآني - قسم {item_dict.get('category', section)}"
     }
     
-    print(f"  Uploading to Archive.org [{target_identifier}] with cover image & strict metadata...")
+    fixed_ip = get_fixed_runner_ip()
+    print(f"  Uploading to Archive.org [{target_identifier}] via Fixed Runner IP: {fixed_ip} (Anti-Spam Fixed IP)...")
     try:
         max_upload_retries = 5
         upload_success = False
@@ -319,4 +323,4 @@ def upload_recitation_with_cover(item_dict):
                 except Exception: pass
 
 if __name__ == "__main__":
-    print("Enhanced uploader with cover images and strict metadata ready.")
+    print(f"Enhanced uploader ready. Fixed Runner IP: {get_fixed_runner_ip()}")
