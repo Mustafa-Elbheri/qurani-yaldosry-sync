@@ -101,7 +101,7 @@ jobs:
           echo ""
           echo "=========================================================="
 
-      - name: Run High-Speed Bulk Sync in the Cloud (Batch Size: 50)
+      - name: "Run High-Speed Bulk Sync in the Cloud (Batch Size 50)"
         timeout-minutes: 60
         env:
           WORKERS: ${{ github.event.inputs.workers || '2' }}
@@ -114,7 +114,7 @@ jobs:
         run: |
           rm -f cookies.txt
 
-      - name: Wait on Same Runner IP for Archive.org Processing (Anti-Spam & Task Completion)
+      - name: "Wait on Same Runner IP for Archive.org Processing (Anti-Spam and Task Completion)"
         if: always()
         run: |
           python wait_for_archive.py
