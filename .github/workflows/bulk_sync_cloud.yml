@@ -26,6 +26,7 @@ concurrency:
 jobs:
   cloud_sync:
     runs-on: ubuntu-latest
+    timeout-minutes: 350
     env:
       NO_PROXY: 'archive.org,*.archive.org,s3.us.archive.org,ia601904.us.archive.org,127.0.0.1,localhost,api.ipify.org'
 

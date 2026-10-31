@@ -22,13 +22,13 @@ def get_fixed_runner_ip():
     except Exception:
         return "Unknown"
 
-def wait_for_archive_processing(identifier=IDENTIFIER, max_wait_seconds=3600, poll_interval=20):
+def wait_for_archive_processing(identifier=IDENTIFIER, max_wait_seconds=18000, poll_interval=20):
     fixed_ip = get_fixed_runner_ip()
     print("=" * 75, flush=True)
     print("⏳ ARCHIVE.ORG BATCH PROCESSING WATCHDOG (SAME RUNNER IP)", flush=True)
     print(f"Runner Fixed Direct Egress IP: {fixed_ip}", flush=True)
     print(f"Target Item: {identifier}", flush=True)
-    print("Holding machine alive on this SAME IP until Archive.org finishes all tasks for this batch...", flush=True)
+    print("Holding machine alive on this SAME IP until Archive.org finishes all tasks for this batch (Up to 5 Hours)...", flush=True)
     print("=" * 75, flush=True)
     
     session = ia.get_session()
