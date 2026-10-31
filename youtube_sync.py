@@ -249,13 +249,20 @@ def download_youtube_audio_and_thumb(video_id, output_base):
             
     return mp3_path, thumb_path
 
+EXCLUDED_VIDEO_IDS = {
+    'Cq3lwri7118', 'Mj6mRgAplbY', 'CsE1KpMXPjU', 'UuM1ph5thgQ',
+    'HbpmP8Rgkrs', 'dgvsyr_ed5k', 'u0b312zRzDk', '5jqyRZaml7o', 'hu9CBlHuhjs'
+}
+
 KHUTBAH_KEYWORDS = [
-    "خطبة", "الخطبة", "محاضرة", "كلمة", "درس", "خطبة الجمعة",
-    "لقاء", "ندوة", "برنامج", "مؤتمر", "حوار", "تعليق"
+    "خطبة", "الخطبة", "محاضرة", "محاضرات", "كلمة", "درس", "الدرس", "دروس",
+    "درس علمي", "خطبة الجمعة", "لقاء", "ندوة", "برنامج", "مؤتمر", "حوار",
+    "تعليق", "مقاصد", "مصادر الفقه", "صلاة الاستسقاء", "دورة علمية", "الحفل الختامي",
+    "العلم الشرعي", "تفسير آيات"
 ]
 
 def is_khutbah(title, category_name=""):
-    """Returns True if the video is a sermon/speech, so it gets excluded permanently."""
+    """Returns True if the video is a sermon/speech/lesson, so it gets excluded permanently."""
     text = f"{title} {category_name}".strip()
     for kw in KHUTBAH_KEYWORDS:
         if kw in text:
@@ -267,14 +274,19 @@ def sync_youtube_video(video_entry, category_name="صلوات الحرم الم�
     video_id = video_entry.get("id")
     title = video_entry.get("title", "")
     
+    # 0. Check explicit blacklist
+    if video_id in EXCLUDED_VIDEO_IDS:
+        print(f"Skipping Excluded Lesson ID {video_id}: {title}", flush=True)
+        return None
+
     # 1. Ignore Shorts permanently
     if "#shorts" in title.lower():
         print(f"Skipping Short (excluded): {title}", flush=True)
         return None
         
-    # 2. Ignore Sermons/Khutbahs permanently
+    # 2. Ignore Sermons/Khutbahs/Lessons permanently
     if is_khutbah(title, category_name):
-        print(f"Skipping Sermon/Khutbah (excluded permanently): {title}", flush=True)
+        print(f"Skipping Sermon/Lesson (excluded permanently): {title}", flush=True)
         return None
         
     state = uploader.load_state()

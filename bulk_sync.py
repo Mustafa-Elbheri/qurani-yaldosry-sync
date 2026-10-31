@@ -29,8 +29,8 @@ def process_single_video(video_entry, progress_info):
     if "#shorts" in title.lower():
         return None
         
-    # 2. Skip Khutbahs / Sermons
-    if youtube_sync.is_khutbah(title):
+    # 2. Skip Khutbahs / Sermons / Lessons
+    if video_id in youtube_sync.EXCLUDED_VIDEO_IDS or youtube_sync.is_khutbah(title):
         return None
         
     item_key = f"yt_{video_id}"
@@ -79,11 +79,12 @@ def start_bulk_sync(max_workers=2, limit=50):
     print("Fetching channel catalog from YouTube (excluding shorts)...", flush=True)
     all_videos = youtube_sync.get_channel_long_videos(limit=2500)
     
-    # Filter out khutbahs and shorts in advance
+    # Filter out khutbahs, lessons, and shorts in advance
     filtered_videos = []
     for v in all_videos:
+        vid = v.get("id", "")
         title = v.get("title", "")
-        if "#shorts" not in title.lower() and not youtube_sync.is_khutbah(title):
+        if "#shorts" not in title.lower() and vid not in youtube_sync.EXCLUDED_VIDEO_IDS and not youtube_sync.is_khutbah(title):
             filtered_videos.append(v)
             
     print(f"Total pure Quran recitations found on channel: {len(filtered_videos)}", flush=True)

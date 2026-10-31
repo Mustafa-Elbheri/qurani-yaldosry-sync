@@ -1,0 +1,41 @@
+name: Purge Non-Quran Lessons from Archive.org
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    env:
+      NO_PROXY: 'archive.org,*.archive.org,s3.us.archive.org,ia601904.us.archive.org,127.0.0.1,localhost,api.ipify.org'
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          pip install internetarchive requests
+
+      - name: Configure Archive.org S3 Keys
+        run: |
+          mkdir -p ~/.config
+          echo "[s3]" > ~/.ia
+          echo "access = ${{ secrets.IA_ACCESS_KEY }}" >> ~/.ia
+          echo "secret = ${{ secrets.IA_SECRET_KEY }}" >> ~/.ia
+
+      - name: Purge Files on Archive.org
+        run: |
+          python purge_archive_files.py
+
+      - name: Upload Cleaned Collections to Archive.org
+        run: |
+          python upload_collections.py
