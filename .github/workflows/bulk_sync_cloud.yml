@@ -28,7 +28,6 @@ jobs:
     runs-on: ubuntu-latest
     env:
       NO_PROXY: 'archive.org,*.archive.org,s3.us.archive.org,ia601904.us.archive.org,127.0.0.1,localhost,api.ipify.org'
-      no_proxy: 'archive.org,*.archive.org,s3.us.archive.org,ia601904.us.archive.org,127.0.0.1,localhost,api.ipify.org'
 
     steps:
       - name: Checkout Code
