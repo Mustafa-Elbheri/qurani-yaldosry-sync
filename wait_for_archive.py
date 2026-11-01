@@ -22,13 +22,13 @@ def get_fixed_runner_ip():
     except Exception:
         return "Unknown"
 
-def wait_for_archive_processing(identifier=IDENTIFIER, max_wait_seconds=18000, poll_interval=20):
+def wait_for_archive_processing(identifier=IDENTIFIER, max_wait_seconds=3600, poll_interval=15):
     fixed_ip = get_fixed_runner_ip()
     print("=" * 75, flush=True)
-    print("⏳ ARCHIVE.ORG BATCH PROCESSING WATCHDOG (SAME RUNNER IP)", flush=True)
+    print("⏳ ARCHIVE.ORG FAST BATCH WATCHDOG (SAME RUNNER IP)", flush=True)
     print(f"Runner Fixed Direct Egress IP: {fixed_ip}", flush=True)
     print(f"Target Item: {identifier}", flush=True)
-    print("Holding machine alive on this SAME IP until Archive.org finishes all tasks for this batch (Up to 5 Hours)...", flush=True)
+    print("Policy: Move to next machine immediately as soon as regular queue is clear (No waiting for derive.php).", flush=True)
     print("=" * 75, flush=True)
     
     session = ia.get_session()
@@ -49,10 +49,17 @@ def wait_for_archive_processing(identifier=IDENTIFIER, max_wait_seconds=18000, p
             
             print(f"[{elapsed_sec:4d}s elapsed | Fixed IP: {fixed_ip}] Tasks status: {running} running, {queued} queued", flush=True)
             
-            if queued == 0 and running == 0:
+            # Initial grace period (wait at least 30s to allow Archive S3 to queue the newly uploaded files)
+            if elapsed_sec < 30:
+                time.sleep(poll_interval)
+                continue
+                
+            # Check 1: Regular file ingestion queue is completely empty (queued == 0)
+            if queued == 0:
                 zero_stable_count += 1
                 if zero_stable_count >= 2:
-                    print(f"\n✅ All Archive.org tasks processed to completion on this runner IP ({fixed_ip})!", flush=True)
+                    print(f"\n✅ Regular Archive queue is completely empty (queued=0)! Batch files are 100% ingested.", flush=True)
+                    print(f"Moving to next runner immediately without waiting for derive.php.", flush=True)
                     break
                 else:
                     time.sleep(5)
@@ -60,14 +67,14 @@ def wait_for_archive_processing(identifier=IDENTIFIER, max_wait_seconds=18000, p
             else:
                 zero_stable_count = 0
                 
-            # Inspect active tasks
+            # Check 2: Inspect active tasks - if no archive.php tasks exist, file ingestion is finished
             try:
-                tasks = list(catalog.get_tasks(identifier, params={"catalog": 1, "limit": 10}))
+                tasks = list(catalog.get_tasks(identifier, params={"catalog": 1, "limit": 20}))
                 task_cmds = [getattr(t, "cmd", "") for t in tasks]
-                # If no file-ingestion (archive.php) tasks are queued or running, file moves are done
                 has_file_ingestion = any(cmd == "archive.php" for cmd in task_cmds)
-                if not has_file_ingestion and queued <= 2 and running == 0:
-                    print(f"\nℹ️ Only non-ingestion background tasks remain ({task_cmds}). Batch file ingestion is 100% finished!", flush=True)
+                if not has_file_ingestion:
+                    print(f"\n✅ All file ingestion tasks (archive.php) are finished! Remaining tasks: {task_cmds}", flush=True)
+                    print(f"Regular Archive queue is clear. Moving to next runner immediately without waiting for derive.php!", flush=True)
                     break
             except Exception:
                 pass
@@ -78,7 +85,7 @@ def wait_for_archive_processing(identifier=IDENTIFIER, max_wait_seconds=18000, p
         time.sleep(poll_interval)
         
     duration_min = round((time.time() - start_time) / 60, 2)
-    print(f"🏁 Watchdog concluded on runner IP {fixed_ip} after {duration_min} minutes.", flush=True)
+    print(f"🏁 Fast Watchdog concluded on runner IP {fixed_ip} after {duration_min} minutes.", flush=True)
     return True
 
 if __name__ == "__main__":

@@ -102,7 +102,7 @@ jobs:
           echo "=========================================================="
 
       - name: "Run High-Speed Bulk Sync in the Cloud (Batch Size 50)"
-        timeout-minutes: 60
+        timeout-minutes: 120
         env:
           WORKERS: ${{ github.event.inputs.workers || '2' }}
           LIMIT: ${{ github.event.inputs.limit || '50' }}
