@@ -44,6 +44,20 @@ def is_youtube_blocked(output_text):
     low = output_text.lower()
     return any(kw in low for kw in INTERCEPTION_KEYWORDS)
 
+def get_archive_queue_summary(identifier="qurani-yasser-aldosari-prayers"):
+    """Fetch live task queue summary for the target identifier from Archive.org."""
+    try:
+        import internetarchive as ia
+        session = ia.get_session()
+        catalog = ia.Catalog(session)
+        summary = catalog.get_summary(identifier)
+        queued = summary.get("queued", 0)
+        running = summary.get("running", 0)
+        return queued, running
+    except Exception as e:
+        print(f"  [Queue Check Warning] {e}", flush=True)
+        return None, None
+
 def get_fixed_runner_ip():
     """Returns the native, fixed public IP of the runner machine (bypassing all proxies)."""
     try:
@@ -365,9 +379,8 @@ def sync_youtube_video(video_entry, category_name="صلوات الحرم الم�
                         raise ArchiveGlobalLimitExceeded(upload_err)
                     is_rate_limit = any(k in err_msg for k in ["bucket_tasks_queued", "reduce your request rate", "slow down", "503", "429", "rationed amount"])
                     if is_rate_limit:
-                        wait_time = 45 * attempt
-                        print(f"  [Archive.org Queue Saturated] Server task limit hit. Waiting {wait_time}s for queue to drain (Attempt {attempt}/{max_upload_retries})...", flush=True)
-                        time.sleep(wait_time)
+                        print(f"  [Archive.org Queue Saturated] Server task limit hit: {upload_err}. Halting batch immediately to avoid wasted YouTube downloads.", flush=True)
+                        raise ArchiveGlobalLimitExceeded(upload_err)
                     else:
                         if attempt == max_upload_retries:
                             break

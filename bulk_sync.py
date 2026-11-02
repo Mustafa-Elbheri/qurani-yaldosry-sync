@@ -75,6 +75,29 @@ def start_bulk_sync(max_workers=2, limit=50):
     fixed_runner_ip = youtube_sync.get_fixed_runner_ip()
     print(f"📍 Archive.org Fixed Direct Egress IP: {fixed_runner_ip} (Anti-Spam Fixed IP)", flush=True)
     
+    # 0. PRE-FLIGHT CHECK: Archive.org Queue Health Gate
+    # Do NOT touch YouTube or start any downloads if Archive.org is congested!
+    print("Checking Archive.org queue health before touching YouTube...", flush=True)
+    queued, running = youtube_sync.get_archive_queue_summary("qurani-yasser-aldosari-prayers")
+    if queued is not None:
+        print(f"Archive.org Bucket Queue: {queued} queued, {running} running (Safe Threshold: <= 25)", flush=True)
+        if queued > 25:
+            print(f"⚠️ Archive.org queue is congested ({queued} tasks queued > threshold 25).", flush=True)
+            print(f"🛑 HALTING: Will NOT touch or download from YouTube while Archive.org is congested.", flush=True)
+            print(f"Waiting gently for Archive.org cluster to drain queue below 25...", flush=True)
+            wait_start = time.time()
+            while queued > 25:
+                time.sleep(30)
+                queued, running = youtube_sync.get_archive_queue_summary("qurani-yasser-aldosari-prayers")
+                if queued is None:
+                    break
+                elapsed = int(time.time() - wait_start)
+                print(f"  [Queue Gate | {elapsed}s] {queued} queued, {running} running...", flush=True)
+                if elapsed > 1800:
+                    print("Queue did not drain within 30 minutes. Exiting cleanly to allow Archive.org to breathe.", flush=True)
+                    return
+            print("✅ Archive.org queue is now clean! Safe to proceed with YouTube downloads.", flush=True)
+    
     # Fetch all video IDs across the entire channel
     print("Fetching channel catalog from YouTube (excluding shorts)...", flush=True)
     all_videos = youtube_sync.get_channel_long_videos(limit=2500)
