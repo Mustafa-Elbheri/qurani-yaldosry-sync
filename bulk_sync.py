@@ -68,6 +68,9 @@ def process_single_video(video_entry, progress_info):
 
 def start_bulk_sync(max_workers=1, limit=50):
     """Starts strictly sequential sync (1-by-1) for the channel in batches of 50."""
+    # Hard-enforced strictly sequential execution (1-by-1) to protect Archive.org S3 queue
+    max_workers = 1
+    
     print("=" * 75, flush=True)
     print(f"🚀 STARTING CLOUD BULK SYNC (BATCH SIZE: {limit} | ZERO LOCAL BANDWIDTH)", flush=True)
     print("=" * 75, flush=True)
