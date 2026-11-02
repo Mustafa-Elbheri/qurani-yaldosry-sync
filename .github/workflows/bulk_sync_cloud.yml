@@ -1,9 +1,6 @@
 name: Cloud Bulk Sync (Zero Local Bandwidth)
 
 on:
-  schedule:
-    # Runs automatically every 30 minutes as a resilient cloud backup net
-    - cron: '*/30 * * * *'
   workflow_dispatch:
     inputs:
       limit:
