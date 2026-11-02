@@ -43,7 +43,7 @@ def upload_catalog_with_resilience():
         print(f"Track #1: {tracks[0]['number']} - {tracks[0]['name']}", flush=True)
         print(f"Track #{len(tracks)}: {tracks[-1]['number']} - {tracks[-1]['name']}", flush=True)
         
-    max_attempts = 20
+    max_attempts = 3
     for attempt in range(1, max_attempts + 1):
         print(f"\n[Attempt {attempt}/{max_attempts}] Uploading to Archive.org via Fixed IP {fixed_ip}...", flush=True)
         try:
@@ -53,8 +53,8 @@ def upload_catalog_with_resilience():
                 key=JSON_FILE.name,
                 queue_derive=False,
                 verbose=True,
-                retries=5,
-                retries_sleep=15,
+                retries=3,
+                retries_sleep=10,
                 request_kwargs={"timeout": (15, 60)}
             )
             print("✅ Upload completed successfully!", flush=True)
@@ -79,14 +79,14 @@ def upload_catalog_with_resilience():
             err = str(e)
             print(f"Upload attempt {attempt} failed: {err}", flush=True)
             if any(term in err.lower() for term in ["bucket_tasks_queued", "503", "slowdown", "reduce your request rate"]):
-                backoff = min(30 * attempt, 180)
+                backoff = min(20 * attempt, 60)
                 print(f"Archive.org queue busy. Sleeping {backoff}s before retry...", flush=True)
                 time.sleep(backoff)
             else:
-                print("Sleeping 15s before retry...", flush=True)
-                time.sleep(15)
+                print("Sleeping 10s before retry...", flush=True)
+                time.sleep(10)
                 
-    print(f"❌ Failed to upload after {max_attempts} attempts.", flush=True)
+    print(f"⚠️ Archive.org S3 queue busy after {max_attempts} attempts. Moving to git commit to save batch state.", flush=True)
     return False
 
 if __name__ == "__main__":
