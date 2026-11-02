@@ -8,9 +8,9 @@ on:
         required: true
         default: '50'
       workers:
-        description: 'Number of parallel cloud workers'
+        description: 'Number of cloud workers (1 for strictly sequential)'
         required: true
-        default: '2'
+        default: '1'
 
 permissions:
   contents: write
@@ -98,10 +98,10 @@ jobs:
           echo ""
           echo "=========================================================="
 
-      - name: "Run High-Speed Bulk Sync in the Cloud (Batch Size 50)"
+      - name: "Run Strictly Sequential Bulk Sync (Batch Size 50, 1-by-1)"
         timeout-minutes: 120
         env:
-          WORKERS: ${{ github.event.inputs.workers || '2' }}
+          WORKERS: ${{ github.event.inputs.workers || '1' }}
           LIMIT: ${{ github.event.inputs.limit || '50' }}
         run: |
           python bulk_sync.py --workers "$WORKERS" --limit "$LIMIT"
@@ -111,7 +111,7 @@ jobs:
         run: |
           rm -f cookies.txt
 
-      - name: "Wait on Same Runner IP for Archive.org Processing (Anti-Spam and Task Completion)"
+      - name: "Wait on Same Runner IP for Archive.org Processing (Anti-Spam and Settle Grace Period)"
         if: always()
         run: |
           python wait_for_archive.py
@@ -132,54 +132,3 @@ jobs:
             git commit -m "chore: cloud sync batch (50 recitations) completed [skip ci]" || true
             git push origin master || (git pull --rebase -X ours origin master && git push origin master)
           fi
-
-      - name: Auto-Chain Next Batch (Self-Healing Loop)
-        if: always()
-        env:
-          GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
-        run: |
-          python -c "
-          import json, sys, time, subprocess
-
-          try:
-              with open('sync_state.json', 'r', encoding='utf-8') as f:
-                  state = json.load(f)
-              total_synced = len(state)
-          except Exception:
-              total_synced = 0
-
-          print(f'Current total synced items in state: {total_synced}/2370')
-          if total_synced >= 2360:
-              print('🎉 Channel is completely synced! Auto-chain finished successfully.')
-              sys.exit(0)
-
-          try:
-              with open('last_run_stats.json', 'r', encoding='utf-8') as f:
-                  stats = json.load(f)
-              new_synced = stats.get('new_synced', 0)
-              queue_limited = stats.get('queue_limited', False)
-          except Exception:
-              new_synced = 0
-              queue_limited = False
-
-          print(f'Newly synced in this run: {new_synced} | Archive Queue Limited: {queue_limited}')
-          if queue_limited or new_synced == 0:
-              print('Archive.org queue saturation detected (cooldown needed).')
-              print('Sleeping 600s (10 mins) in the cloud runner to allow Archive.org task queue to drain...')
-              time.sleep(600)
-              print('Cooldown complete! Resuming cloud chain now...')
-          else:
-              print(f'Batch succeeded with {new_synced} recitations. Waiting 15s before launching next batch of 50...')
-              time.sleep(15)
-
-          # Trigger next batch of 50 via GitHub CLI
-          res = subprocess.run([
-              'gh', 'workflow', 'run', 'Cloud Bulk Sync (Zero Local Bandwidth)',
-              '-f', 'limit=50',
-              '-f', 'workers=2'
-          ], capture_output=True, text=True)
-          print('Trigger status code:', res.returncode)
-          print('Output:', res.stdout)
-          if res.stderr:
-              print('Error output:', res.stderr)
-          " || echo "Auto-chain step concluded."

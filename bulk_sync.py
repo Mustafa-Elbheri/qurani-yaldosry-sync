@@ -66,8 +66,8 @@ def process_single_video(video_entry, progress_info):
         print(f"Error processing video {video_id}: {e}", flush=True)
         return None
 
-def start_bulk_sync(max_workers=2, limit=50):
-    """Starts high-speed parallel sync for the channel in batches of 50."""
+def start_bulk_sync(max_workers=1, limit=50):
+    """Starts strictly sequential sync (1-by-1) for the channel in batches of 50."""
     print("=" * 75, flush=True)
     print(f"🚀 STARTING CLOUD BULK SYNC (BATCH SIZE: {limit} | ZERO LOCAL BANDWIDTH)", flush=True)
     print("=" * 75, flush=True)
@@ -142,16 +142,38 @@ def start_bulk_sync(max_workers=2, limit=50):
         "total": len(filtered_videos)
     }
     
-    print(f"Launching {max_workers} parallel cloud workers for safe upload pacing...\n", flush=True)
     start_time = time.time()
     
-    with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        futures = {executor.submit(process_single_video, v, progress_info): v for v in batch_items}
-        for future in as_completed(futures):
+    if max_workers <= 1:
+        print(f"🚀 Running STRICTLY SEQUENTIAL sync (1-by-1, 0 parallel threads) for {len(batch_items)} items.", flush=True)
+        print("🛡️ Pacing: 5-second polite buffer between uploads to eliminate Archive.org 503 SlowDown.\n", flush=True)
+        for idx, v in enumerate(batch_items, 1):
+            if STOP_SYNC.is_set():
+                print(f"\n🛑 Archive queue limit hit or stop signal active. Halting sequential batch at item {idx-1}/{len(batch_items)}.", flush=True)
+                break
+                
+            v_title = v.get("title", "")[:50]
+            print(f"\n--- [Item {idx}/{len(batch_items)}] Starting sequential processing: {v_title}... ---", flush=True)
             try:
-                future.result()
+                record = process_single_video(v, progress_info)
             except Exception as e:
-                print(f"Worker exception: {e}", flush=True)
+                print(f"Error on item {idx}: {e}", flush=True)
+                
+            if STOP_SYNC.is_set():
+                break
+                
+            if idx < len(batch_items):
+                print("⏳ Sleeping 5s before next item to maintain healthy Archive.org pacing...", flush=True)
+                time.sleep(5)
+    else:
+        print(f"Launching {max_workers} parallel cloud workers for safe upload pacing...\n", flush=True)
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            futures = {executor.submit(process_single_video, v, progress_info): v for v in batch_items}
+            for future in as_completed(futures):
+                try:
+                    future.result()
+                except Exception as e:
+                    print(f"Worker exception: {e}", flush=True)
                 
     total_time_mins = round((time.time() - start_time) / 60, 2)
     new_in_this_run = progress_info["completed"] - progress_info["skipped"]
@@ -170,8 +192,8 @@ def start_bulk_sync(max_workers=2, limit=50):
 
 if __name__ == "__main__":
     import argparse
-    parser = argparse.ArgumentParser(description="High-Speed Parallel Bulk Sync in Batches of 50")
-    parser.add_argument("--workers", type=int, default=2, help="Number of concurrent workers (default: 2)")
+    parser = argparse.ArgumentParser(description="Strictly Sequential Sync in Batches of 50")
+    parser.add_argument("--workers", type=int, default=1, help="Number of concurrent workers (default: 1 for sequential)")
     parser.add_argument("--limit", type=int, default=50, help="Limit number of videos to sync per batch (default: 50)")
     args = parser.parse_args()
     
