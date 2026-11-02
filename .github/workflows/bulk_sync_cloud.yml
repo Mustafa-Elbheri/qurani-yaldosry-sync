@@ -132,3 +132,56 @@ jobs:
             git commit -m "chore: cloud sync batch (50 recitations) completed [skip ci]" || true
             git push origin master || (git pull --rebase -X ours origin master && git push origin master)
           fi
+
+      - name: Auto-Chain Next Batch (Self-Healing Loop)
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+        run: |
+          python -c "
+          import json, sys, time, subprocess
+
+          try:
+              with open('sync_state.json', 'r', encoding='utf-8') as f:
+                  state = json.load(f)
+              total_synced = len(state)
+          except Exception:
+              total_synced = 0
+
+          print(f'Current total synced items in state: {total_synced}')
+
+          if total_synced >= 2360:
+              print('🎉 Entire channel is completely synced! All recitations are on Archive.org.')
+              print('Auto-chain successfully completed. No more batches needed.')
+              sys.exit(0)
+
+          try:
+              with open('last_run_stats.json', 'r', encoding='utf-8') as f:
+                  stats = json.load(f)
+              new_synced = stats.get('new_synced', 0)
+              queue_limited = stats.get('queue_limited', False)
+          except Exception:
+              new_synced = 0
+              queue_limited = False
+
+          print(f'Newly synced in this run: {new_synced} | Archive Queue Limited: {queue_limited}')
+          if queue_limited or new_synced == 0:
+              print('Archive.org queue saturation detected (cooldown needed).')
+              print('Sleeping 300s (5 mins) in the cloud runner to allow Archive.org task queue to drain...')
+              time.sleep(300)
+              print('Cooldown complete! Resuming cloud chain now...')
+          else:
+              print(f'Batch succeeded with {new_synced} recitations. Waiting 20s before launching next sequential batch of 50...')
+              time.sleep(20)
+
+          # Trigger next strictly sequential batch of 50 (workers=1) via GitHub CLI
+          res = subprocess.run([
+              'gh', 'workflow', 'run', 'bulk_sync_cloud.yml',
+              '-f', 'limit=50',
+              '-f', 'workers=1'
+          ], capture_output=True, text=True)
+          print('Trigger status code:', res.returncode)
+          print('Output:', res.stdout)
+          if res.stderr:
+              print('Error output:', res.stderr)
+          " || echo "Auto-chain step concluded."
