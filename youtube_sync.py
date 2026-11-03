@@ -265,11 +265,11 @@ def download_youtube_audio_and_thumb(video_id, output_base):
 
 EXCLUDED_VIDEO_IDS = {
     'Cq3lwri7118', 'Mj6mRgAplbY', 'CsE1KpMXPjU', 'UuM1ph5thgQ',
-    'HbpmP8Rgkrs', 'dgvsyr_ed5k', 'u0b312zRzDk', '5jqyRZaml7o', 'hu9CBlHuhjs'
+    'HbpmP8Rgkrs', 'dgvsyr_ed5k', 'u0b312zRzDk', '5jqyRZaml7o', 'hu9CBlHuhjs', 'ZomBkBtqQc4'
 }
 
 KHUTBAH_KEYWORDS = [
-    "خطبة", "الخطبة", "محاضرة", "محاضرات", "كلمة", "درس", "الدرس", "دروس",
+    "خطبة", "الخطبة", "خطبتي", "الخطبتين", "خطبتين", "محاضرة", "محاضرات", "كلمة", "درس", "الدرس", "دروس",
     "درس علمي", "خطبة الجمعة", "لقاء", "ندوة", "برنامج", "مؤتمر", "حوار",
     "تعليق", "مقاصد", "مصادر الفقه", "صلاة الاستسقاء", "دورة علمية", "الحفل الختامي",
     "العلم الشرعي", "تفسير آيات"
