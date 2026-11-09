@@ -12,12 +12,30 @@ permissions:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      NO_PROXY: 'archive.org,*.archive.org,s3.us.archive.org,ia601904.us.archive.org,127.0.0.1,localhost,api.ipify.org'
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      - name: Setup Cloudflare WARP SOCKS5 Proxy (YouTube Only)
+        run: |
+          curl -fsSL https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
+          echo "deb [arch=amd64 signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/cloudflare-client.list
+          sudo apt-get update && sudo apt-get install -y cloudflare-warp
+          sudo systemctl start warp-svc
+          sleep 2
+          warp-cli --accept-tos registration new || true
+          warp-cli --accept-tos mode proxy
+          warp-cli --accept-tos proxy port 40000
+          warp-cli --accept-tos connect
+          sleep 3
+          echo "=== Cloudflare WARP Proxy Active on 127.0.0.1:40000 ==="
+          curl -s --socks5-hostname 127.0.0.1:40000 https://www.cloudflare.com/cdn-cgi/trace | grep -E "ip|loc|warp" || true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -30,11 +48,26 @@ jobs:
         with:
           deno-version: v2.x
 
+      - name: Verify or Install FFmpeg
+        run: |
+          which ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+
       - name: Install Dependencies
         run: |
-          sudo apt-get update && sudo apt-get install -y ffmpeg
-          pip install --upgrade pip yt-dlp
+          python -m pip install --upgrade pip yt-dlp
           pip install -r requirements.txt
+
+      - name: Start BGUtil PO Token Provider (BotGuard Attestation Service)
+        run: |
+          docker run -d --name bgutil-pot --restart=always --net=host brainicism/bgutil-ytdlp-pot-provider:latest
+          for i in {1..30}; do
+            if curl -s http://127.0.0.1:4416/ping; then
+              echo "BGUtil POT Provider successfully running on port 4416!"
+              break
+            fi
+            echo "Waiting for BGUtil POT service..."
+            sleep 2
+          done
 
       - name: Configure Archive.org S3 Keys
         run: |
@@ -64,16 +97,18 @@ jobs:
       - name: Generate App Collections and Upload to Archive.org
         run: |
           python generate_collections.py
-          ia upload qurani-yasser-aldosari-prayers aldosari_prayers.json || true
+          python upload_collections.py || true
 
       - name: Commit and Push Catalog Updates
         run: |
           git config --global user.name "Qurani Bot"
           git config --global user.email "bot@qurani.app"
+          git fetch origin master
+          git pull --rebase -X ours origin master || true
           git add catalog.json sync_state.json aldosari_prayers.json
           if git diff --staged --quiet; then
             echo "No changes in catalog to commit."
           else
             git commit -m "chore(sync): update catalog from YouTube channel [skip ci]"
-            git push
+            git push origin master || (git pull --rebase -X ours origin master && git push origin master)
           fi
