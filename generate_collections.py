@@ -157,8 +157,18 @@ def main():
         print(f"Error: {CATALOG_PATH} not found")
         return
         
+    EXCLUDED_IDS = {
+        'Cq3lwri7118', 'Mj6mRgAplbY', 'CsE1KpMXPjU', 'UuM1ph5thgQ',
+        'HbpmP8Rgkrs', 'dgvsyr_ed5k', 'dgvsyr-ed5k', 'u0b312zRzDk',
+        '5jqyRZaml7o', 'hu9CBlHuhjs', 'ZomBkBtqQc4', 'DflPtgkRViE', 'k2t5prFD1bE'
+    }
     items = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))
-    prayers = [it for it in items if it.get("section") == "prayers" and it.get("archive_url")]
+    prayers = [
+        it for it in items
+        if it.get("section") == "prayers"
+        and it.get("archive_url")
+        and not any(ex in (it.get("id", "") + " " + it.get("youtube_id", "")) for ex in EXCLUDED_IDS)
+    ]
     prayers.sort(key=sort_key, reverse=True)
     
     tracks = []

@@ -16,7 +16,8 @@ IDENTIFIER = "qurani-yasser-aldosari-prayers"
 
 NON_QURAN_IDS = {
     'Cq3lwri7118', 'Mj6mRgAplbY', 'CsE1KpMXPjU', 'UuM1ph5thgQ',
-    'HbpmP8Rgkrs', 'dgvsyr_ed5k', 'u0b312zRzDk', '5jqyRZaml7o', 'hu9CBlHuhjs'
+    'HbpmP8Rgkrs', 'dgvsyr_ed5k', 'dgvsyr-ed5k', 'u0b312zRzDk',
+    '5jqyRZaml7o', 'hu9CBlHuhjs', 'ZomBkBtqQc4', 'DflPtgkRViE', 'k2t5prFD1bE'
 }
 
 def purge_from_archive():

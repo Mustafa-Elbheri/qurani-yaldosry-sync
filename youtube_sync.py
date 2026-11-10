@@ -265,7 +265,7 @@ def download_youtube_audio_and_thumb(video_id, output_base):
 
 EXCLUDED_VIDEO_IDS = {
     'Cq3lwri7118', 'Mj6mRgAplbY', 'CsE1KpMXPjU', 'UuM1ph5thgQ',
-    'HbpmP8Rgkrs', 'dgvsyr_ed5k', 'u0b312zRzDk', '5jqyRZaml7o', 'hu9CBlHuhjs', 'ZomBkBtqQc4'
+    'HbpmP8Rgkrs', 'dgvsyr_ed5k', 'u0b312zRzDk', '5jqyRZaml7o', 'hu9CBlHuhjs', 'ZomBkBtqQc4', 'DflPtgkRViE', 'k2t5prFD1bE'
 }
 
 KHUTBAH_KEYWORDS = [

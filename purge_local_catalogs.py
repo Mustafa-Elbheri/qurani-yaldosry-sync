@@ -10,7 +10,18 @@ if hasattr(sys.stderr, 'reconfigure'):
 
 NON_QURAN_IDS = {
     'Cq3lwri7118', 'Mj6mRgAplbY', 'CsE1KpMXPjU', 'UuM1ph5thgQ',
-    'HbpmP8Rgkrs', 'dgvsyr_ed5k', 'u0b312zRzDk', '5jqyRZaml7o', 'hu9CBlHuhjs'
+    'HbpmP8Rgkrs', 'dgvsyr_ed5k', 'dgvsyr-ed5k', 'u0b312zRzDk',
+    '5jqyRZaml7o', 'hu9CBlHuhjs', 'ZomBkBtqQc4', 'DflPtgkRViE', 'k2t5prFD1bE'
+}
+
+RESTORED_TITLES = {
+    'jrk2jLbfmjU': '﴿فلا تغرنكم الحياة الدنيا﴾ تلاوة خاشعة لخواتيم سورة لقمان د. ياسر الدوسري | عشاء الثلاثاء 24-1-1446',
+    'TsfPmHK-EIg': 'ترتيل بديع لسورتي الضحى والنصر للشيخ د. ياسر الدوسري | صلاة الجمعة 12-2-1446هـ',
+    'TWOCBwTlUZ4': 'تلاوة مسترسلة بديعة من سورة الكهف للشيخ د. ياسر الدوسري | فجر السبت 14-5-1446هـ',
+    '0g6xKKGIUog': 'ترتيل مميز لسورتي الشمس والليل للشيخ د. ياسر الدوسري | عشاء الأربعاء 25-5-1446هـ',
+    'qTCK9Q4_odw': 'تحبير مؤثرة لسورة الملك كاملة | د. ياسر الدوسري فجر الخميس 26-10-1446هـ',
+    'D9ZN25miAHA': 'العِقدُ الآسِرْ لتلاوات الشيخ ياسر الدوسري | تلاوات شهر محرم لعام 1446هـ من الحرم المكي✨.',
+    'nyDvKkEBixg': 'العِقدُ الآسِرْ لتلاوات الشيخ ياسر الدوسري | تلاوات شهر صفر لعام 1446هـ من الحرم المكي✨'
 }
 
 ROOT = os.path.dirname(__file__)
@@ -27,7 +38,14 @@ def purge_local():
         catalog = json.load(f)
         
     before_cat_len = len(catalog)
-    cleaned_catalog = [item for item in catalog if not any(x in item.get("id", "") for x in NON_QURAN_IDS)]
+    cleaned_catalog = [
+        item for item in catalog
+        if not any(x in (item.get("id", "") + " " + item.get("youtube_id", "")) for x in NON_QURAN_IDS)
+    ]
+    for item in cleaned_catalog:
+        yid = item.get("youtube_id", "")
+        if yid in RESTORED_TITLES:
+            item["title"] = RESTORED_TITLES[yid]
     removed_count = before_cat_len - len(cleaned_catalog)
     
     with open(CATALOG_PATH, "w", encoding="utf-8") as f:
@@ -39,7 +57,14 @@ def purge_local():
     with open(STATE_PATH, "r", encoding="utf-8") as f:
         state = json.load(f)
         
+    for vid, real_title in RESTORED_TITLES.items():
+        key = f"yt_{vid}"
+        if key in state:
+            state[key]["title"] = real_title
+
     for vid in NON_QURAN_IDS:
+        if vid == 'dgvsyr-ed5k':
+            continue
         key = f"yt_{vid}"
         state[key] = {
             "id": key,
