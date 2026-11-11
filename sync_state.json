@@ -40066,5 +40066,22 @@
     "excluded": true,
     "reason": "non_quran_lesson_or_lecture",
     "archive_url": null
+  },
+  "yt_h-XfXQAVNlk": {
+    "id": "yt_h-XfXQAVNlk",
+    "youtube_id": "h-XfXQAVNlk",
+    "title": "من أجمل ماسمعت من التلاوات-بالحجاز يُرتل فواتح الرعد | د. ياسر الدوسري عشاء 1-6-1448هـ",
+    "standard_name": "1448-06-01_Isha_Ar-Rad_yt_h-XfXQAVNlk",
+    "section": "prayers",
+    "category": "صلوات الحرم المكي",
+    "track": "yt_h-XfXQAVNlk",
+    "date": "1448-06-01",
+    "year": "1448",
+    "source_type": "youtube",
+    "youtube_url": "https://www.youtube.com/watch?v=h-XfXQAVNlk",
+    "archive_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1448-06-01_Isha_Ar-Rad_yt_h-XfXQAVNlk.mp3",
+    "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1448-06-01_Isha_Ar-Rad_yt_h-XfXQAVNlk.jpg",
+    "size_mb": 9.14,
+    "uploaded_at": "2026-11-11 23:47:54"
   }
 }
