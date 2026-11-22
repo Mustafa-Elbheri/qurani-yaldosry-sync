@@ -40259,5 +40259,39 @@
     "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1448-06-04_Prayer_Al-Ankabut_yt_TmVbgMVlbyI.jpg",
     "size_mb": 9.66,
     "uploaded_at": "2026-11-15 03:29:15"
+  },
+  {
+    "id": "yt_7K9IsuAnk2o",
+    "youtube_id": "7K9IsuAnk2o",
+    "title": "‏يالجمال تلاوته | د. ⁧ياسر الدوسري  يُبكي من خلفه بتلاوة من سورة فاطر | عشاء الأحد 12-6-1448هـ",
+    "standard_name": "1448-06-12_Isha_Fatir_yt_7K9IsuAnk2o",
+    "section": "prayers",
+    "category": "صلوات الحرم المكي",
+    "track": "yt_7K9IsuAnk2o",
+    "date": "1448-06-12",
+    "year": "1448",
+    "source_type": "youtube",
+    "youtube_url": "https://www.youtube.com/watch?v=7K9IsuAnk2o",
+    "archive_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1448-06-12_Isha_Fatir_yt_7K9IsuAnk2o.mp3",
+    "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1448-06-12_Isha_Fatir_yt_7K9IsuAnk2o.jpg",
+    "size_mb": 8.63,
+    "uploaded_at": "2026-11-22 22:55:21"
+  },
+  {
+    "id": "yt_et7QfWDKq8w",
+    "youtube_id": "et7QfWDKq8w",
+    "title": "سورتي الأعلى والغاشية للشيخ د. ياسر الدوسري | صلاة الجمعة 10-6-1448هـ",
+    "standard_name": "1448-06-10_Prayer_Sad_yt_et7QfWDKq8w",
+    "section": "prayers",
+    "category": "صلوات الحرم المكي",
+    "track": "yt_et7QfWDKq8w",
+    "date": "1448-06-10",
+    "year": "1448",
+    "source_type": "youtube",
+    "youtube_url": "https://www.youtube.com/watch?v=et7QfWDKq8w",
+    "archive_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1448-06-10_Prayer_Sad_yt_et7QfWDKq8w.mp3",
+    "archive_cover_url": "https://archive.org/download/qurani-yasser-aldosari-prayers/1448-06-10_Prayer_Sad_yt_et7QfWDKq8w.jpg",
+    "size_mb": 6.88,
+    "uploaded_at": "2026-11-22 22:55:48"
   }
 ]
